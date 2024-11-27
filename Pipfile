@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
 fastapi = "*"
 annotated-types = "*"
 anyio = "*"
@@ -17,6 +16,7 @@ typing-extensions = "*"
 pydantic-settings = "*"
 fastapi-pagination = "*"
 psycopg2 = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 
