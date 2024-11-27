@@ -22,4 +22,9 @@ https://pipenv.pypa.io/en/latest/installation.html
 ### 4. Running development project
 ```bash
   pipenv run start 
-  http://localhost:8000/docs 
+  http://localhost:8000/docs
+```
+### 5. Installing  FastAPI
+```bash
+  pipenv fastapi sqlalchemy psycopg2-binary
+```
