@@ -2,29 +2,42 @@
 
 Requerimientos Técnico:
 * Python: Versión 3.11
+* PostgreSQL: Version 17.2
 
-## Installation
+## Instalacion
 
-Install project with pipenv the first:
+### 1. Pipenv
+Comprobamos la versión de python y pip
+```bash
+python --version
+pip --version
+```
+Instalamos Pipenv
+```bash
+pip install pipenv --user
+```
+Agregamos al PATH
+Ejecutamos
+```bash
+python -m site --user-site
+```
+Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos al PATH una ruta parecida a : "C:\Users\Username\AppData\Roaming\Python37\Scripts"
 
-### 1. Install Pipenv
-https://pipenv.pypa.io/en/latest/installation.html
+### 2. Configuramos el ambiente virtual
+- Crea un archivo `.env` basado en `.env.example`. Todas las variables de entorno son obligatorias.
 
-### 2. Set up environment
-- Create an .env file based in .env.example. All environment variables are required..
-
-### 3. Install dependencies
+### 3. Instalamos dependencias
 ```bash
   pyenv local 3.11
   pipenv --python 3.11
   pipenv install
 ```
-### 4. Running development project
+### 4. Ejecutamos el proyecto
 ```bash
   pipenv run start 
   http://localhost:8000/docs
 ```
-### 5. Installing  FastAPI
+### 5. Instalamos  FastAPI
 ```bash
   pipenv fastapi sqlalchemy psycopg2-binary
 ```
