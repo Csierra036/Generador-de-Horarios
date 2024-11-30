@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from database import DatabaseConnection, CustomSQLAlchemyRepository
+from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
 from src.teacher.model.teacher import Teacher, CreateTeacherRequest
 
