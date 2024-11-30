@@ -22,8 +22,8 @@ class Teacher(Base):
 
 
 class CreateTeacherRequest(BaseModel):
-    first_name = str
-    last_name = str
+    first_name : str
+    last_name : str
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

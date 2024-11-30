@@ -1,0 +1,407 @@
+[
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "src.teacher.model.teacher",
+        "description": "src.teacher.model.teacher",
+        "isExtraImport": true,
+        "detail": "src.teacher.model.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "src.teacher.model.teacher",
+        "description": "src.teacher.model.teacher",
+        "isExtraImport": true,
+        "detail": "src.teacher.model.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "src.teacher.model.teacher",
+        "description": "src.teacher.model.teacher",
+        "isExtraImport": true,
+        "detail": "src.teacher.model.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "importPath": "src.teacher.service.teacher",
+        "description": "src.teacher.service.teacher",
+        "isExtraImport": true,
+        "detail": "src.teacher.service.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConnection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "src.config",
+        "description": "src.config",
+        "isExtraImport": true,
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.teacher.router",
+        "description": "src.teacher.router",
+        "isExtraImport": true,
+        "detail": "src.teacher.router",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "kind": 6,
+        "importPath": "src.teacher.model.teacher",
+        "description": "src.teacher.model.teacher",
+        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key = True, index = True)\n    first_name = Column(String, index = True)\n    last_name = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.teacher.model.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "kind": 6,
+        "importPath": "src.teacher.model.teacher",
+        "description": "src.teacher.model.teacher",
+        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name : str\n    last_name : str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
+        "detail": "src.teacher.model.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_service",
+        "kind": 5,
+        "importPath": "src.teacher.router.router",
+        "description": "src.teacher.router.router",
+        "peekOfCode": "teacher_service = TeacherService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():",
+        "detail": "src.teacher.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.teacher.router.router",
+        "description": "src.teacher.router.router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():\n    return teacher_service.get_all_teachers",
+        "detail": "src.teacher.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "kind": 6,
+        "importPath": "src.teacher.service.teacher",
+        "description": "src.teacher.service.teacher",
+        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
+        "detail": "src.teacher.service.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    URL_DATABASE: str\nsettings = Settings()",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class CustomSQLAlchemyRepository(Generic[ModelType]):\n    def __init__(self, db: Session, model: Type[ModelType]):\n        \"\"\"\n        Inicializa el repositorio para un modelo específico y una sesión activa.\n        \"\"\"\n        self.db = db\n        self.model = model\n    def get(self, id: int) -> Optional[ModelType]:\n        \"\"\"Obtiene un registro por ID.\"\"\"\n        return self.db.query(self.model).filter(self.model.id == id).first()",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConnection",
+        "kind": 6,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "class DatabaseConnection:\n    def __init__(self, database_url: str = settings.URL_DATABASE):\n        \"\"\"\n        Inicializa la conexión a la base de datos.\n        \"\"\"\n        self.engine = create_engine(database_url, pool_pre_ping=True)\n        self.SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=self.engine)\n    def get_session(self):\n        \"\"\"Proporciona una sesión de base de datos.\"\"\"\n        db = self.SessionLocal()",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "Base = declarative_base()\n# Definición de un tipo genérico para los modelos\nModelType = TypeVar(\"ModelType\")\nclass CustomSQLAlchemyRepository(Generic[ModelType]):\n    def __init__(self, db: Session, model: Type[ModelType]):\n        \"\"\"\n        Inicializa el repositorio para un modelo específico y una sesión activa.\n        \"\"\"\n        self.db = db\n        self.model = model",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "ModelType",
+        "kind": 5,
+        "importPath": "src.database",
+        "description": "src.database",
+        "peekOfCode": "ModelType = TypeVar(\"ModelType\")\nclass CustomSQLAlchemyRepository(Generic[ModelType]):\n    def __init__(self, db: Session, model: Type[ModelType]):\n        \"\"\"\n        Inicializa el repositorio para un modelo específico y una sesión activa.\n        \"\"\"\n        self.db = db\n        self.model = model\n    def get(self, id: int) -> Optional[ModelType]:\n        \"\"\"Obtiene un registro por ID.\"\"\"",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "start_app",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def start_app() -> FastAPI:\n    app = FastAPI(\n        title = \"Generador-Horarios\",\n        description = \"API diseñada para gestionar generador de horarios\",\n        version = \"v0.0.1\",\n        debug = True\n    )\n    origins = [\"*\"]\n    app.add_middleware(\n        CORSMiddleware,",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = start_app()",
+        "detail": "src.main",
+        "documentation": {}
+    }
+]
