@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from src.teacher.model.teacher import CreateTeacherRequest
-from src.teacher.service.teacher import TeacherService
+from src.teacher.service.service import TeacherService
 
 teacher_service = TeacherService
 

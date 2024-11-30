@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from src.teacher.router import router as teacher_router
+from src.teacher.router.router import router as teacher_router
 
 def start_app() -> FastAPI:
 
