@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
-
+from src.teacher.router import router as teacher_router
 def start_app() -> FastAPI:
 
     app = FastAPI(
@@ -18,11 +18,7 @@ def start_app() -> FastAPI:
         allow_methods = ["*"],
         allow_headers = ["*"],
     )
-
+    app.include_router(teacher_router)
     return app
 
 app = start_app()
-
-@app.get("", description="Welcome to UNEG", status_code=200)
-def read_root():
-    return {"message": "Hello, Admin!"}

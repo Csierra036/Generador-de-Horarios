@@ -16,7 +16,9 @@ typing-extensions = "*"
 pydantic-settings = "*"
 fastapi-pagination = "*"
 psycopg2 = "*"
+loguru = "*"
 sqlalchemy = "*"
+greenlet = "*"
 
 [dev-packages]
 
