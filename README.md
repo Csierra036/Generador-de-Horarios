@@ -39,5 +39,5 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
 ```
 ### 5. Instalamos  FastAPI
 ```bash
-  pipenv fastapi sqlalchemy psycopg2-binary
+  pipenv install fastapi sqlalchemy psycopg2-binary
 ```
