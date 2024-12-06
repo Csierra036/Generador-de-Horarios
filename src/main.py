@@ -1,6 +1,7 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.teacher.router.router import router as teacher_router
+from src.sede.router.router import router as sede_router
 
 def start_app() -> FastAPI:
 
@@ -19,7 +20,10 @@ def start_app() -> FastAPI:
         allow_methods = ["*"],
         allow_headers = ["*"],
     )
+    
     app.include_router(teacher_router)
+    app.include_router(sede_router)  # Agregado el router de sede
+
     return app
 
 app = start_app()
