@@ -37,7 +37,3 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
   pipenv run start 
   http://localhost:8000/docs
 ```
-### 5. Instalamos  FastAPI
-```bash
-  pipenv install fastapi sqlalchemy psycopg2-binary
-```
