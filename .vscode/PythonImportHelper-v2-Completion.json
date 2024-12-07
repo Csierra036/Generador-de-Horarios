@@ -8,6 +8,22 @@
         "documentation": {}
     },
     {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "DatabaseConnection",
         "importPath": "src.database",
         "description": "src.database",
@@ -21,6 +37,30 @@
         "description": "src.database",
         "isExtraImport": true,
         "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -80,6 +120,30 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -104,11 +168,67 @@
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "CreateSedeRequest",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "isExtraImport": true,
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "isExtraImport": true,
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "SedeService",
+        "importPath": "src.sede.service.service",
+        "description": "src.sede.service.service",
+        "isExtraImport": true,
+        "detail": "src.sede.service.service",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -141,30 +261,6 @@
         "description": "src.teacher.service.service",
         "isExtraImport": true,
         "detail": "src.teacher.service.service",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -285,6 +381,59 @@
         "description": "src.teacher.router.router",
         "isExtraImport": true,
         "detail": "src.teacher.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.sede.router.router",
+        "description": "src.sede.router.router",
+        "isExtraImport": true,
+        "detail": "src.sede.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "kind": 6,
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"sedes\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index = True)  # Ejemplo: \"PUERTO ORDAZ\"\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "kind": 6,
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"name\": \"UNEG VILLA ASIA\",",
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "sede_service",
+        "kind": 5,
+        "importPath": "src.sede.router.router",
+        "description": "src.sede.router.router",
+        "peekOfCode": "sede_service = SedeService\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
+        "detail": "src.sede.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.sede.router.router",
+        "description": "src.sede.router.router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
+        "detail": "src.sede.router.router",
+        "documentation": {}
+    },
+    {
+        "label": "SedeService",
+        "kind": 6,
+        "importPath": "src.sede.service.service",
+        "description": "src.sede.service.service",
+        "peekOfCode": "class SedeService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Sede y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)\n    def get_all_sedes(self):\n        \"\"\"Obtiene todas las sedes.\"\"\"\n        return self.repository.get_all()\n    def get_sede_by_id(self, sede_id: int):\n        \"\"\"Obtiene una sede por ID.\"\"\"\n        sede = self.repository.get(sede_id)",
+        "detail": "src.sede.service.service",
         "documentation": {}
     },
     {
