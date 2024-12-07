@@ -46,7 +46,8 @@ def actualizar_salon(salon_id):
     salon['ubicacion'] = data.get('ubicacion', salon['ubicacion'])
     return jsonify(salon), 200
 
-# Borrar un salón
+
+# Borrar un salón 
 @app.route('/salones/<int:salon_id>', methods=['DELETE'])
 def borrar_salon(salon_id):
     global salones
