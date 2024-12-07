@@ -1,58 +1,63 @@
-from flask import Flask, request, jsonify
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List
 
-app = Flask(__name__)
+app = FastAPI()
 
-# Base de datos simulada (lista de diccionarios)
+# Modelo de datos
+class Salon(BaseModel):
+    nombre: str
+    capacidad: int = 0
+    ubicacion: str = "Desconocida"
+
+# Base de datos simulada
 salones = []
 id_counter = 1
 
 # Crear un nuevo salón
-@app.route('/salones', methods=['POST'])
-def crear_salon():
+@app.post("/salones", response_model=dict, status_code=201)
+def crear_salon(salon: Salon):
     global id_counter
-    data = request.json
     nuevo_salon = {
-        'id': id_counter,
-        'nombre': data['nombre'],
-        'capacidad': data.get('capacidad', 0),
-        'ubicacion': data.get('ubicacion', 'Desconocida')
+        "id": id_counter,
+        "nombre": salon.nombre,
+        "capacidad": salon.capacidad,
+        "ubicacion": salon.ubicacion,
     }
     salones.append(nuevo_salon)
     id_counter += 1
-    return jsonify(nuevo_salon), 201
+    return nuevo_salon
 
 # Leer todos los salones
-@app.route('/salones', methods=['GET'])
+@app.get("/salones", response_model=List[dict])
 def obtener_salones():
-    return jsonify(salones), 200
+    return salones
 
 # Leer un salón por ID
-@app.route('/salones/<int:salon_id>', methods=['GET'])
-def obtener_salon(salon_id):
-    salon = next((s for s in salones if s['id'] == salon_id), None)
+@app.get("/salones/{salon_id}", response_model=dict)
+def obtener_salon(salon_id: int):
+    salon = next((s for s in salones if s["id"] == salon_id), None)
     if salon:
-        return jsonify(salon), 200
-    return jsonify({'error': 'Salón no encontrado'}), 404
+        return salon
+    raise HTTPException(status_code=404, detail="Salón no encontrado")
 
 # Actualizar un salón
-@app.route('/salones/<int:salon_id>', methods=['PUT'])
-def actualizar_salon(salon_id):
-    salon = next((s for s in salones if s['id'] == salon_id), None)
-    if not salon:
-        return jsonify({'error': 'Salón no encontrado'}), 404
-    data = request.json
-    salon['nombre'] = data.get('nombre', salon['nombre'])
-    salon['capacidad'] = data.get('capacidad', salon['capacidad'])
-    salon['ubicacion'] = data.get('ubicacion', salon['ubicacion'])
-    return jsonify(salon), 200
+@app.put("/salones/{salon_id}", response_model=dict)
+def actualizar_salon(salon_id: int, salon: Salon):
+    for s in salones:
+        if s["id"] == salon_id:
+            s["nombre"] = salon.nombre
+            s["capacidad"] = salon.capacidad
+            s["ubicacion"] = salon.ubicacion
+            return s
+    raise HTTPException(status_code=404, detail="Salón no encontrado")
 
-
-# Borrar un salón 
-@app.route('/salones/<int:salon_id>', methods=['DELETE'])
-def borrar_salon(salon_id):
+# Borrar un salón
+@app.delete("/salones/{salon_id}", response_model=dict)
+def borrar_salon(salon_id: int):
     global salones
-    salones = [s for s in salones if s['id'] != salon_id]
-    return jsonify({'message': 'Salón eliminado'}), 200
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    salon = next((s for s in salones if s["id"] == salon_id), None)
+    if salon:
+        salones = [s for s in salones if s["id"] != salon_id]
+        return {"message": "Salón eliminado"}
+    raise HTTPException(status_code=404, detail="Salón no encontrado")
