@@ -36,3 +36,5 @@ class TimeBlockService:
         if not time_block:
             raise HTTPException(status_code=404, detail=f"TimeBlock with ID {time_block_id} not found")
         return self.repository.delete(time_block_id)
+
+#Agregar creacion automática de time-blocks
