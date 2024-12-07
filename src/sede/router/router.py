@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from src.sede.model.sede import CreateSedeRequest 
 from src.sede.service.service import SedeService
 
-sede_service = SedeService
+sede_service = SedeService()
 
 router = APIRouter(
     prefix="/sede",  

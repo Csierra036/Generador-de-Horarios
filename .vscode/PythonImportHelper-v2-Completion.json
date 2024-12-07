@@ -8,6 +8,22 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
@@ -37,6 +53,46 @@
         "description": "src.database",
         "isExtraImport": true,
         "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -128,7 +184,31 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -168,35 +248,51 @@
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "CreateTimeBlockRequest",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.time_block",
         "documentation": {}
     },
     {
-        "label": "Sede",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "TimeBlock",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.time_block",
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "CreateTimeBlockRequest",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.time_block",
         "documentation": {}
     },
     {
-        "label": "SedeService",
-        "importPath": "src.sede.service.service",
-        "description": "src.sede.service.service",
+        "label": "TimeBlockService",
+        "importPath": "src.services.time_block",
+        "description": "src.services.time_block",
         "isExtraImport": true,
-        "detail": "src.sede.service.service",
+        "detail": "src.services.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -229,6 +325,38 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "isExtraImport": true,
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "isExtraImport": true,
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "src.sede.model.sede",
+        "description": "src.sede.model.sede",
+        "isExtraImport": true,
+        "detail": "src.sede.model.sede",
+        "documentation": {}
+    },
+    {
+        "label": "SedeService",
+        "importPath": "src.sede.service.service",
+        "description": "src.sede.service.service",
+        "isExtraImport": true,
+        "detail": "src.sede.service.service",
         "documentation": {}
     },
     {
@@ -392,6 +520,42 @@
         "documentation": {}
     },
     {
+        "label": "TimeBlock",
+        "kind": 6,
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
+        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key = True, index = True)\n    hour_id = Column(Integer, index = True)\n    week_id= Column(Integer, index = True)\n    day = Column(Integer, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTimeBlockRequest",
+        "kind": 6,
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
+        "peekOfCode": "class CreateTimeBlockRequest(BaseModel):\n    hour_id : int\n    week_id : int\n    day : int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "time_block_service",
+        "kind": 5,
+        "importPath": "src.routers.time_block",
+        "description": "src.routers.time_block",
+        "peekOfCode": "time_block_service = TimeBlockService()\n# Creamos el router para los bloques de tiempo\nrouter = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"",
+        "detail": "src.routers.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.time_block",
+        "description": "src.routers.time_block",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"\n    return time_block_service.create_time_block(time_block_request)\n# Ruta para obtener todos los bloques de tiempo",
+        "detail": "src.routers.time_block",
+        "documentation": {}
+    },
+    {
         "label": "Sede",
         "kind": 6,
         "importPath": "src.sede.model.sede",
@@ -414,7 +578,7 @@
         "kind": 5,
         "importPath": "src.sede.router.router",
         "description": "src.sede.router.router",
-        "peekOfCode": "sede_service = SedeService\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
+        "peekOfCode": "sede_service = SedeService()\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
         "detail": "src.sede.router.router",
         "documentation": {}
     },
@@ -434,6 +598,15 @@
         "description": "src.sede.service.service",
         "peekOfCode": "class SedeService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Sede y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)\n    def get_all_sedes(self):\n        \"\"\"Obtiene todas las sedes.\"\"\"\n        return self.repository.get_all()\n    def get_sede_by_id(self, sede_id: int):\n        \"\"\"Obtiene una sede por ID.\"\"\"\n        sede = self.repository.get(sede_id)",
         "detail": "src.sede.service.service",
+        "documentation": {}
+    },
+    {
+        "label": "TimeBlockService",
+        "kind": 6,
+        "importPath": "src.services.time_block",
+        "description": "src.services.time_block",
+        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()\n    def get_time_block_by_id(self, time_block_id: int):\n        \"\"\"Obtiene un bloque de tiempo por ID.\"\"\"\n        time_block = self.repository.get(time_block_id)",
+        "detail": "src.services.time_block",
         "documentation": {}
     },
     {
