@@ -8,6 +8,22 @@
         "documentation": {}
     },
     {
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "String",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -121,26 +137,10 @@
     },
     {
         "label": "TeacherService",
-        "importPath": "src.teacher.service.teacher",
-        "description": "src.teacher.service.teacher",
+        "importPath": "src.teacher.service.service",
+        "description": "src.teacher.service.service",
         "isExtraImport": true,
-        "detail": "src.teacher.service.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "DatabaseConnection",
-        "importPath": "database",
-        "description": "database",
-        "isExtraImport": true,
-        "detail": "database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "database",
-        "description": "database",
-        "isExtraImport": true,
-        "detail": "database",
+        "detail": "src.teacher.service.service",
         "documentation": {}
     },
     {
@@ -281,10 +281,10 @@
     },
     {
         "label": "router",
-        "importPath": "src.teacher.router",
-        "description": "src.teacher.router",
+        "importPath": "src.teacher.router.router",
+        "description": "src.teacher.router.router",
         "isExtraImport": true,
-        "detail": "src.teacher.router",
+        "detail": "src.teacher.router.router",
         "documentation": {}
     },
     {
@@ -301,7 +301,7 @@
         "kind": 6,
         "importPath": "src.teacher.model.teacher",
         "description": "src.teacher.model.teacher",
-        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name : str\n    last_name : str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
+        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name: str\n    last_name: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
         "detail": "src.teacher.model.teacher",
         "documentation": {}
     },
@@ -326,10 +326,10 @@
     {
         "label": "TeacherService",
         "kind": 6,
-        "importPath": "src.teacher.service.teacher",
-        "description": "src.teacher.service.teacher",
+        "importPath": "src.teacher.service.service",
+        "description": "src.teacher.service.service",
         "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
-        "detail": "src.teacher.service.teacher",
+        "detail": "src.teacher.service.service",
         "documentation": {}
     },
     {
