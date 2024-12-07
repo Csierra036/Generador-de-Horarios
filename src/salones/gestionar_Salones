@@ -1,0 +1,57 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Base de datos simulada (lista de diccionarios)
+salones = []
+id_counter = 1
+
+# Crear un nuevo salón
+@app.route('/salones', methods=['POST'])
+def crear_salon():
+    global id_counter
+    data = request.json
+    nuevo_salon = {
+        'id': id_counter,
+        'nombre': data['nombre'],
+        'capacidad': data.get('capacidad', 0),
+        'ubicacion': data.get('ubicacion', 'Desconocida')
+    }
+    salones.append(nuevo_salon)
+    id_counter += 1
+    return jsonify(nuevo_salon), 201
+
+# Leer todos los salones
+@app.route('/salones', methods=['GET'])
+def obtener_salones():
+    return jsonify(salones), 200
+
+# Leer un salón por ID
+@app.route('/salones/<int:salon_id>', methods=['GET'])
+def obtener_salon(salon_id):
+    salon = next((s for s in salones if s['id'] == salon_id), None)
+    if salon:
+        return jsonify(salon), 200
+    return jsonify({'error': 'Salón no encontrado'}), 404
+
+# Actualizar un salón
+@app.route('/salones/<int:salon_id>', methods=['PUT'])
+def actualizar_salon(salon_id):
+    salon = next((s for s in salones if s['id'] == salon_id), None)
+    if not salon:
+        return jsonify({'error': 'Salón no encontrado'}), 404
+    data = request.json
+    salon['nombre'] = data.get('nombre', salon['nombre'])
+    salon['capacidad'] = data.get('capacidad', salon['capacidad'])
+    salon['ubicacion'] = data.get('ubicacion', salon['ubicacion'])
+    return jsonify(salon), 200
+
+# Borrar un salón
+@app.route('/salones/<int:salon_id>', methods=['DELETE'])
+def borrar_salon(salon_id):
+    global salones
+    salones = [s for s in salones if s['id'] != salon_id]
+    return jsonify({'message': 'Salón eliminado'}), 200
+
+if __name__ == '__main__':
+    app.run(debug=True)
