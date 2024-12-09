@@ -18,6 +18,12 @@ async def create_time_block(time_block_request: CreateTimeBlockRequest):
     """Crea un nuevo bloque de tiempo."""
     return time_block_service.create_time_block(time_block_request)
 
+# Ruta para crear varios horarios segun el dia, semana, cantidad de bloques y comienzo de bloque
+@router.get("")
+async def create_all_time_block(num_time_block: int, start_num_time_block: int, day: int, week_id: int):
+    """Crea todos los bloques de tiempo segun ciertos parametros"""
+    return create_all_time_block(num_time_block, start_num_time_block, day, week_id)
+
 # Ruta para obtener todos los bloques de tiempo
 @router.get("")
 async def get_all_time_blocks():

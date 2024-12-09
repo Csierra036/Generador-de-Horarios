@@ -1,13 +1,16 @@
 from src.database import Base
-from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
+from sqlalchemy import String, Integer, Boolean, ForeignKey, Column, relationship
 from pydantic import BaseModel
 
 class TimeBlock(Base):
     __tablename__ = "time_blocks"
     id = Column(Integer, primary_key = True, index = True)
-    hour_id = Column(Integer, index = True)
-    week_id= Column(Integer, index = True)
+    hour_id = Column(Integer, ForeignKey("hours.id"), index = True)
+    week_id= Column(Integer, ForeignKey("weeks.id"), index = True)
     day = Column(Integer, index = True)
+
+    hours = relationship("Hours", back_populates = "time_block")
+    weeks = relationship("Weeks", back_populates = "time_block") 
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,
