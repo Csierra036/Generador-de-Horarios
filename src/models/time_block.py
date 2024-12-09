@@ -11,7 +11,6 @@ class TimeBlock(Base):
 
     hours = relationship("Hours", back_populates = "time_block")
     weeks = relationship("Weeks", back_populates = "time_block") 
-
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

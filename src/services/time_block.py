@@ -6,6 +6,7 @@ from src.models.hours import Hours, CreateHoursRequest
 from src.models.weeks import Weeks, CreateWeeksRequest
 from src.models.academic_period import AcademicPeriod, CreateAcademicPeriodRequest
 
+
 class TimeBlockService:
     def __init__(self, db_session: Session):
         # Se instancia el repositorio con el modelo TimeBlock y la sesión actual
@@ -110,6 +111,7 @@ class TimeBlockService:
                     }
                 )
 
+
     def update_time_block(self, time_block_id: int, time_block_data: CreateTimeBlockRequest):
         """Actualiza un bloque de tiempo existente."""
         time_block = self.repository.get(time_block_id)
@@ -123,4 +125,4 @@ class TimeBlockService:
         if not time_block:
             raise HTTPException(status_code=404, detail=f"TimeBlock with ID {time_block_id} not found")
         return self.repository.delete(time_block_id)
-    
+
