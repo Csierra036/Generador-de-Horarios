@@ -39,5 +39,5 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
   http://localhost:8000/docs
 ```
 
-###Migraciones
+### Migraciones
 Busca en el archivo alembic.ini, la línea 64, que es sqlalchemy.url = postgresql://postgres:victor123@localhost:5432/uneg. Esta es la url de la Base de Datos. En la derecha se rellena con el formato postgresql://user:password@host:port/db_name
