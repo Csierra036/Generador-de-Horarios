@@ -1,99 +1,10 @@
 [
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
         "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TypeVar",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Generic",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "sqlalchemy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "detail": "sqlalchemy",
+        "detail": "logging.config",
         "documentation": {}
     },
     {
@@ -169,6 +80,22 @@
         "documentation": {}
     },
     {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -217,6 +144,30 @@
         "documentation": {}
     },
     {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -225,47 +176,15 @@
         "documentation": {}
     },
     {
-        "label": "fileConfig",
-        "importPath": "logging.config",
-        "description": "logging.config",
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
         "isExtraImport": true,
-        "detail": "logging.config",
+        "detail": "alembic",
         "documentation": {}
     },
     {
         "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -297,91 +216,67 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "src.models",
-        "description": "src.models",
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "src.models",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "TimeBlock",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.models.time_block",
         "documentation": {}
     },
     {
@@ -409,11 +304,155 @@
         "documentation": {}
     },
     {
-        "label": "TimeBlockService",
-        "importPath": "src.services.time_block",
-        "description": "src.services.time_block",
+        "label": "Teacher",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
         "isExtraImport": true,
-        "detail": "src.services.time_block",
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "src.career.model.career",
+        "description": "src.career.model.career",
+        "isExtraImport": true,
+        "detail": "src.career.model.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.career.model.career",
+        "description": "src.career.model.career",
+        "isExtraImport": true,
+        "detail": "src.career.model.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "src.career.model.career",
+        "description": "src.career.model.career",
+        "isExtraImport": true,
+        "detail": "src.career.model.career",
+        "documentation": {}
+    },
+    {
+        "label": "CareerService",
+        "importPath": "src.career.services.service",
+        "description": "src.career.services.service",
+        "isExtraImport": true,
+        "detail": "src.career.services.service",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -465,6 +504,46 @@
         "documentation": {}
     },
     {
+        "label": "CreateTeacherRequest",
+        "importPath": "models.teacher",
+        "description": "models.teacher",
+        "isExtraImport": true,
+        "detail": "models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "models.teacher",
+        "description": "models.teacher",
+        "isExtraImport": true,
+        "detail": "models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "models.teacher",
+        "description": "models.teacher",
+        "isExtraImport": true,
+        "detail": "models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "importPath": "services.teacher",
+        "description": "services.teacher",
+        "isExtraImport": true,
+        "detail": "services.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "TimeBlockService",
+        "importPath": "src.services.time_block",
+        "description": "src.services.time_block",
+        "isExtraImport": true,
+        "detail": "src.services.time_block",
+        "documentation": {}
+    },
+    {
         "label": "CreateSedeRequest",
         "importPath": "src.sede.model.sede",
         "description": "src.sede.model.sede",
@@ -494,38 +573,6 @@
         "description": "src.sede.service.service",
         "isExtraImport": true,
         "detail": "src.sede.service.service",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "Teacher",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "importPath": "src.teacher.service.service",
-        "description": "src.teacher.service.service",
-        "isExtraImport": true,
-        "detail": "src.teacher.service.service",
         "documentation": {}
     },
     {
@@ -561,6 +608,62 @@
         "documentation": {}
     },
     {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "logger",
         "importPath": "loguru",
         "description": "loguru",
@@ -585,30 +688,20 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
+        "isExtraImport": true,
+        "detail": "src.routers.teacher",
+        "documentation": {}
+    },
+    {
         "label": "psycopg2",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "psycopg2",
         "description": "psycopg2",
         "detail": "psycopg2",
-        "documentation": {}
-    },
-    {
-        "label": "upgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.3186aff70964_add_time_blocks_table",
-        "description": "alembic.versions.3186aff70964_add_time_blocks_table",
-        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('time_blocks',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('hour_id', sa.Integer(), nullable=True),\n    sa.Column('week_id', sa.Integer(), nullable=True),\n    sa.Column('day', sa.Integer(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n    op.create_index(op.f('ix_time_blocks_day'), 'time_blocks', ['day'], unique=False)",
-        "detail": "alembic.versions.3186aff70964_add_time_blocks_table",
-        "documentation": {}
-    },
-    {
-        "label": "downgrade",
-        "kind": 2,
-        "importPath": "alembic.versions.3186aff70964_add_time_blocks_table",
-        "description": "alembic.versions.3186aff70964_add_time_blocks_table",
-        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_time_blocks_week_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_hour_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_day'), table_name='time_blocks')\n    op.drop_table('time_blocks')\n    # ### end Alembic commands ###",
-        "detail": "alembic.versions.3186aff70964_add_time_blocks_table",
         "documentation": {}
     },
     {
@@ -648,6 +741,69 @@
         "documentation": {}
     },
     {
+        "label": "Career",
+        "kind": 6,
+        "importPath": "src.career.model.career",
+        "description": "src.career.model.career",
+        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key = True, index = True)\n    fullname = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.career.model.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "kind": 6,
+        "importPath": "src.career.model.career",
+        "description": "src.career.model.career",
+        "peekOfCode": "class CreateCareerRequest(BaseModel):\n    fullname: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"fullname\": \"Ingenieria en Informatica\",\n                }",
+        "detail": "src.career.model.career",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_service",
+        "kind": 5,
+        "importPath": "src.career.routes.career",
+        "description": "src.career.routes.career",
+        "peekOfCode": "teacher_service = CareerService\nrouter = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(teacher_request: CreateCareerRequest):\n    return teacher_service.create_career(teacher_request)\n@router.get(\"\")\nasync def get_all_career():",
+        "detail": "src.career.routes.career",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.career.routes.career",
+        "description": "src.career.routes.career",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(teacher_request: CreateCareerRequest):\n    return teacher_service.create_career(teacher_request)\n@router.get(\"\")\nasync def get_all_career():\n    return teacher_service.get_all_careers",
+        "detail": "src.career.routes.career",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "kind": 6,
+        "importPath": "src.career.services.service",
+        "description": "src.career.services.service",
+        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos las carreras.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, career_id: int):\n        \"\"\"Obtiene una carrera por ID.\"\"\"\n        teacher = self.repository.get(career_id)",
+        "detail": "src.career.services.service",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "kind": 6,
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key = True, index = True)\n    first_name = Column(String, index = True)\n    last_name = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "kind": 6,
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name: str\n    last_name: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
         "label": "TimeBlock",
         "kind": 6,
         "importPath": "src.models.time_block",
@@ -663,6 +819,24 @@
         "description": "src.models.time_block",
         "peekOfCode": "class CreateTimeBlockRequest(BaseModel):\n    hour_id : int\n    week_id : int\n    day : int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
         "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_service",
+        "kind": 5,
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
+        "peekOfCode": "teacher_service = TeacherService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():",
+        "detail": "src.routers.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():\n    return teacher_service.get_all_teachers",
+        "detail": "src.routers.teacher",
         "documentation": {}
     },
     {
@@ -729,57 +903,21 @@
         "documentation": {}
     },
     {
+        "label": "TeacherService",
+        "kind": 6,
+        "importPath": "src.services.teacher",
+        "description": "src.services.teacher",
+        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
+        "detail": "src.services.teacher",
+        "documentation": {}
+    },
+    {
         "label": "TimeBlockService",
         "kind": 6,
         "importPath": "src.services.time_block",
         "description": "src.services.time_block",
         "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()\n    def get_time_block_by_id(self, time_block_id: int):\n        \"\"\"Obtiene un bloque de tiempo por ID.\"\"\"\n        time_block = self.repository.get(time_block_id)",
         "detail": "src.services.time_block",
-        "documentation": {}
-    },
-    {
-        "label": "Teacher",
-        "kind": 6,
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key = True, index = True)\n    first_name = Column(String, index = True)\n    last_name = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "kind": 6,
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name: str\n    last_name: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "teacher_service",
-        "kind": 5,
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
-        "peekOfCode": "teacher_service = TeacherService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():",
-        "detail": "src.teacher.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():\n    return teacher_service.get_all_teachers",
-        "detail": "src.teacher.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "kind": 6,
-        "importPath": "src.teacher.service.service",
-        "description": "src.teacher.service.service",
-        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
-        "detail": "src.teacher.service.service",
         "documentation": {}
     },
     {

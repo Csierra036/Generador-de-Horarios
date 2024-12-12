@@ -7,8 +7,8 @@ from alembic import context
 
 from src.database import Base
 #from src.models.time_block import TimeBlock 
-from src.models import *
-
+from src.models.time_block import TimeBlock  # Importa TimeBlock
+from src.models.teacher import Teacher
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
