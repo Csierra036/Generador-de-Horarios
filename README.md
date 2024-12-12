@@ -31,6 +31,7 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
   pyenv local 3.11
   pipenv --python 3.11
   pipenv install
+  pipenv shell
   pip install alembic fastapi psycopg2-binary pydantic sqlalchemy uvicorn
 ```
 ### 4. Ejecutamos el proyecto
