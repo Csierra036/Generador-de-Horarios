@@ -1,58 +1,115 @@
 [
     {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "DatabaseConnection",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
         "documentation": {}
     },
     {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "src.database",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -165,6 +222,86 @@
         "description": "sqlalchemy",
         "isExtraImport": true,
         "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "src.models",
+        "description": "src.models",
+        "isExtraImport": true,
+        "detail": "src.models",
         "documentation": {}
     },
     {
@@ -424,62 +561,6 @@
         "documentation": {}
     },
     {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TypeVar",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Generic",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "logger",
         "importPath": "loguru",
         "description": "loguru",
@@ -504,19 +585,66 @@
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
+        "label": "psycopg2",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "src.teacher.router.router",
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
-        "isExtraImport": true,
-        "detail": "src.sede.router.router",
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "description": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('time_blocks',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('hour_id', sa.Integer(), nullable=True),\n    sa.Column('week_id', sa.Integer(), nullable=True),\n    sa.Column('day', sa.Integer(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n    op.create_index(op.f('ix_time_blocks_day'), 'time_blocks', ['day'], unique=False)",
+        "detail": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "description": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_time_blocks_week_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_hour_id'), table_name='time_blocks')\n    op.drop_index(op.f('ix_time_blocks_day'), table_name='time_blocks')\n    op.drop_table('time_blocks')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.3186aff70964_add_time_blocks_table",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
         "documentation": {}
     },
     {
@@ -718,11 +846,11 @@
         "documentation": {}
     },
     {
-        "label": "app",
+        "label": "#app",
         "kind": 5,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "app = start_app()",
+        "peekOfCode": "#app = start_app()",
         "detail": "src.main",
         "documentation": {}
     }
