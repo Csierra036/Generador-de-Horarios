@@ -104,6 +104,14 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "String",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -137,6 +145,150 @@
     },
     {
         "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -240,6 +392,30 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
@@ -309,6 +485,30 @@
         "description": "src.models.teacher",
         "isExtraImport": true,
         "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -488,6 +688,22 @@
         "documentation": {}
     },
     {
+        "label": "Integer",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -573,6 +789,54 @@
         "description": "src.sede.service.service",
         "isExtraImport": true,
         "detail": "src.sede.service.service",
+        "documentation": {}
+    },
+    {
+        "label": "Hours",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "isExtraImport": true,
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "CreateHoursRequest",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "isExtraImport": true,
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "Weeks",
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "isExtraImport": true,
+        "detail": "src.models.weeks",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeeksRequest",
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "isExtraImport": true,
+        "detail": "src.models.weeks",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriod",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
         "documentation": {}
     },
     {
@@ -786,6 +1050,42 @@
         "documentation": {}
     },
     {
+        "label": "AcademicPeriod",
+        "kind": 6,
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    year = Column(Integer, index = True)\n    number = Column(Integer, index = True)\n    actual = Column(Boolean, index = True)\n    weeks = relationship(\"Weeks\", back_populates = \"academic_period\")\n    model_config = {\n        \"from_attributes\": True,",
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "kind": 6,
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "peekOfCode": "class CreateAcademicPeriodRequest(BaseModel):\n    name: String\n    year = Integer\n    number = Integer\n    actual = Boolean\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "Hours",
+        "kind": 6,
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "peekOfCode": "class Hours(Base):\n    __tablename__ = \"hours\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    start = Column(String, index = True)\n    end = Column(String, index = True)\n    time_block = relationship(\"TimeBlock\", back_populates = \"hours\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "CreateHoursRequest",
+        "kind": 6,
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "peekOfCode": "class CreateHoursRequest(BaseModel):\n    name: String\n    start: String\n    end: String\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
         "label": "Teacher",
         "kind": 6,
         "importPath": "src.models.teacher",
@@ -808,7 +1108,7 @@
         "kind": 6,
         "importPath": "src.models.time_block",
         "description": "src.models.time_block",
-        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key = True, index = True)\n    hour_id = Column(Integer, index = True)\n    week_id= Column(Integer, index = True)\n    day = Column(Integer, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
+        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key = True, index = True)\n    hour_id = Column(Integer, ForeignKey(\"hours.id\"), index = True)\n    week_id= Column(Integer, ForeignKey(\"weeks.id\"), index = True)\n    day = Column(Integer, index = True)\n    hours = relationship(\"Hours\", back_populates = \"time_block\")\n    weeks = relationship(\"Weeks\", back_populates = \"time_block\") \n    model_config = {\n        \"from_attributes\": True,",
         "detail": "src.models.time_block",
         "documentation": {}
     },
@@ -819,6 +1119,24 @@
         "description": "src.models.time_block",
         "peekOfCode": "class CreateTimeBlockRequest(BaseModel):\n    hour_id : int\n    week_id : int\n    day : int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
         "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Weeks",
+        "kind": 6,
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "peekOfCode": "class Weeks(Base):\n    __tablename__ = \"weeks\"\n    id = Column(Integer, primary_key = True, index = True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index = True)\n    number = Column(Integer, index = True)\n    academic_period = relationship(\"AcademicPeriod\", back_populates = \"week\")\n    time_block = relationship(\"TimeBlock\", back_populates = \"week\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.weeks",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeeksRequest",
+        "kind": 6,
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "peekOfCode": "class CreateWeeksRequest(BaseModel):\n    period_id = Integer\n    number = Integer\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"period_id\": \"null\",",
+        "detail": "src.models.weeks",
         "documentation": {}
     },
     {
@@ -853,7 +1171,7 @@
         "kind": 5,
         "importPath": "src.routers.time_block",
         "description": "src.routers.time_block",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"\n    return time_block_service.create_time_block(time_block_request)\n# Ruta para obtener todos los bloques de tiempo",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"\n    return time_block_service.create_time_block(time_block_request)\n# Ruta para crear varios horarios segun el dia, semana, cantidad de bloques y comienzo de bloque",
         "detail": "src.routers.time_block",
         "documentation": {}
     },
@@ -916,7 +1234,7 @@
         "kind": 6,
         "importPath": "src.services.time_block",
         "description": "src.services.time_block",
-        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()\n    def get_time_block_by_id(self, time_block_id: int):\n        \"\"\"Obtiene un bloque de tiempo por ID.\"\"\"\n        time_block = self.repository.get(time_block_id)",
+        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db = db_session, model = Weeks)\n        self.hours_repository = CustomSQLAlchemyRepository(db = db_session, model = Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(db = db_session, model = AcademicPeriod)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()",
         "detail": "src.services.time_block",
         "documentation": {}
     },
