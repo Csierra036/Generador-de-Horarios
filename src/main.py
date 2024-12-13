@@ -22,10 +22,10 @@ def start_app() -> FastAPI:
         allow_headers = ["*"],
     )
     
-    #app.include_router(teacher_router)
+    app.include_router(teacher_router)
     #app.include_router(sede_router)  # Agregado el router de sede
 
     return app
 
-#app = start_app()
+app = start_app()
 

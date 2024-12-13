@@ -1302,11 +1302,11 @@
         "documentation": {}
     },
     {
-        "label": "#app",
+        "label": "app",
         "kind": 5,
         "importPath": "src.main",
         "description": "src.main",
-        "peekOfCode": "#app = start_app()",
+        "peekOfCode": "app = start_app()",
         "detail": "src.main",
         "documentation": {}
     }
