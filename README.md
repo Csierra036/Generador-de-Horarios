@@ -31,6 +31,7 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
   pyenv local 3.11
   pipenv --python 3.11
   pipenv install
+  pipenv shell
   pip install alembic fastapi psycopg2-binary pydantic sqlalchemy uvicorn
 ```
 ### 4. Ejecutamos el proyecto
@@ -38,3 +39,6 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
   pipenv run start 
   http://localhost:8000/docs
 ```
+
+## Migraciones
+Busca en el archivo alembic.ini, la línea 64, que es sqlalchemy.url = postgresql://user:password@host:port/db_name. Esta es la url de la Base de Datos. Reemplázala con la implementación en tu equipo.
