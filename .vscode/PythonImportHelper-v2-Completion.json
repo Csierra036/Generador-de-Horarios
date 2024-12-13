@@ -64,46 +64,6 @@
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "relationship",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -128,31 +88,7 @@
         "documentation": {}
     },
     {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -288,6 +224,46 @@
         "documentation": {}
     },
     {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -312,7 +288,31 @@
         "documentation": {}
     },
     {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -352,7 +352,47 @@
         "documentation": {}
     },
     {
-        "label": "DatabaseConnection",
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -368,47 +408,7 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
+        "label": "DatabaseConnection",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -488,11 +488,27 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "CreateTeacherRequest",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
         "documentation": {}
     },
     {
@@ -541,6 +557,38 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -553,30 +601,6 @@
     },
     {
         "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -617,34 +641,90 @@
     },
     {
         "label": "CreateCareerRequest",
-        "importPath": "src.career.model.career",
-        "description": "src.career.model.career",
+        "importPath": "models.career",
+        "description": "models.career",
         "isExtraImport": true,
-        "detail": "src.career.model.career",
+        "detail": "models.career",
         "documentation": {}
     },
     {
         "label": "Career",
-        "importPath": "src.career.model.career",
-        "description": "src.career.model.career",
+        "importPath": "models.career",
+        "description": "models.career",
         "isExtraImport": true,
-        "detail": "src.career.model.career",
+        "detail": "models.career",
         "documentation": {}
     },
     {
         "label": "CreateCareerRequest",
-        "importPath": "src.career.model.career",
-        "description": "src.career.model.career",
+        "importPath": "models.career",
+        "description": "models.career",
         "isExtraImport": true,
-        "detail": "src.career.model.career",
+        "detail": "models.career",
         "documentation": {}
     },
     {
         "label": "CareerService",
-        "importPath": "src.career.services.service",
-        "description": "src.career.services.service",
+        "importPath": "src.services.career",
+        "description": "src.services.career",
         "isExtraImport": true,
-        "detail": "src.career.services.service",
+        "detail": "src.services.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "SedeService",
+        "importPath": "services.campus",
+        "description": "services.campus",
+        "isExtraImport": true,
+        "detail": "services.campus",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "importPath": "src.services.teacher",
+        "description": "src.services.teacher",
+        "isExtraImport": true,
+        "detail": "src.services.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "TimeBlockService",
+        "importPath": "src.services.time_block",
+        "description": "src.services.time_block",
+        "isExtraImport": true,
+        "detail": "src.services.time_block",
         "documentation": {}
     },
     {
@@ -717,78 +797,6 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "importPath": "models.teacher",
-        "description": "models.teacher",
-        "isExtraImport": true,
-        "detail": "models.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "Teacher",
-        "importPath": "models.teacher",
-        "description": "models.teacher",
-        "isExtraImport": true,
-        "detail": "models.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "importPath": "models.teacher",
-        "description": "models.teacher",
-        "isExtraImport": true,
-        "detail": "models.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "importPath": "services.teacher",
-        "description": "services.teacher",
-        "isExtraImport": true,
-        "detail": "services.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "TimeBlockService",
-        "importPath": "src.services.time_block",
-        "description": "src.services.time_block",
-        "isExtraImport": true,
-        "detail": "src.services.time_block",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "isExtraImport": true,
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "Sede",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "isExtraImport": true,
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "isExtraImport": true,
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "SedeService",
-        "importPath": "src.sede.service.service",
-        "description": "src.sede.service.service",
-        "isExtraImport": true,
-        "detail": "src.sede.service.service",
         "documentation": {}
     },
     {
@@ -960,6 +968,14 @@
         "documentation": {}
     },
     {
+        "label": "teacher",
+        "importPath": "src.routers",
+        "description": "src.routers",
+        "isExtraImport": true,
+        "detail": "src.routers",
+        "documentation": {}
+    },
+    {
         "label": "psycopg2",
         "kind": 6,
         "isExtraImport": true,
@@ -1005,51 +1021,6 @@
         "documentation": {}
     },
     {
-        "label": "Career",
-        "kind": 6,
-        "importPath": "src.career.model.career",
-        "description": "src.career.model.career",
-        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key = True, index = True)\n    fullname = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
-        "detail": "src.career.model.career",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerRequest",
-        "kind": 6,
-        "importPath": "src.career.model.career",
-        "description": "src.career.model.career",
-        "peekOfCode": "class CreateCareerRequest(BaseModel):\n    fullname: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"fullname\": \"Ingenieria en Informatica\",\n                }",
-        "detail": "src.career.model.career",
-        "documentation": {}
-    },
-    {
-        "label": "teacher_service",
-        "kind": 5,
-        "importPath": "src.career.routes.career",
-        "description": "src.career.routes.career",
-        "peekOfCode": "teacher_service = CareerService\nrouter = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(teacher_request: CreateCareerRequest):\n    return teacher_service.create_career(teacher_request)\n@router.get(\"\")\nasync def get_all_career():",
-        "detail": "src.career.routes.career",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.career.routes.career",
-        "description": "src.career.routes.career",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(teacher_request: CreateCareerRequest):\n    return teacher_service.create_career(teacher_request)\n@router.get(\"\")\nasync def get_all_career():\n    return teacher_service.get_all_careers",
-        "detail": "src.career.routes.career",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "kind": 6,
-        "importPath": "src.career.services.service",
-        "description": "src.career.services.service",
-        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos las carreras.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, career_id: int):\n        \"\"\"Obtiene una carrera por ID.\"\"\"\n        teacher = self.repository.get(career_id)",
-        "detail": "src.career.services.service",
-        "documentation": {}
-    },
-    {
         "label": "AcademicPeriod",
         "kind": 6,
         "importPath": "src.models.academic_period",
@@ -1065,6 +1036,42 @@
         "description": "src.models.academic_period",
         "peekOfCode": "class CreateAcademicPeriodRequest(BaseModel):\n    name: String\n    year = Integer\n    number = Integer\n    actual = Boolean\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
         "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "kind": 6,
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index = True)  # Ejemplo: \"PUERTO ORDAZ\"\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "kind": 6,
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"name\": \"UNEG VILLA ASIA\",",
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "kind": 6,
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key = True, index = True)\n    fullname = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "kind": 6,
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "peekOfCode": "class CreateCareerRequest(BaseModel):\n    fullname: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"fullname\": \"Ingenieria en Informatica\",\n                }",
+        "detail": "src.models.career",
         "documentation": {}
     },
     {
@@ -1140,6 +1147,42 @@
         "documentation": {}
     },
     {
+        "label": "career_service",
+        "kind": 5,
+        "importPath": "src.routers.career",
+        "description": "src.routers.career",
+        "peekOfCode": "career_service = CareerService\nrouter = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(career_request: CreateCareerRequest):\n    return career_service.create_career(career_request)\n@router.get(\"\")\nasync def get_all_career():",
+        "detail": "src.routers.career",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.career",
+        "description": "src.routers.career",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(career_request: CreateCareerRequest):\n    return career_service.create_career(career_request)\n@router.get(\"\")\nasync def get_all_career():\n    return career_service.get_all_careers",
+        "detail": "src.routers.career",
+        "documentation": {}
+    },
+    {
+        "label": "sede_service",
+        "kind": 5,
+        "importPath": "src.routers.router",
+        "description": "src.routers.router",
+        "peekOfCode": "sede_service = SedeService()\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
+        "detail": "src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.router",
+        "description": "src.routers.router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
+        "detail": "src.routers.router",
+        "documentation": {}
+    },
+    {
         "label": "teacher_service",
         "kind": 5,
         "importPath": "src.routers.teacher",
@@ -1176,48 +1219,21 @@
         "documentation": {}
     },
     {
-        "label": "Sede",
-        "kind": 6,
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"sedes\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index = True)  # Ejemplo: \"PUERTO ORDAZ\"\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSedeRequest",
-        "kind": 6,
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"name\": \"UNEG VILLA ASIA\",",
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "sede_service",
-        "kind": 5,
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
-        "peekOfCode": "sede_service = SedeService()\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
-        "detail": "src.sede.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
-        "detail": "src.sede.router.router",
-        "documentation": {}
-    },
-    {
         "label": "SedeService",
         "kind": 6,
-        "importPath": "src.sede.service.service",
-        "description": "src.sede.service.service",
+        "importPath": "src.services.campus",
+        "description": "src.services.campus",
         "peekOfCode": "class SedeService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Sede y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)\n    def get_all_sedes(self):\n        \"\"\"Obtiene todas las sedes.\"\"\"\n        return self.repository.get_all()\n    def get_sede_by_id(self, sede_id: int):\n        \"\"\"Obtiene una sede por ID.\"\"\"\n        sede = self.repository.get(sede_id)",
-        "detail": "src.sede.service.service",
+        "detail": "src.services.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CareerService",
+        "kind": 6,
+        "importPath": "src.services.career",
+        "description": "src.services.career",
+        "peekOfCode": "class CareerService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo career y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career)\n    def get_all_carrers(self):\n        \"\"\"Obtiene todos las carreras.\"\"\"\n        return self.repository.get_all()\n    def get_career_by_id(self, career_id: int):\n        \"\"\"Obtiene una carrera por ID.\"\"\"\n        career = self.repository.get(career_id)",
+        "detail": "src.services.career",
         "documentation": {}
     },
     {

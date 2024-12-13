@@ -3,7 +3,7 @@ from sqlalchemy import String, Integer, Column
 from pydantic import BaseModel
 
 class Sede(Base):  # Modelo para la base de datos
-    __tablename__ = "sedes"
+    __tablename__ = "campus"
     id = Column(Integer, primary_key = True, index = True)
     name = Column(String, index = True)  # Ejemplo: "UNEG VILLA ASIA"
     location = Column(String, index = True)  # Ejemplo: "PUERTO ORDAZ"
