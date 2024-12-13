@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from src.database import CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from src.sede.model.sede import Sede, CreateSedeRequest
+from models.campus import Sede, CreateSedeRequest
 
 class SedeService:
     def __init__(self, db_session: Session):
