@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from models.teacher import Teacher, CreateTeacherRequest
+from src.models.teacher import Teacher, CreateTeacherRequest
 
 class TeacherService:
     def __init__(self, db_session: Session):
