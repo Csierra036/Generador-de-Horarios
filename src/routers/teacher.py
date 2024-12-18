@@ -22,5 +22,5 @@ async def update_teacher(teacher_id: int, teacher_request: CreateTeacherRequest)
     return teacher_service.update_teacher(teacher_id, teacher_request)
 
 @router.delete("")
-async def delate_teacher(teacher_id: int):
+async def delete_teacher(teacher_id: int):
     return teacher_service.delete_teacher(teacher_id)
