@@ -4,7 +4,7 @@ from src.services.time_block import TimeBlockService
 from sqlalchemy.orm import Session
 
 # Instanciamos el servicio TimeBlock
-time_block_service = TimeBlockService()
+time_block_service = TimeBlockService
 
 # Creamos el router para los bloques de tiempo
 router = APIRouter(

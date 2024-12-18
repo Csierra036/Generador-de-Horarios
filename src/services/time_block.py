@@ -1,5 +1,7 @@
 from fastapi import HTTPException
-from sqlalchemy.orm import Session, Integer, datetime
+from sqlalchemy.orm import Session
+from sqlalchemy import Integer, DateTime
+from datetime import datetime  # Si necesitas la clase estándar de Python
 from src.database import CustomSQLAlchemyRepository
 from src.models.time_block import TimeBlock, CreateTimeBlockRequest
 from src.models.hours import Hours, CreateHoursRequest
@@ -10,6 +12,7 @@ from src.models.academic_period import AcademicPeriod, CreateAcademicPeriodReque
 class TimeBlockService:
     def __init__(self, db_session: Session):
         # Se instancia el repositorio con el modelo TimeBlock y la sesión actual
+        self.db_session = db_session
         self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)
         self.week_repository = CustomSQLAlchemyRepository(db = db_session, model = Weeks)
         self.hours_repository = CustomSQLAlchemyRepository(db = db_session, model = Hours)

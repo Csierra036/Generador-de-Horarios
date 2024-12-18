@@ -1,5 +1,6 @@
 from src.database import Base
-from sqlalchemy import String, Integer, Boolean, ForeignKey, Column, relationship
+from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
+from sqlalchemy.orm import relationship
 from pydantic import BaseModel
 
 class AcademicPeriod(Base):
@@ -29,9 +30,9 @@ class AcademicPeriod(Base):
 
 class CreateAcademicPeriodRequest(BaseModel):
     name: String
-    year = Integer
-    number = Integer
-    actual = Boolean
+    year : Integer
+    number : Integer
+    actual : Boolean
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

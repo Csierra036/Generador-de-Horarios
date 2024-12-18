@@ -1,5 +1,6 @@
 from src.database import Base
-from sqlalchemy import String, Integer, Boolean, ForeignKey, Column, relationship
+from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
+from sqlalchemy.orm import relationship
 from pydantic import BaseModel
 
 class Weeks(Base):
@@ -25,8 +26,8 @@ class Weeks(Base):
     }
 
 class CreateWeeksRequest(BaseModel):
-    period_id = Integer
-    number = Integer
+    period_id : Integer
+    number : Integer
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

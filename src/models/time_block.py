@@ -1,5 +1,6 @@
 from src.database import Base
-from sqlalchemy import String, Integer, Boolean, ForeignKey, Column, relationship
+from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
+from sqlalchemy.orm import relationship
 from pydantic import BaseModel
 
 class TimeBlock(Base):

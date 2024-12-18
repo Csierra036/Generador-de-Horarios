@@ -26,10 +26,10 @@ class Section(Base):
 
 
 class CreateSectionRequest(BaseModel):
-    course_id = int
-    modality_id = int
-    academic_period_id = int
-    name = int
+    course_id : int
+    modality_id : int
+    academic_period_id : int
+    name : int
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,
