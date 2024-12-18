@@ -3,7 +3,7 @@ from src.models.modality import CreateModalityRequest
 from src.services.modality import ModalityService
 
 # Instancia del servicio de modalidades
-modality_service = ModalityService()
+modality_service = ModalityService
 
 # Configuración del router para las rutas relacionadas con "modality"
 router = APIRouter(
