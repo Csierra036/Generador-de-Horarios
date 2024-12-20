@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.teacher.router.router import router as teacher_router
 from src.sede.router.router import router as sede_router
+from src.salones.routers.router import router as salones_router
+
 
 def start_app() -> FastAPI:
 
@@ -23,7 +25,7 @@ def start_app() -> FastAPI:
     
     app.include_router(teacher_router)
     app.include_router(sede_router)  # Agregado el router de sede
-
+    app.include_router(salones_router) #agregado el router de salones
     return app
 
 app = start_app()
