@@ -1,5 +1,389 @@
 [
     {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "src.database",
         "description": "src.database",
@@ -17,22 +401,6 @@
     },
     {
         "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -56,195 +424,35 @@
         "documentation": {}
     },
     {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
+        "label": "TimeBlock",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "src.models.time_block",
         "documentation": {}
     },
     {
@@ -269,6 +477,246 @@
         "description": "src.models.time_block",
         "isExtraImport": true,
         "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "isExtraImport": true,
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CareerService",
+        "importPath": "src.services.career",
+        "description": "src.services.career",
+        "isExtraImport": true,
+        "detail": "src.services.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "importPath": "models.campus",
+        "description": "models.campus",
+        "isExtraImport": true,
+        "detail": "models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "SedeService",
+        "importPath": "services.campus",
+        "description": "services.campus",
+        "isExtraImport": true,
+        "detail": "services.campus",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "importPath": "src.services.teacher",
+        "description": "src.services.teacher",
+        "isExtraImport": true,
+        "detail": "src.services.teacher",
         "documentation": {}
     },
     {
@@ -312,6 +760,30 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -328,67 +800,51 @@
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "Hours",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.hours",
         "documentation": {}
     },
     {
-        "label": "Sede",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "CreateHoursRequest",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.hours",
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
+        "label": "Weeks",
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
         "isExtraImport": true,
-        "detail": "src.sede.model.sede",
+        "detail": "src.models.weeks",
         "documentation": {}
     },
     {
-        "label": "SedeService",
-        "importPath": "src.sede.service.service",
-        "description": "src.sede.service.service",
+        "label": "CreateWeeksRequest",
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
         "isExtraImport": true,
-        "detail": "src.sede.service.service",
+        "detail": "src.models.weeks",
         "documentation": {}
     },
     {
-        "label": "CreateTeacherRequest",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
+        "label": "AcademicPeriod",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
         "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
+        "detail": "src.models.academic_period",
         "documentation": {}
     },
     {
-        "label": "Teacher",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
+        "label": "CreateAcademicPeriodRequest",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
         "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "isExtraImport": true,
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "importPath": "src.teacher.service.service",
-        "description": "src.teacher.service.service",
-        "isExtraImport": true,
-        "detail": "src.teacher.service.service",
+        "detail": "src.models.academic_period",
         "documentation": {}
     },
     {
@@ -505,18 +961,153 @@
     },
     {
         "label": "router",
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
         "isExtraImport": true,
-        "detail": "src.teacher.router.router",
+        "detail": "src.routers.teacher",
         "documentation": {}
     },
     {
-        "label": "router",
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
+        "label": "teacher",
+        "importPath": "src.routers",
+        "description": "src.routers",
         "isExtraImport": true,
-        "detail": "src.sede.router.router",
+        "detail": "src.routers",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriod",
+        "kind": 6,
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    year = Column(Integer, index = True)\n    number = Column(Integer, index = True)\n    actual = Column(Boolean, index = True)\n    weeks = relationship(\"Weeks\", back_populates = \"academic_period\")\n    model_config = {\n        \"from_attributes\": True,",
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "kind": 6,
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "peekOfCode": "class CreateAcademicPeriodRequest(BaseModel):\n    name: String\n    year = Integer\n    number = Integer\n    actual = Boolean\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "Sede",
+        "kind": 6,
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index = True)  # Ejemplo: \"PUERTO ORDAZ\"\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSedeRequest",
+        "kind": 6,
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"name\": \"UNEG VILLA ASIA\",",
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "kind": 6,
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key = True, index = True)\n    fullname = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "kind": 6,
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "peekOfCode": "class CreateCareerRequest(BaseModel):\n    fullname: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"fullname\": \"Ingenieria en Informatica\",\n                }",
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Hours",
+        "kind": 6,
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "peekOfCode": "class Hours(Base):\n    __tablename__ = \"hours\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    start = Column(String, index = True)\n    end = Column(String, index = True)\n    time_block = relationship(\"TimeBlock\", back_populates = \"hours\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "CreateHoursRequest",
+        "kind": 6,
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "peekOfCode": "class CreateHoursRequest(BaseModel):\n    name: String\n    start: String\n    end: String\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "kind": 6,
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key = True, index = True)\n    first_name = Column(String, index = True)\n    last_name = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "detail": "src.models.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherRequest",
+        "kind": 6,
+        "importPath": "src.models.teacher",
+        "description": "src.models.teacher",
+        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name: str\n    last_name: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
+        "detail": "src.models.teacher",
         "documentation": {}
     },
     {
@@ -524,7 +1115,7 @@
         "kind": 6,
         "importPath": "src.models.time_block",
         "description": "src.models.time_block",
-        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key = True, index = True)\n    hour_id = Column(Integer, index = True)\n    week_id= Column(Integer, index = True)\n    day = Column(Integer, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
+        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key = True, index = True)\n    hour_id = Column(Integer, ForeignKey(\"hours.id\"), index = True)\n    week_id= Column(Integer, ForeignKey(\"weeks.id\"), index = True)\n    day = Column(Integer, index = True)\n    hours = relationship(\"Hours\", back_populates = \"time_block\")\n    weeks = relationship(\"Weeks\", back_populates = \"time_block\") \n    model_config = {\n        \"from_attributes\": True,",
         "detail": "src.models.time_block",
         "documentation": {}
     },
@@ -535,6 +1126,78 @@
         "description": "src.models.time_block",
         "peekOfCode": "class CreateTimeBlockRequest(BaseModel):\n    hour_id : int\n    week_id : int\n    day : int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
         "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Weeks",
+        "kind": 6,
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "peekOfCode": "class Weeks(Base):\n    __tablename__ = \"weeks\"\n    id = Column(Integer, primary_key = True, index = True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index = True)\n    number = Column(Integer, index = True)\n    academic_period = relationship(\"AcademicPeriod\", back_populates = \"week\")\n    time_block = relationship(\"TimeBlock\", back_populates = \"week\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.weeks",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeeksRequest",
+        "kind": 6,
+        "importPath": "src.models.weeks",
+        "description": "src.models.weeks",
+        "peekOfCode": "class CreateWeeksRequest(BaseModel):\n    period_id = Integer\n    number = Integer\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"period_id\": \"null\",",
+        "detail": "src.models.weeks",
+        "documentation": {}
+    },
+    {
+        "label": "career_service",
+        "kind": 5,
+        "importPath": "src.routers.career",
+        "description": "src.routers.career",
+        "peekOfCode": "career_service = CareerService\nrouter = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(career_request: CreateCareerRequest):\n    return career_service.create_career(career_request)\n@router.get(\"\")\nasync def get_all_career():",
+        "detail": "src.routers.career",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.career",
+        "description": "src.routers.career",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/career\",\n    tags=['Career']\n)\n@router.post(\"\")\nasync def create_career(career_request: CreateCareerRequest):\n    return career_service.create_career(career_request)\n@router.get(\"\")\nasync def get_all_career():\n    return career_service.get_all_careers",
+        "detail": "src.routers.career",
+        "documentation": {}
+    },
+    {
+        "label": "sede_service",
+        "kind": 5,
+        "importPath": "src.routers.router",
+        "description": "src.routers.router",
+        "peekOfCode": "sede_service = SedeService()\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
+        "detail": "src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.router",
+        "description": "src.routers.router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
+        "detail": "src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_service",
+        "kind": 5,
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
+        "peekOfCode": "teacher_service = TeacherService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():",
+        "detail": "src.routers.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.teacher",
+        "description": "src.routers.teacher",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():\n    return teacher_service.get_all_teachers",
+        "detail": "src.routers.teacher",
         "documentation": {}
     },
     {
@@ -551,53 +1214,35 @@
         "kind": 5,
         "importPath": "src.routers.time_block",
         "description": "src.routers.time_block",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"\n    return time_block_service.create_time_block(time_block_request)\n# Ruta para obtener todos los bloques de tiempo",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/time-block\",  # Definimos el prefijo para las rutas\n    tags=[\"TimeBlock\"]  # Etiqueta para organizar las rutas en la documentación de Swagger\n)\n# Ruta para crear un nuevo bloque de tiempo\n@router.post(\"\")\nasync def create_time_block(time_block_request: CreateTimeBlockRequest):\n    \"\"\"Crea un nuevo bloque de tiempo.\"\"\"\n    return time_block_service.create_time_block(time_block_request)\n# Ruta para crear varios horarios segun el dia, semana, cantidad de bloques y comienzo de bloque",
         "detail": "src.routers.time_block",
-        "documentation": {}
-    },
-    {
-        "label": "Sede",
-        "kind": 6,
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"sedes\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index = True)  # Ejemplo: \"PUERTO ORDAZ\"\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSedeRequest",
-        "kind": 6,
-        "importPath": "src.sede.model.sede",
-        "description": "src.sede.model.sede",
-        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"name\": \"UNEG VILLA ASIA\",",
-        "detail": "src.sede.model.sede",
-        "documentation": {}
-    },
-    {
-        "label": "sede_service",
-        "kind": 5,
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
-        "peekOfCode": "sede_service = SedeService()\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
-        "detail": "src.sede.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.sede.router.router",
-        "description": "src.sede.router.router",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
-        "detail": "src.sede.router.router",
         "documentation": {}
     },
     {
         "label": "SedeService",
         "kind": 6,
-        "importPath": "src.sede.service.service",
-        "description": "src.sede.service.service",
+        "importPath": "src.services.campus",
+        "description": "src.services.campus",
         "peekOfCode": "class SedeService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Sede y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)\n    def get_all_sedes(self):\n        \"\"\"Obtiene todas las sedes.\"\"\"\n        return self.repository.get_all()\n    def get_sede_by_id(self, sede_id: int):\n        \"\"\"Obtiene una sede por ID.\"\"\"\n        sede = self.repository.get(sede_id)",
-        "detail": "src.sede.service.service",
+        "detail": "src.services.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CareerService",
+        "kind": 6,
+        "importPath": "src.services.career",
+        "description": "src.services.career",
+        "peekOfCode": "class CareerService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo career y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career)\n    def get_all_carrers(self):\n        \"\"\"Obtiene todos las carreras.\"\"\"\n        return self.repository.get_all()\n    def get_career_by_id(self, career_id: int):\n        \"\"\"Obtiene una carrera por ID.\"\"\"\n        career = self.repository.get(career_id)",
+        "detail": "src.services.career",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "kind": 6,
+        "importPath": "src.services.teacher",
+        "description": "src.services.teacher",
+        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
+        "detail": "src.services.teacher",
         "documentation": {}
     },
     {
@@ -605,53 +1250,8 @@
         "kind": 6,
         "importPath": "src.services.time_block",
         "description": "src.services.time_block",
-        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()\n    def get_time_block_by_id(self, time_block_id: int):\n        \"\"\"Obtiene un bloque de tiempo por ID.\"\"\"\n        time_block = self.repository.get(time_block_id)",
+        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db = db_session, model = Weeks)\n        self.hours_repository = CustomSQLAlchemyRepository(db = db_session, model = Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(db = db_session, model = AcademicPeriod)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"\n        return self.repository.get_all()",
         "detail": "src.services.time_block",
-        "documentation": {}
-    },
-    {
-        "label": "Teacher",
-        "kind": 6,
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key = True, index = True)\n    first_name = Column(String, index = True)\n    last_name = Column(String, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherRequest",
-        "kind": 6,
-        "importPath": "src.teacher.model.teacher",
-        "description": "src.teacher.model.teacher",
-        "peekOfCode": "class CreateTeacherRequest(BaseModel):\n    first_name: str\n    last_name: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"first_name\": \"Juan\",",
-        "detail": "src.teacher.model.teacher",
-        "documentation": {}
-    },
-    {
-        "label": "teacher_service",
-        "kind": 5,
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
-        "peekOfCode": "teacher_service = TeacherService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():",
-        "detail": "src.teacher.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.teacher.router.router",
-        "description": "src.teacher.router.router",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_teacher(teacher_request: CreateTeacherRequest):\n    return teacher_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_teachers():\n    return teacher_service.get_all_teachers",
-        "detail": "src.teacher.router.router",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherService",
-        "kind": 6,
-        "importPath": "src.teacher.service.service",
-        "description": "src.teacher.service.service",
-        "peekOfCode": "class TeacherService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Teacher)\n    def get_all_teachers(self):\n        \"\"\"Obtiene todos los profesores.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_by_id(self, teacher_id: int):\n        \"\"\"Obtiene un profesor por ID.\"\"\"\n        teacher = self.repository.get(teacher_id)",
-        "detail": "src.teacher.service.service",
         "documentation": {}
     },
     {
