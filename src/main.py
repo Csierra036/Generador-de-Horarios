@@ -3,7 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.routers.teacher import router as teacher_router
 from src.routers.time_block import router as time_block_router
 from src.routers.modality import router as modality_router
-from src.routers import teacher
+from src.routers.classroom import router as classroom_router
+#from src.routers import teacher
 import psycopg2
 
 def start_app() -> FastAPI:
@@ -25,7 +26,8 @@ def start_app() -> FastAPI:
     )
     app.include_router(teacher_router)
     app.include_router(time_block_router)
-    app.include_router(modality_router) 
+    app.include_router(modality_router)
+    app.include_router(classroom_router) 
     return app
 
 app = start_app()
