@@ -144,86 +144,6 @@
         "documentation": {}
     },
     {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -265,6 +185,30 @@
     },
     {
         "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -361,6 +305,62 @@
     },
     {
         "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -496,7 +496,7 @@
         "documentation": {}
     },
     {
-        "label": "DatabaseConnection",
+        "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -504,7 +504,7 @@
         "documentation": {}
     },
     {
-        "label": "CustomSQLAlchemyRepository",
+        "label": "DatabaseConnection",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -840,54 +840,6 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -905,6 +857,46 @@
     },
     {
         "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1016,6 +1008,110 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "ClassroomService",
+        "importPath": "src.services.classroom",
+        "description": "src.services.classroom",
+        "isExtraImport": true,
+        "detail": "src.services.classroom",
+        "documentation": {}
+    },
+    {
         "label": "CreateModalityRequest",
         "importPath": "src.models.modality",
         "description": "src.models.modality",
@@ -1109,110 +1205,6 @@
         "description": "src.services.time_block",
         "isExtraImport": true,
         "detail": "src.services.time_block",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TypeVar",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Generic",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Salon",
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "isExtraImport": true,
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSalonRequest",
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "isExtraImport": true,
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "Salon",
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "isExtraImport": true,
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSalonRequest",
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "isExtraImport": true,
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "SalonService",
-        "importPath": "src.salones.service.service",
-        "description": "src.salones.service.service",
-        "isExtraImport": true,
-        "detail": "src.salones.service.service",
         "documentation": {}
     },
     {
@@ -1368,11 +1360,11 @@
         "documentation": {}
     },
     {
-        "label": "teacher",
-        "importPath": "src.routers",
-        "description": "src.routers",
+        "label": "router",
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
         "isExtraImport": true,
-        "detail": "src.routers",
+        "detail": "src.routers.classroom",
         "documentation": {}
     },
     {
@@ -1472,6 +1464,24 @@
         "description": "src.models.career",
         "peekOfCode": "class CreateCareerRequest(BaseModel):\n    fullname: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"fullname\": \"Ingenieria en Informatica\",\n                }",
         "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "kind": 6,
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "peekOfCode": "class Classroom(Base):\n    __tablename__ = \"classrooms\"\n    id = Column(Integer, primary_key = True, index = True)\n    nombre = Column(String, index = True)\n    capacidad = Column(Integer, index = True)\n    ubicacion = Column(String, index = True)\nclass CreateClassroomRequest(BaseModel):\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str",
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "kind": 6,
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "peekOfCode": "class CreateClassroomRequest(BaseModel):\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
+        "detail": "src.models.classroom",
         "documentation": {}
     },
     {
@@ -1601,6 +1611,69 @@
         "documentation": {}
     },
     {
+        "label": "crear_Classroom",
+        "kind": 2,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "def crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta\n# Leer todos los Classroomes\n@router.get(\"\")\ndef obtener_Classroomes():\n    respuesta = Classroom_service.get_all_Classroomes()\n    return respuesta\n# Leer un salón por ID\n@router.get(\"/{Classroom_id}\")",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_Classroomes",
+        "kind": 2,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "def obtener_Classroomes():\n    respuesta = Classroom_service.get_all_Classroomes()\n    return respuesta\n# Leer un salón por ID\n@router.get(\"/{Classroom_id}\")\ndef obtener_Classroom(Classroom_id: int):\n    respuesta = Classroom_service.get_Classroom_by_id(Classroom_id)\n    if respuesta:\n        return respuesta\n    raise HTTPException(status_code=404, detail=\"Salón no encontrado\")",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_Classroom",
+        "kind": 2,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "def obtener_Classroom(Classroom_id: int):\n    respuesta = Classroom_service.get_Classroom_by_id(Classroom_id)\n    if respuesta:\n        return respuesta\n    raise HTTPException(status_code=404, detail=\"Salón no encontrado\")\n# Actualizar un salón\n@router.put(\"/{Classroom_id}\")\ndef actualizar_Classroom(Classroom_id: int, Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.update_Classroom(Classroom_id, Classroom)\n    return respuesta",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_Classroom",
+        "kind": 2,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "def actualizar_Classroom(Classroom_id: int, Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.update_Classroom(Classroom_id, Classroom)\n    return respuesta\n# Borrar un salón\n@router.delete(\"/{Classroom_id}\")\ndef borrar_Classroom(Classroom_id: int):\n    respuesta = Classroom_service.delete_Classroom(Classroom_id)\n    return respuesta",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "borrar_Classroom",
+        "kind": 2,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "def borrar_Classroom(Classroom_id: int):\n    respuesta = Classroom_service.delete_Classroom(Classroom_id)\n    return respuesta",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom_service",
+        "kind": 5,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "Classroom_service = ClassroomService\nrouter = APIRouter(\n    prefix=\"/Classroom\",\n    tags=['Classrooms']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/Classroom\",\n    tags=['Classrooms']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta\n# Leer todos los Classroomes",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
         "label": "modality_service",
         "kind": 5,
         "importPath": "src.routers.modality",
@@ -1691,96 +1764,6 @@
         "documentation": {}
     },
     {
-        "label": "Salon",
-        "kind": 6,
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "peekOfCode": "class Salon(BaseModel):\n    __tablename__ = \"salones\"\n    id = Column(Integer, primary_key = True, index = True)\n    nombre = Column(String, index = True)\n    capacidad = Column(Integer, index = True)\n    ubicacion = Column(String, index = True)\nclass CreateSalonRequest():\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str",
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSalonRequest",
-        "kind": 6,
-        "importPath": "src.salones.models.model",
-        "description": "src.salones.models.model",
-        "peekOfCode": "class CreateSalonRequest():\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
-        "detail": "src.salones.models.model",
-        "documentation": {}
-    },
-    {
-        "label": "crear_salon",
-        "kind": 2,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "def crear_salon(salon: CreateSalonRequest):\n    respuesta = salon_service.create_salon(Salon)\n    return respuesta\n# Leer todos los salones\n@router.get(\"\")\ndef obtener_salones():\n    respuesta = salon_service.get_all_salones()\n    return respuesta\n# Leer un salón por ID\n@router.get(\"/{salon_id}\")",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "obtener_salones",
-        "kind": 2,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "def obtener_salones():\n    respuesta = salon_service.get_all_salones()\n    return respuesta\n# Leer un salón por ID\n@router.get(\"/{salon_id}\")\ndef obtener_salon(salon_id: int):\n    respuesta = salon_service.get_salon_by_id(salon_id)\n    if respuesta:\n        return respuesta\n    raise HTTPException(status_code=404, detail=\"Salón no encontrado\")",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "obtener_salon",
-        "kind": 2,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "def obtener_salon(salon_id: int):\n    respuesta = salon_service.get_salon_by_id(salon_id)\n    if respuesta:\n        return respuesta\n    raise HTTPException(status_code=404, detail=\"Salón no encontrado\")\n# Actualizar un salón\n@router.put(\"/{salon_id}\")\ndef actualizar_salon(salon_id: int, salon: CreateSalonRequest):\n    respuesta = salon_service.update_salon(salon_id, salon)\n    return respuesta",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "actualizar_salon",
-        "kind": 2,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "def actualizar_salon(salon_id: int, salon: CreateSalonRequest):\n    respuesta = salon_service.update_salon(salon_id, salon)\n    return respuesta\n# Borrar un salón\n@router.delete(\"/{salon_id}\")\ndef borrar_salon(salon_id: int):\n    respuesta = salon_service.delete_salon(salon_id)\n    return respuesta",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "borrar_salon",
-        "kind": 2,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "def borrar_salon(salon_id: int):\n    respuesta = salon_service.delete_salon(salon_id)\n    return respuesta",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "salon_service",
-        "kind": 5,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "salon_service = SalonService\nrouter = APIRouter(\n    prefix=\"/salon\",\n    tags=['Salones']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_salon(salon: CreateSalonRequest):\n    respuesta = salon_service.create_salon(Salon)\n    return respuesta",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.salones.routers.router",
-        "description": "src.salones.routers.router",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/salon\",\n    tags=['Salones']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_salon(salon: CreateSalonRequest):\n    respuesta = salon_service.create_salon(Salon)\n    return respuesta\n# Leer todos los salones",
-        "detail": "src.salones.routers.router",
-        "documentation": {}
-    },
-    {
-        "label": "SalonService",
-        "kind": 6,
-        "importPath": "src.salones.service.service",
-        "description": "src.salones.service.service",
-        "peekOfCode": "class SalonService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Teacher y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Salon)\n    def get_all_salones(self):\n        \"\"\"Obtiene todos los salones.\"\"\"\n        return self.repository.get_all()\n    def get_salon_by_id(self, salon_id: int):\n        \"\"\"Obtiene un salon por ID.\"\"\"\n        salon = self.repository.get(salon_id)",
-        "detail": "src.salones.service.service",
-        "documentation": {}
-    },
-    {
         "label": "SedeService",
         "kind": 6,
         "importPath": "src.services.campus",
@@ -1796,6 +1779,15 @@
         "description": "src.services.career",
         "peekOfCode": "class CareerService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo career y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career)\n    def get_all_carrers(self):\n        \"\"\"Obtiene todos las carreras.\"\"\"\n        return self.repository.get_all()\n    def get_career_by_id(self, career_id: int):\n        \"\"\"Obtiene una carrera por ID.\"\"\"\n        career = self.repository.get(career_id)",
         "detail": "src.services.career",
+        "documentation": {}
+    },
+    {
+        "label": "ClassroomService",
+        "kind": 6,
+        "importPath": "src.services.classroom",
+        "description": "src.services.classroom",
+        "peekOfCode": "class ClassroomService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Salon y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Classroom)\n    def get_all_Classroomes(self):\n        \"\"\"Obtiene todos los Classrooms.\"\"\"\n        return self.repository.get_all()\n    def get_Classroom_by_id(self, Classroom_id: int):\n        \"\"\"Obtiene un Classroom por ID.\"\"\"\n        Classroom = self.repository.get(Classroom_id)",
+        "detail": "src.services.classroom",
         "documentation": {}
     },
     {

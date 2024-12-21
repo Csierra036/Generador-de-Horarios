@@ -20,7 +20,6 @@ class Teacher(Base):
         }
     }
 
-
 class CreateTeacherRequest(BaseModel):
     first_name: str
     last_name: str
