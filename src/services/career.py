@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from models.career import Career, CreateCareerRequest
+from src.models.career import Career, CreateCareerRequest
 
 class CareerService:
     def __init__(self, db_session: Session):
