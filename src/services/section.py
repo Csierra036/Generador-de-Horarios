@@ -1,7 +1,7 @@
 from fastapi import HTTPException
 from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from models.section import Section, CreateSectionRequest
+from src.models.section import Section, CreateSectionRequest
 
 class SectionService:
     def __init__(self, db_session: Session):

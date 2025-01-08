@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models.career import CreateCareerRequest
+from src.models.career import CreateCareerRequest
 from src.services.career import CareerService
 from src.models.career import Career
 
