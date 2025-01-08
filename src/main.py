@@ -33,6 +33,12 @@ def start_app() -> FastAPI:
     app.include_router(course_router)
     app.include_router(section_router)
     app.include_router(modality_router)
+    app.include_router(career_router)
+    app.include_router(campus_router)
+    app.include_router(classroom_router)
+    app.include_router(course_router)
+    app.include_router(section_router)
+    app.include_router(modality_router)
     app.include_router(teacher_router)
     app.include_router(time_block_router)
     return app
