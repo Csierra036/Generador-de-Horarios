@@ -3,15 +3,16 @@ from sqlalchemy import String, Integer, Column
 from pydantic import BaseModel
 from sqlalchemy import Column, Integer, String, Boolean
 from src.database import Base  
-
+from sqlalchemy.orm import relationship
 class Course(Base):
     __tablename__ = "courses"
     id = Column(Integer, primary_key=True, index=True)
-    semester_id = Column(String, index=True)  
+    career_id = Column(String, index=True)  
     name = Column(String, index=True)
     active = Column(Boolean, index=True)
     at_laboratory = Column(Boolean, index=True)
-    
+
+    sections = relationship("Section", back_populates="course")
     # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)
     __example__ = {
         "from_attributes": True,
@@ -29,7 +30,7 @@ class Course(Base):
     }
 
 class CreateCourseRequest(BaseModel):  # Modelo para validación y entrada
-    semester_id : int
+    career_id : int
     name: str
     active: bool
     at_laboratory: bool

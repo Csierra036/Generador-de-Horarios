@@ -1,14 +1,21 @@
 from src.database import Base
 from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
 from pydantic import BaseModel
+from sqlalchemy.orm import relationship
 
 class Section(Base):
-    __tablename__ = "section"
-    id = Column(Integer, primary_key = True, index = True)
-    course_id = Column(Integer, ForeignKey("course.id"), index = True)
-    modality_id = Column(Integer, ForeignKey("modality.id"), index = True)
-    academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index = True)
-    name = Column(Integer, index = True)
+    __tablename__ = "sections"
+    id = Column(Integer, primary_key=True, index=True)
+    course_id = Column(Integer, ForeignKey("course.id"), index=True)
+    modality_id = Column(Integer, ForeignKey("modality.id"), index=True)
+    academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
+    name = Column(Integer, index=True)
+
+    # Relaciones
+    course = relationship("Course", back_populates="sections")
+    modality = relationship("Modality", back_populates="sections")
+    academic_period = relationship("AcademicPeriod", back_populates="sections")
+
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

@@ -2,6 +2,7 @@ from src.database import Base
 from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
 from sqlalchemy.orm import relationship
 from pydantic import BaseModel
+from sqlalchemy.orm import relationship
 
 class AcademicPeriod(Base):
     __tablename__ = "academic_period"
@@ -11,6 +12,7 @@ class AcademicPeriod(Base):
     number = Column(Integer, index = True)
     actual = Column(Boolean, index = True)
 
+    sections = relationship("Section", back_populates="academic_period")
     weeks = relationship("Weeks", back_populates = "academic_period")
 
     model_config = {
