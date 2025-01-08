@@ -8,7 +8,6 @@ from src.routers.modality import router as modality_router
 from src.routers.section import router as section_router
 from src.routers.teacher import router as teacher_router
 from src.routers.time_block import router as time_block_router
-
 import psycopg2
 
 def start_app() -> FastAPI:

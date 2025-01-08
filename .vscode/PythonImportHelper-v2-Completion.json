@@ -128,6 +128,31 @@
         "documentation": {}
     },
     {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+
         "label": "String",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -145,30 +170,7 @@
     },
     {
         "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -552,6 +554,7 @@
         "documentation": {}
     },
     {
+
         "label": "Base",
         "importPath": "src.database",
         "description": "src.database",
@@ -593,14 +596,6 @@
     },
     {
         "label": "DatabaseConnection",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -909,30 +904,64 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
+
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -941,6 +970,130 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1001,14 +1154,6 @@
     },
     {
         "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1080,6 +1225,142 @@
         "documentation": {}
     },
     {
+        "label": "CreateCareerRequest",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "models.career",
+        "description": "models.career",
+        "isExtraImport": true,
+        "detail": "models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CareerService",
+        "importPath": "src.services.career",
+        "description": "src.services.career",
+        "isExtraImport": true,
+        "detail": "src.services.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
         "label": "CreateSedeRequest",
         "importPath": "src.models.campus",
         "description": "src.models.campus",
@@ -1141,12 +1422,34 @@
         "description": "src.models.career",
         "isExtraImport": true,
         "detail": "src.models.career",
+
+        "label": "ClassroomService",
+        "importPath": "src.services.classroom",
+        "description": "src.services.classroom",
+        "isExtraImport": true,
+        "detail": "src.services.classroom",
         "documentation": {}
     },
     {
-        "label": "CareerService",
-        "importPath": "src.services.career",
-        "description": "src.services.career",
+        "label": "CreateModalityRequest",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "Modality",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "CreateModalityRequest",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
         "isExtraImport": true,
         "detail": "src.services.career",
         "documentation": {}
@@ -1261,6 +1564,15 @@
         "description": "src.models.course",
         "isExtraImport": true,
         "detail": "src.models.course",
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "ModalityService",
+        "importPath": "src.services.modality",
+        "description": "src.services.modality",
+        "isExtraImport": true,
+        "detail": "src.services.modality",
         "documentation": {}
     },
     {
@@ -1365,6 +1677,54 @@
         "description": "src.services.time_block",
         "isExtraImport": true,
         "detail": "src.services.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionRequest",
+        "importPath": "src.models.section",
+        "description": "src.models.section",
+        "isExtraImport": true,
+        "detail": "src.models.section",
+        "documentation": {}
+    },
+    {
+        "label": "SectionService",
+        "importPath": "src.services.section",
+        "description": "src.services.section",
+        "isExtraImport": true,
+        "detail": "src.services.section",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherService",
+        "importPath": "src.services.teacher",
+        "description": "src.services.teacher",
+        "isExtraImport": true,
+        "detail": "src.services.teacher",
+        "documentation": {}
+    },
+    {
+        "label": "TimeBlockService",
+        "importPath": "src.services.time_block",
+        "description": "src.services.time_block",
+        "isExtraImport": true,
+        "detail": "src.services.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Section",
+        "importPath": "models.section",
+        "description": "models.section",
+        "isExtraImport": true,
+        "detail": "models.section",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionRequest",
+        "importPath": "models.section",
+        "description": "models.section",
+        "isExtraImport": true,
+        "detail": "models.section",
         "documentation": {}
     },
     {
@@ -1541,6 +1901,22 @@
         "description": "src.routers.time_block",
         "isExtraImport": true,
         "detail": "src.routers.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.routers.modality",
+        "description": "src.routers.modality",
+        "isExtraImport": true,
+        "detail": "src.routers.modality",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "isExtraImport": true,
+        "detail": "src.routers.classroom",
         "documentation": {}
     },
     {
@@ -1886,6 +2262,42 @@
         "documentation": {}
     },
     {
+        "label": "modality_service",
+        "kind": 5,
+        "importPath": "src.routers.modality",
+        "description": "src.routers.modality",
+        "peekOfCode": "modality_service = ModalityService\n# Configuración del router para las rutas relacionadas con \"modality\"\nrouter = APIRouter(\n    prefix=\"/modality\",\n    tags=['Modality']\n)\n# Endpoint para crear una modalidad\n@router.post(\"\")\nasync def create_modality(modality_request: CreateModalityRequest):\n    return modality_service.create_modality(modality_request)",
+        "detail": "src.routers.modality",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.modality",
+        "description": "src.routers.modality",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/modality\",\n    tags=['Modality']\n)\n# Endpoint para crear una modalidad\n@router.post(\"\")\nasync def create_modality(modality_request: CreateModalityRequest):\n    return modality_service.create_modality(modality_request)\n# Endpoint para obtener todas las modalidades\n@router.get(\"\")",
+        "detail": "src.routers.modality",
+        "documentation": {}
+    },
+    {
+        "label": "sede_service",
+        "kind": 5,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "Classroom_service = ClassroomService\nrouter = APIRouter(\n    prefix=\"/Classroom\",\n    tags=['Classrooms']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.classroom",
+        "description": "src.routers.classroom",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/Classroom\",\n    tags=['Classrooms']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta\n# Leer todos los Classroomes",
+        "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
         "label": "course_service",
         "kind": 5,
         "importPath": "src.routers.course",
@@ -1919,6 +2331,24 @@
         "description": "src.routers.modality",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/modality\",\n    tags=['Modality']\n)\n# Endpoint para crear una modalidad\n@router.post(\"\")\nasync def create_modality(modality_request: CreateModalityRequest):\n    return modality_service.create_modality(modality_request)\n# Endpoint para obtener todas las modalidades\n@router.get(\"\")",
         "detail": "src.routers.modality",
+        "documentation": {}
+    },
+    {
+        "label": "section_service",
+        "kind": 5,
+        "importPath": "src.routers.section",
+        "description": "src.routers.section",
+        "peekOfCode": "section_service = SectionService\nrouter = APIRouter(\n    prefix=\"/section\",\n    tags=['Section']\n)\n@router.post(\"\")\nasync def create_section(section_request: CreateSectionRequest):\n    return section_service.create_section(section_request)\n@router.get(\"\")\nasync def get_all_sections():",
+        "detail": "src.routers.section",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.section",
+        "description": "src.routers.section",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/section\",\n    tags=['Section']\n)\n@router.post(\"\")\nasync def create_section(section_request: CreateSectionRequest):\n    return section_service.create_section(section_request)\n@router.get(\"\")\nasync def get_all_sections():\n    return section_service.get_all_sections",
+        "detail": "src.routers.section",
         "documentation": {}
     },
     {
