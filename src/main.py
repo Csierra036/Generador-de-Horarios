@@ -9,6 +9,7 @@ from src.routers.section import router as section_router
 from src.routers.teacher import router as teacher_router
 from src.routers.time_block import router as time_block_router
 from src.routers.section_weeks import router as section_weeks_router
+from src.routers.room_block import router as room_block_router
 import psycopg2
 
 def start_app() -> FastAPI:
@@ -43,6 +44,7 @@ def start_app() -> FastAPI:
     app.include_router(teacher_router)
     app.include_router(time_block_router)
     app.include_router(section_weeks_router)
+    app.include_router(room_block_router)
     return app
 
 app = start_app()
