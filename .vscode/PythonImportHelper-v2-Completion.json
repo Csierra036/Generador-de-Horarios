@@ -760,6 +760,38 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -1593,7 +1625,7 @@
         "kind": 6,
         "importPath": "src.models.academic_period",
         "description": "src.models.academic_period",
-        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    year = Column(Integer, index = True)\n    number = Column(Integer, index = True)\n    actual = Column(Boolean, index = True)\n    weeks = relationship(\"Weeks\", back_populates = \"academic_period\")\n    model_config = {\n        \"from_attributes\": True,",
+        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key = True, index = True)\n    name = Column(String, index = True)\n    year = Column(Integer, index = True)\n    number = Column(Integer, index = True)\n    actual = Column(Boolean, index = True)\n    sections = relationship(\"Section\", back_populates=\"academic_period\")\n    weeks = relationship(\"Weeks\", back_populates = \"academic_period\")\n    model_config = {",
         "detail": "src.models.academic_period",
         "documentation": {}
     },
@@ -1665,7 +1697,7 @@
         "kind": 6,
         "importPath": "src.models.course",
         "description": "src.models.course",
-        "peekOfCode": "class Course(Base):\n    __tablename__ = \"courses\"\n    id = Column(Integer, primary_key=True, index=True)\n    semester_id = Column(String, index=True)  \n    name = Column(String, index=True)\n    active = Column(Boolean, index=True)\n    at_laboratory = Column(Boolean, index=True)\n    # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)\n    __example__ = {\n        \"from_attributes\": True,",
+        "peekOfCode": "class Course(Base):\n    __tablename__ = \"courses\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(String, index=True)  \n    name = Column(String, index=True)\n    active = Column(Boolean, index=True)\n    at_laboratory = Column(Boolean, index=True)\n    sections = relationship(\"Section\", back_populates=\"course\")\n    # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)\n    __example__ = {",
         "detail": "src.models.course",
         "documentation": {}
     },
@@ -1674,7 +1706,7 @@
         "kind": 6,
         "importPath": "src.models.course",
         "description": "src.models.course",
-        "peekOfCode": "class CreateCourseRequest(BaseModel):  # Modelo para validación y entrada\n    semester_id : int\n    name: str\n    active: bool\n    at_laboratory: bool\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "peekOfCode": "class CreateCourseRequest(BaseModel):  # Modelo para validación y entrada\n    career_id : int\n    name: str\n    active: bool\n    at_laboratory: bool\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
         "detail": "src.models.course",
         "documentation": {}
     },
@@ -1701,7 +1733,7 @@
         "kind": 6,
         "importPath": "src.models.modality",
         "description": "src.models.modality",
-        "peekOfCode": "class Modality(Base):\n    __tablename__ = \"modality\"\n    id = Column(Integer, primary_key=True, index=True)  # Identificador único\n    name = Column(String, unique=True, nullable=False, index=True)  # Nombre de la modalidad\n    # Configuración adicional para generar esquemas JSON de ejemplo\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "peekOfCode": "class Modality(Base):\n    __tablename__ = \"modality\"\n    id = Column(Integer, primary_key=True, index=True)  # Identificador único\n    name = Column(String, unique=True, nullable=False, index=True)  # Nombre de la modalidad\n    sections = relationship(\"Section\", back_populates=\"modality\")\n    # Configuración adicional para generar esquemas JSON de ejemplo\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
         "detail": "src.models.modality",
         "documentation": {}
     },
@@ -1719,7 +1751,7 @@
         "kind": 6,
         "importPath": "src.models.section",
         "description": "src.models.section",
-        "peekOfCode": "class Section(Base):\n    __tablename__ = \"section\"\n    id = Column(Integer, primary_key = True, index = True)\n    course_id = Column(Integer, ForeignKey(\"course.id\"), index = True)\n    modality_id = Column(Integer, ForeignKey(\"modality.id\"), index = True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index = True)\n    name = Column(Integer, index = True)\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "peekOfCode": "class Section(Base):\n    __tablename__ = \"sections\"\n    id = Column(Integer, primary_key=True, index=True)\n    course_id = Column(Integer, ForeignKey(\"course.id\"), index=True)\n    modality_id = Column(Integer, ForeignKey(\"modality.id\"), index=True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    name = Column(Integer, index=True)\n    # Relaciones\n    course = relationship(\"Course\", back_populates=\"sections\")\n    modality = relationship(\"Modality\", back_populates=\"sections\")",
         "detail": "src.models.section",
         "documentation": {}
     },

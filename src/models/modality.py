@@ -1,6 +1,7 @@
 from src.database import Base
 from sqlalchemy import Column, Integer, String
 from pydantic import BaseModel
+from sqlalchemy.orm import relationship
 
 # Modelo para la tabla "modality" en la base de datos
 class Modality(Base):
@@ -8,6 +9,7 @@ class Modality(Base):
     id = Column(Integer, primary_key=True, index=True)  # Identificador único
     name = Column(String, unique=True, nullable=False, index=True)  # Nombre de la modalidad
 
+    sections = relationship("Section", back_populates="modality")
     # Configuración adicional para generar esquemas JSON de ejemplo
     model_config = {
         "from_attributes": True,
