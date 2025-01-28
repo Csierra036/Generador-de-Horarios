@@ -3,6 +3,7 @@ from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
 from src.models.teacher import Teacher, CreateTeacherRequest
 
+
 class TeacherService:
     def __init__(self, db_session: Session):
         # Se instancia el repositorio con el modelo Teacher y la sesión actual
@@ -16,7 +17,9 @@ class TeacherService:
         """Obtiene un profesor por ID."""
         teacher = self.repository.get(teacher_id)
         if not teacher:
-            raise HTTPException(status_code=404, detail=f"Teacher with ID {teacher_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"Teacher with ID {teacher_id} not found"
+            )
         return teacher
 
     def create_teacher(self, teacher_data: CreateTeacherRequest):
@@ -28,12 +31,16 @@ class TeacherService:
         """Actualiza un profesor existente."""
         teacher = self.repository.get(teacher_id)
         if not teacher:
-            raise HTTPException(status_code=404, detail=f"Teacher with ID {teacher_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"Teacher with ID {teacher_id} not found"
+            )
         return self.repository.update(teacher, teacher_data.dict())
 
     def delete_teacher(self, teacher_id: int):
         """Elimina un profesor por ID."""
         teacher = self.repository.get(teacher_id)
         if not teacher:
-            raise HTTPException(status_code=404, detail=f"Teacher with ID {teacher_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"Teacher with ID {teacher_id} not found"
+            )
         return self.repository.delete(teacher_id)

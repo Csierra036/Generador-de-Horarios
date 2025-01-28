@@ -56,7 +56,9 @@ class CustomSQLAlchemyRepository(Generic[ModelType]):
             self.db.commit()
         return obj
 
-    def _modify_document_before_insert(self, document: Dict[str, Any]) -> Dict[str, Any]:
+    def _modify_document_before_insert(
+        self, document: Dict[str, Any]
+    ) -> Dict[str, Any]:
         """Lógica para modificar el documento antes de la inserción."""
         document["created_at"] = datetime.utcnow()
         document["updated_at"] = datetime.utcnow()
@@ -74,7 +76,9 @@ class DatabaseConnection:
         Inicializa la conexión a la base de datos.
         """
         self.engine = create_engine(database_url, pool_pre_ping=True)
-        self.SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=self.engine)
+        self.SessionLocal = sessionmaker(
+            autocommit=False, autoflush=False, bind=self.engine
+        )
 
     def get_session(self):
         """Proporciona una sesión de base de datos."""
@@ -101,3 +105,10 @@ class DatabaseConnection:
         except SQLAlchemyError as e:
             logger.error(f"Error dropping tables: {e}")
             raise
+
+
+db_connection = DatabaseConnection()
+
+
+def get_db():
+    return db_connection.get_session()
