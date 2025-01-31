@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from sqlalchemy.orm import relationship
 
 
-class Sede(Base):  # Modelo para la base de datos
+class Campus(Base):  # Modelo para la base de datos
     __tablename__ = "campus"
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)  # Ejemplo: "UNEG VILLA ASIA"
@@ -22,7 +22,7 @@ class Sede(Base):  # Modelo para la base de datos
     }
 
 
-class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada
+class CreateCampusRequest(BaseModel):  # Modelo para validación y entrada
     name: str
     location: str
     model_config = {

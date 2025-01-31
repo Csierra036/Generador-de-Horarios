@@ -1,12 +1,12 @@
 from fastapi import HTTPException
 from src.database import CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from src.models.career_campus import Career_Campus, CreateCareerCampusRequest
+from src.models.career_campus import CareerCampus, CreateCareerCampusRequest
 
 
 class CareerCampusService:
     def __init__(self, db_session: Session):
-        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career_Campus)
+        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerCampus)
 
     def get_all_career_campuses(self):
         return self.repository.get_all()

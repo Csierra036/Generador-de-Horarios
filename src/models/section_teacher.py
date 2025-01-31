@@ -4,11 +4,11 @@ from pydantic import BaseModel
 from sqlalchemy.orm import relationship
 
 
-class Teacher_Section(Base):
+class SectionTeacher(Base):
     __tablename__ = "section_teacher"
     id = Column(Integer, primary_key=True, index=True)
-    section_id = Column(Integer, ForeignKey("section.id"), index=True)
-    teacher_id = Column(Integer, ForeignKey("teacher.id"), index=True)
+    section_id = Column(Integer, ForeignKey("sections.id"), index=True)
+    teacher_id = Column(Integer, ForeignKey("teachers.id"), index=True)
     assigned_hours = Column(Integer, index=True)
 
     # Relaciones

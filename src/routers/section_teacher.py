@@ -4,7 +4,7 @@ from src.database import (
     get_db,
 )
 from src.models.teacher import CreateTeacherRequest
-from src.services.section_teacher import TeacherSectionService
+from src.services.section_teacher import SectionTeacherService
 
 router = APIRouter(
     prefix="/teacher_section",  # Prefijo más descriptivo
@@ -16,7 +16,7 @@ router = APIRouter(
 async def create_teacher_section(
     teacher_section_request: CreateTeacherRequest, db: Session = Depends(get_db)
 ):
-    teacher_section_service = TeacherSectionService(
+    teacher_section_service = SectionTeacherService(
         db
     )  # Instancia el servicio con la sesión de la BD
     return teacher_section_service.create_teacher_section(teacher_section_request)
@@ -24,7 +24,7 @@ async def create_teacher_section(
 
 @router.get("")
 async def get_all_teacher_sections(db: Session = Depends(get_db)):
-    teacher_section_service = TeacherSectionService(db)
+    teacher_section_service = SectionTeacherService(db)
     return teacher_section_service.get_all_teacher_sections()
 
 
@@ -32,7 +32,7 @@ async def get_all_teacher_sections(db: Session = Depends(get_db)):
 async def get_teacher_section_by_id(
     teacher_section_id: int, db: Session = Depends(get_db)
 ):
-    teacher_section_service = TeacherSectionService(db)
+    teacher_section_service = SectionTeacherService(db)
     return teacher_section_service.get_teacher_section_by_id(teacher_section_id)
 
 
@@ -42,7 +42,7 @@ async def update_teacher_section(
     teacher_section_request: CreateTeacherRequest,
     db: Session = Depends(get_db),
 ):
-    teacher_section_service = TeacherSectionService(db)
+    teacher_section_service = SectionTeacherService(db)
     return teacher_section_service.update_teacher_section(
         teacher_section_id, teacher_section_request
     )
@@ -52,5 +52,5 @@ async def update_teacher_section(
 async def delete_teacher_section(
     teacher_section_id: int, db: Session = Depends(get_db)
 ):
-    teacher_section_service = TeacherSectionService(db)
+    teacher_section_service = SectionTeacherService(db)
     return teacher_section_service.delete_teacher_section(teacher_section_id)

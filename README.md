@@ -42,3 +42,10 @@ Reemplazamos site-packages con Scripts en el retorno. Por lo que agregaríamos a
 
 ## Migraciones
 Busca en el archivo alembic.ini, la línea 64, que es sqlalchemy.url = postgresql://user:password@host:port/db_name. Esta es la url de la Base de Datos. Reemplázala con la implementación en tu equipo.
+
+##Ejecutar migraciones
+
+Luego de haber configurado el archivo .env de la base de datos, ejecutamos
+```bash
+alembic upgrade head
+```

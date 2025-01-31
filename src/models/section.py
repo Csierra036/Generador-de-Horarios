@@ -7,7 +7,7 @@ from sqlalchemy.orm import relationship
 class Section(Base):
     __tablename__ = "sections"
     id = Column(Integer, primary_key=True, index=True)
-    course_id = Column(Integer, ForeignKey("course.id"), index=True)
+    course_id = Column(Integer, ForeignKey("courses.id"), index=True)
     modality_id = Column(Integer, ForeignKey("modality.id"), index=True)
     academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     name = Column(Integer, index=True)

@@ -4,11 +4,11 @@ from pydantic import BaseModel
 from sqlalchemy.orm import relationship
 
 
-class Career_Period(Base):
+class CareerPeriod(Base):
     __tablename__ = "career_period"
     id = Column(Integer, primary_key=True, index=True)
-    career_id = Column(Integer, ForeignKey("career.id"), index=True)
-    period_id = Column(Integer, ForeignKey("period.id"), index=True)
+    career_id = Column(Integer, ForeignKey("careers.id"), index=True)
+    period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     schedule_generated = Column(Boolean, default=False)
 
     # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)

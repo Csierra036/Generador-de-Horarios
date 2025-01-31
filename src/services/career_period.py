@@ -1,12 +1,12 @@
 from fastapi import HTTPException
 from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from src.models.career_period import Career_Period, CreateCareerPeriodRequest
+from src.models.career_period import CareerPeriod, CreateCareerPeriodRequest
 
 
 class CareerPeriodService:
     def __init__(self, db_session: Session):
-        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career_Period)
+        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerPeriod)
 
     def get_all_career_periods(self):
         return self.repository.get_all()

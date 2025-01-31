@@ -1,10 +1,107 @@
 [
     {
-        "label": "fileConfig",
-        "importPath": "logging.config",
-        "description": "logging.config",
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
         "isExtraImport": true,
-        "detail": "logging.config",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
@@ -233,6 +330,14 @@
     },
     {
         "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -656,6 +761,46 @@
         "documentation": {}
     },
     {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -664,11 +809,11 @@
         "documentation": {}
     },
     {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
         "isExtraImport": true,
-        "detail": "alembic",
+        "detail": "logging.config",
         "documentation": {}
     },
     {
@@ -856,7 +1001,15 @@
         "documentation": {}
     },
     {
-        "label": "CustomSQLAlchemyRepository",
+        "label": "get_db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -897,70 +1050,6 @@
     },
     {
         "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "DatabaseConnection",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "DatabaseConnection",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "CustomSQLAlchemyRepository",
-        "importPath": "src.database",
-        "description": "src.database",
-        "isExtraImport": true,
-        "detail": "src.database",
-        "documentation": {}
-    },
-    {
-        "label": "DatabaseConnection",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -1024,35 +1113,572 @@
         "documentation": {}
     },
     {
-        "label": "TimeBlock",
-        "importPath": "src.models.time_block",
-        "description": "src.models.time_block",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "src.models.time_block",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "CreateTimeBlockRequest",
-        "importPath": "src.models.time_block",
-        "description": "src.models.time_block",
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "src.models.time_block",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "TimeBlock",
-        "importPath": "src.models.time_block",
-        "description": "src.models.time_block",
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "src.models.time_block",
+        "detail": "src.database",
         "documentation": {}
     },
     {
-        "label": "CreateTimeBlockRequest",
-        "importPath": "src.models.time_block",
-        "description": "src.models.time_block",
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
         "isExtraImport": true,
-        "detail": "src.models.time_block",
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriod",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriod",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriod",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateAcademicPeriodRequest",
+        "importPath": "src.models.academic_period",
+        "description": "src.models.academic_period",
+        "isExtraImport": true,
+        "detail": "src.models.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "Campus",
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "isExtraImport": true,
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCampusRequest",
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "isExtraImport": true,
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "Campus",
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "isExtraImport": true,
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCampusRequest",
+        "importPath": "src.models.campus",
+        "description": "src.models.campus",
+        "isExtraImport": true,
+        "detail": "src.models.campus",
+        "documentation": {}
+    },
+    {
+        "label": "CareerCampus",
+        "importPath": "src.models.career_campus",
+        "description": "src.models.career_campus",
+        "isExtraImport": true,
+        "detail": "src.models.career_campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerCampusRequest",
+        "importPath": "src.models.career_campus",
+        "description": "src.models.career_campus",
+        "isExtraImport": true,
+        "detail": "src.models.career_campus",
+        "documentation": {}
+    },
+    {
+        "label": "CareerCampus",
+        "importPath": "src.models.career_campus",
+        "description": "src.models.career_campus",
+        "isExtraImport": true,
+        "detail": "src.models.career_campus",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerCampusRequest",
+        "importPath": "src.models.career_campus",
+        "description": "src.models.career_campus",
+        "isExtraImport": true,
+        "detail": "src.models.career_campus",
+        "documentation": {}
+    },
+    {
+        "label": "CareerPeriod",
+        "importPath": "src.models.career_period",
+        "description": "src.models.career_period",
+        "isExtraImport": true,
+        "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerPeriodRequest",
+        "importPath": "src.models.career_period",
+        "description": "src.models.career_period",
+        "isExtraImport": true,
+        "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CareerPeriod",
+        "importPath": "src.models.career_period",
+        "description": "src.models.career_period",
+        "isExtraImport": true,
+        "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerPeriodRequest",
+        "importPath": "src.models.career_period",
+        "description": "src.models.career_period",
+        "isExtraImport": true,
+        "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Career",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerRequest",
+        "importPath": "src.models.career",
+        "description": "src.models.career",
+        "isExtraImport": true,
+        "detail": "src.models.career",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Classroom",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassroomRequest",
+        "importPath": "src.models.classroom",
+        "description": "src.models.classroom",
+        "isExtraImport": true,
+        "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "src.models.course",
+        "description": "src.models.course",
+        "isExtraImport": true,
+        "detail": "src.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCourseRequest",
+        "importPath": "src.models.course",
+        "description": "src.models.course",
+        "isExtraImport": true,
+        "detail": "src.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "src.models.course",
+        "description": "src.models.course",
+        "isExtraImport": true,
+        "detail": "src.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCourseRequest",
+        "importPath": "src.models.course",
+        "description": "src.models.course",
+        "isExtraImport": true,
+        "detail": "src.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "Hours",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "isExtraImport": true,
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "Hours",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "isExtraImport": true,
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "CreateHoursRequest",
+        "importPath": "src.models.hours",
+        "description": "src.models.hours",
+        "isExtraImport": true,
+        "detail": "src.models.hours",
+        "documentation": {}
+    },
+    {
+        "label": "Modality",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "CreateModalityRequest",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "Modality",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "CreateModalityRequest",
+        "importPath": "src.models.modality",
+        "description": "src.models.modality",
+        "isExtraImport": true,
+        "detail": "src.models.modality",
+        "documentation": {}
+    },
+    {
+        "label": "RoomBlock",
+        "importPath": "src.models.room_block",
+        "description": "src.models.room_block",
+        "isExtraImport": true,
+        "detail": "src.models.room_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateRoomBlockRequest",
+        "importPath": "src.models.room_block",
+        "description": "src.models.room_block",
+        "isExtraImport": true,
+        "detail": "src.models.room_block",
+        "documentation": {}
+    },
+    {
+        "label": "RoomBlock",
+        "importPath": "src.models.room_block",
+        "description": "src.models.room_block",
+        "isExtraImport": true,
+        "detail": "src.models.room_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateRoomBlockRequest",
+        "importPath": "src.models.room_block",
+        "description": "src.models.room_block",
+        "isExtraImport": true,
+        "detail": "src.models.room_block",
+        "documentation": {}
+    },
+    {
+        "label": "SectionTeacher",
+        "importPath": "src.models.section_teacher",
+        "description": "src.models.section_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.section_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionTeacherRequest",
+        "importPath": "src.models.section_teacher",
+        "description": "src.models.section_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.section_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "SectionWeeks",
+        "importPath": "src.models.section_weeks",
+        "description": "src.models.section_weeks",
+        "isExtraImport": true,
+        "detail": "src.models.section_weeks",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionWeeksRequest",
+        "importPath": "src.models.section_weeks",
+        "description": "src.models.section_weeks",
+        "isExtraImport": true,
+        "detail": "src.models.section_weeks",
+        "documentation": {}
+    },
+    {
+        "label": "SectionWeeks",
+        "importPath": "src.models.section_weeks",
+        "description": "src.models.section_weeks",
+        "isExtraImport": true,
+        "detail": "src.models.section_weeks",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionWeeksRequest",
+        "importPath": "src.models.section_weeks",
+        "description": "src.models.section_weeks",
+        "isExtraImport": true,
+        "detail": "src.models.section_weeks",
+        "documentation": {}
+    },
+    {
+        "label": "Section",
+        "importPath": "src.models.section",
+        "description": "src.models.section",
+        "isExtraImport": true,
+        "detail": "src.models.section",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionRequest",
+        "importPath": "src.models.section",
+        "description": "src.models.section",
+        "isExtraImport": true,
+        "detail": "src.models.section",
+        "documentation": {}
+    },
+    {
+        "label": "Section",
+        "importPath": "src.models.section",
+        "description": "src.models.section",
+        "isExtraImport": true,
+        "detail": "src.models.section",
+        "documentation": {}
+    },
+    {
+        "label": "CreateSectionRequest",
+        "importPath": "src.models.section",
+        "description": "src.models.section",
+        "isExtraImport": true,
+        "detail": "src.models.section",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherTime",
+        "importPath": "src.models.teacher_time",
+        "description": "src.models.teacher_time",
+        "isExtraImport": true,
+        "detail": "src.models.teacher_time",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherTimeRequest",
+        "importPath": "src.models.teacher_time",
+        "description": "src.models.teacher_time",
+        "isExtraImport": true,
+        "detail": "src.models.teacher_time",
+        "documentation": {}
+    },
+    {
+        "label": "TeacherTime",
+        "importPath": "src.models.teacher_time",
+        "description": "src.models.teacher_time",
+        "isExtraImport": true,
+        "detail": "src.models.teacher_time",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTeacherTimeRequest",
+        "importPath": "src.models.teacher_time",
+        "description": "src.models.teacher_time",
+        "isExtraImport": true,
+        "detail": "src.models.teacher_time",
         "documentation": {}
     },
     {
@@ -1096,11 +1722,51 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "TimeBlock",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTimeBlockRequest",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
+        "isExtraImport": true,
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "TimeBlock",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
+        "isExtraImport": true,
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "CreateTimeBlockRequest",
+        "importPath": "src.models.time_block",
+        "description": "src.models.time_block",
+        "isExtraImport": true,
+        "detail": "src.models.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Week",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
+        "isExtraImport": true,
+        "detail": "src.models.week",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeekRequest",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
+        "isExtraImport": true,
+        "detail": "src.models.week",
         "documentation": {}
     },
     {
@@ -1224,7 +1890,7 @@
         "documentation": {}
     },
     {
-        "label": "Session",
+        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -1369,6 +2035,46 @@
     },
     {
         "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -1528,6 +2234,30 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -1673,6 +2403,30 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1800,67 +2554,19 @@
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
-        "importPath": "src.models.campus",
-        "description": "src.models.campus",
+        "label": "AcademicPeriodService",
+        "importPath": "src.services.academic_period",
+        "description": "src.services.academic_period",
         "isExtraImport": true,
-        "detail": "src.models.campus",
+        "detail": "src.services.academic_period",
         "documentation": {}
     },
     {
-        "label": "Sede",
-        "importPath": "src.models.campus",
-        "description": "src.models.campus",
-        "isExtraImport": true,
-        "detail": "src.models.campus",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSedeRequest",
-        "importPath": "src.models.campus",
-        "description": "src.models.campus",
-        "isExtraImport": true,
-        "detail": "src.models.campus",
-        "documentation": {}
-    },
-    {
-        "label": "SedeService",
+        "label": "CampusService",
         "importPath": "src.services.campus",
         "description": "src.services.campus",
         "isExtraImport": true,
         "detail": "src.services.campus",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerRequest",
-        "importPath": "src.models.career",
-        "description": "src.models.career",
-        "isExtraImport": true,
-        "detail": "src.models.career",
-        "documentation": {}
-    },
-    {
-        "label": "Career",
-        "importPath": "src.models.career",
-        "description": "src.models.career",
-        "isExtraImport": true,
-        "detail": "src.models.career",
-        "documentation": {}
-    },
-    {
-        "label": "Career",
-        "importPath": "src.models.career",
-        "description": "src.models.career",
-        "isExtraImport": true,
-        "detail": "src.models.career",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerRequest",
-        "importPath": "src.models.career",
-        "description": "src.models.career",
-        "isExtraImport": true,
-        "detail": "src.models.career",
         "documentation": {}
     },
     {
@@ -1872,59 +2578,11 @@
         "documentation": {}
     },
     {
-        "label": "CreateCareerCampusRequest",
-        "importPath": "src.models.career_campus",
-        "description": "src.models.career_campus",
-        "isExtraImport": true,
-        "detail": "src.models.career_campus",
-        "documentation": {}
-    },
-    {
-        "label": "Career_Campus",
-        "importPath": "src.models.career_campus",
-        "description": "src.models.career_campus",
-        "isExtraImport": true,
-        "detail": "src.models.career_campus",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerCampusRequest",
-        "importPath": "src.models.career_campus",
-        "description": "src.models.career_campus",
-        "isExtraImport": true,
-        "detail": "src.models.career_campus",
-        "documentation": {}
-    },
-    {
         "label": "CareerCampusService",
         "importPath": "src.services.career_campus",
         "description": "src.services.career_campus",
         "isExtraImport": true,
         "detail": "src.services.career_campus",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerPeriodRequest",
-        "importPath": "src.models.career_period",
-        "description": "src.models.career_period",
-        "isExtraImport": true,
-        "detail": "src.models.career_period",
-        "documentation": {}
-    },
-    {
-        "label": "Career_Period",
-        "importPath": "src.models.career_period",
-        "description": "src.models.career_period",
-        "isExtraImport": true,
-        "detail": "src.models.career_period",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCareerPeriodRequest",
-        "importPath": "src.models.career_period",
-        "description": "src.models.career_period",
-        "isExtraImport": true,
-        "detail": "src.models.career_period",
         "documentation": {}
     },
     {
@@ -1936,131 +2594,11 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Type",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "TypeVar",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Generic",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Classroom",
-        "importPath": "src.models.classroom",
-        "description": "src.models.classroom",
-        "isExtraImport": true,
-        "detail": "src.models.classroom",
-        "documentation": {}
-    },
-    {
-        "label": "CreateClassroomRequest",
-        "importPath": "src.models.classroom",
-        "description": "src.models.classroom",
-        "isExtraImport": true,
-        "detail": "src.models.classroom",
-        "documentation": {}
-    },
-    {
-        "label": "Classroom",
-        "importPath": "src.models.classroom",
-        "description": "src.models.classroom",
-        "isExtraImport": true,
-        "detail": "src.models.classroom",
-        "documentation": {}
-    },
-    {
-        "label": "CreateClassroomRequest",
-        "importPath": "src.models.classroom",
-        "description": "src.models.classroom",
-        "isExtraImport": true,
-        "detail": "src.models.classroom",
-        "documentation": {}
-    },
-    {
         "label": "ClassroomService",
         "importPath": "src.services.classroom",
         "description": "src.services.classroom",
         "isExtraImport": true,
         "detail": "src.services.classroom",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCourseRequest",
-        "importPath": "src.models.course",
-        "description": "src.models.course",
-        "isExtraImport": true,
-        "detail": "src.models.course",
-        "documentation": {}
-    },
-    {
-        "label": "Course",
-        "importPath": "src.models.course",
-        "description": "src.models.course",
-        "isExtraImport": true,
-        "detail": "src.models.course",
-        "documentation": {}
-    },
-    {
-        "label": "CreateCourseRequest",
-        "importPath": "src.models.course",
-        "description": "src.models.course",
-        "isExtraImport": true,
-        "detail": "src.models.course",
         "documentation": {}
     },
     {
@@ -2072,59 +2610,11 @@
         "documentation": {}
     },
     {
-        "label": "CreateModalityRequest",
-        "importPath": "src.models.modality",
-        "description": "src.models.modality",
-        "isExtraImport": true,
-        "detail": "src.models.modality",
-        "documentation": {}
-    },
-    {
-        "label": "Modality",
-        "importPath": "src.models.modality",
-        "description": "src.models.modality",
-        "isExtraImport": true,
-        "detail": "src.models.modality",
-        "documentation": {}
-    },
-    {
-        "label": "CreateModalityRequest",
-        "importPath": "src.models.modality",
-        "description": "src.models.modality",
-        "isExtraImport": true,
-        "detail": "src.models.modality",
-        "documentation": {}
-    },
-    {
         "label": "ModalityService",
         "importPath": "src.services.modality",
         "description": "src.services.modality",
         "isExtraImport": true,
         "detail": "src.services.modality",
-        "documentation": {}
-    },
-    {
-        "label": "CreateRoomBlockRequest",
-        "importPath": "src.models.room_block",
-        "description": "src.models.room_block",
-        "isExtraImport": true,
-        "detail": "src.models.room_block",
-        "documentation": {}
-    },
-    {
-        "label": "RoomBlock",
-        "importPath": "src.models.room_block",
-        "description": "src.models.room_block",
-        "isExtraImport": true,
-        "detail": "src.models.room_block",
-        "documentation": {}
-    },
-    {
-        "label": "CreateRoomBlockRequest",
-        "importPath": "src.models.room_block",
-        "description": "src.models.room_block",
-        "isExtraImport": true,
-        "detail": "src.models.room_block",
         "documentation": {}
     },
     {
@@ -2136,30 +2626,6 @@
         "documentation": {}
     },
     {
-        "label": "CreateSectionRequest",
-        "importPath": "src.models.section",
-        "description": "src.models.section",
-        "isExtraImport": true,
-        "detail": "src.models.section",
-        "documentation": {}
-    },
-    {
-        "label": "Section",
-        "importPath": "src.models.section",
-        "description": "src.models.section",
-        "isExtraImport": true,
-        "detail": "src.models.section",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSectionRequest",
-        "importPath": "src.models.section",
-        "description": "src.models.section",
-        "isExtraImport": true,
-        "detail": "src.models.section",
-        "documentation": {}
-    },
-    {
         "label": "SectionService",
         "importPath": "src.services.section",
         "description": "src.services.section",
@@ -2168,35 +2634,11 @@
         "documentation": {}
     },
     {
-        "label": "TeacherSectionService",
+        "label": "SectionTeacherService",
         "importPath": "src.services.section_teacher",
         "description": "src.services.section_teacher",
         "isExtraImport": true,
         "detail": "src.services.section_teacher",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSectionWeeksRequest",
-        "importPath": "src.models.section_weeks",
-        "description": "src.models.section_weeks",
-        "isExtraImport": true,
-        "detail": "src.models.section_weeks",
-        "documentation": {}
-    },
-    {
-        "label": "SectionWeeks",
-        "importPath": "src.models.section_weeks",
-        "description": "src.models.section_weeks",
-        "isExtraImport": true,
-        "detail": "src.models.section_weeks",
-        "documentation": {}
-    },
-    {
-        "label": "CreateSectionWeeksRequest",
-        "importPath": "src.models.section_weeks",
-        "description": "src.models.section_weeks",
-        "isExtraImport": true,
-        "detail": "src.models.section_weeks",
         "documentation": {}
     },
     {
@@ -2216,30 +2658,6 @@
         "documentation": {}
     },
     {
-        "label": "CreateTeacherTimeRequest",
-        "importPath": "src.models.teacher_time",
-        "description": "src.models.teacher_time",
-        "isExtraImport": true,
-        "detail": "src.models.teacher_time",
-        "documentation": {}
-    },
-    {
-        "label": "TeacherTime",
-        "importPath": "src.models.teacher_time",
-        "description": "src.models.teacher_time",
-        "isExtraImport": true,
-        "detail": "src.models.teacher_time",
-        "documentation": {}
-    },
-    {
-        "label": "CreateTeacherTimeRequest",
-        "importPath": "src.models.teacher_time",
-        "description": "src.models.teacher_time",
-        "isExtraImport": true,
-        "detail": "src.models.teacher_time",
-        "documentation": {}
-    },
-    {
         "label": "TeacherTimeService",
         "importPath": "src.services.teacher_time",
         "description": "src.services.teacher_time",
@@ -2256,11 +2674,11 @@
         "documentation": {}
     },
     {
-        "label": "CreateSectionTeacherRequest",
-        "importPath": "src.models.section_teacher",
-        "description": "src.models.section_teacher",
+        "label": "WeekService",
+        "importPath": "src.services.week",
+        "description": "src.services.week",
         "isExtraImport": true,
-        "detail": "src.models.section_teacher",
+        "detail": "src.services.week",
         "documentation": {}
     },
     {
@@ -2277,54 +2695,22 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "Hours",
-        "importPath": "src.models.hours",
-        "description": "src.models.hours",
-        "isExtraImport": true,
-        "detail": "src.models.hours",
-        "documentation": {}
-    },
-    {
-        "label": "CreateHoursRequest",
-        "importPath": "src.models.hours",
-        "description": "src.models.hours",
-        "isExtraImport": true,
-        "detail": "src.models.hours",
         "documentation": {}
     },
     {
         "label": "Weeks",
-        "importPath": "src.models.weeks",
-        "description": "src.models.weeks",
+        "importPath": "models.week",
+        "description": "models.week",
         "isExtraImport": true,
-        "detail": "src.models.weeks",
+        "detail": "models.week",
         "documentation": {}
     },
     {
         "label": "CreateWeeksRequest",
-        "importPath": "src.models.weeks",
-        "description": "src.models.weeks",
+        "importPath": "models.week",
+        "description": "models.week",
         "isExtraImport": true,
-        "detail": "src.models.weeks",
-        "documentation": {}
-    },
-    {
-        "label": "AcademicPeriod",
-        "importPath": "src.models.academic_period",
-        "description": "src.models.academic_period",
-        "isExtraImport": true,
-        "detail": "src.models.academic_period",
-        "documentation": {}
-    },
-    {
-        "label": "CreateAcademicPeriodRequest",
-        "importPath": "src.models.academic_period",
-        "description": "src.models.academic_period",
-        "isExtraImport": true,
-        "detail": "src.models.academic_period",
+        "detail": "models.week",
         "documentation": {}
     },
     {
@@ -2497,11 +2883,29 @@
         "documentation": {}
     },
     {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.ad20255a4062_first_migración",
+        "description": "alembic.versions.ad20255a4062_first_migración",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('academic_period',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(), nullable=True),\n    sa.Column('year', sa.Integer(), nullable=True),\n    sa.Column('number', sa.Integer(), nullable=True),\n    sa.Column('actual', sa.Boolean(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "alembic.versions.ad20255a4062_first_migración",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.ad20255a4062_first_migración",
+        "description": "alembic.versions.ad20255a4062_first_migración",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_teacher_time_time_block_id'), table_name='teacher_time')\n    op.drop_index(op.f('ix_teacher_time_teacher_id'), table_name='teacher_time')\n    op.drop_index(op.f('ix_teacher_time_id'), table_name='teacher_time')\n    op.drop_index(op.f('ix_teacher_time_academic_period_id'), table_name='teacher_time')\n    op.drop_table('teacher_time')\n    op.drop_index(op.f('ix_section_weeks_week_id'), table_name='section_weeks')\n    op.drop_index(op.f('ix_section_weeks_section_id'), table_name='section_weeks')\n    op.drop_index(op.f('ix_section_weeks_id'), table_name='section_weeks')",
+        "detail": "alembic.versions.ad20255a4062_first_migración",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_offline",
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Ejecuta las migraciones en modo offline.\"\"\"\n    context.configure(\n        url=DATABASE_URL,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():\n        context.run_migrations()",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2510,7 +2914,16 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Ejecuta las migraciones en modo online.\"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(connection=connection, target_metadata=target_metadata)\n        with context.begin_transaction():",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"URL_DATABASE\")\nif DATABASE_URL is None:\n    raise ValueError(\n        \"La variable de entorno URL_DATABASE no está definida en el archivo .env\"\n    )\n# Obtener configuración de Alembic\nconfig = context.config\nconfig.set_main_option(\"sqlalchemy.url\", DATABASE_URL)\n# Configurar logging si se define en alembic.ini\nif config.config_file_name is not None:",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2519,7 +2932,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "peekOfCode": "config = context.config\nconfig.set_main_option(\"sqlalchemy.url\", DATABASE_URL)\n# Configurar logging si se define en alembic.ini\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Metadata para autogeneración de migraciones\ntarget_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Ejecuta las migraciones en modo offline.\"\"\"\n    context.configure(",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2528,7 +2941,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Ejecuta las migraciones en modo offline.\"\"\"\n    context.configure(\n        url=DATABASE_URL,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -2551,20 +2964,20 @@
         "documentation": {}
     },
     {
-        "label": "Sede",
+        "label": "Campus",
         "kind": 6,
         "importPath": "src.models.campus",
         "description": "src.models.campus",
-        "peekOfCode": "class Sede(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index=True)  # Ejemplo: \"PUERTO ORDAZ\"\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"campus\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
+        "peekOfCode": "class Campus(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index=True)  # Ejemplo: \"PUERTO ORDAZ\"\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"campus\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
         "detail": "src.models.campus",
         "documentation": {}
     },
     {
-        "label": "CreateSedeRequest",
+        "label": "CreateCampusRequest",
         "kind": 6,
         "importPath": "src.models.campus",
         "description": "src.models.campus",
-        "peekOfCode": "class CreateSedeRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\"name\": \"UNEG VILLA ASIA\", \"location\": \"PUERTO ORDAZ\"},\n            ]",
+        "peekOfCode": "class CreateCampusRequest(BaseModel):  # Modelo para validación y entrada\n    name: str\n    location: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\"name\": \"UNEG VILLA ASIA\", \"location\": \"PUERTO ORDAZ\"},\n            ]",
         "detail": "src.models.campus",
         "documentation": {}
     },
@@ -2587,11 +3000,11 @@
         "documentation": {}
     },
     {
-        "label": "Career_Campus",
+        "label": "CareerCampus",
         "kind": 6,
         "importPath": "src.models.career_campus",
         "description": "src.models.career_campus",
-        "peekOfCode": "class Career_Campus(Base):\n    __tablename__ = \"career_campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"career.id\"), index=True)\n    campus_id = Column(Integer, ForeignKey(\"campus.id\"), index=True)\n    # Relaciones (Opcional)\n    career = relationship(\"Career\", back_populates=\"career_campuses\")\n    campus = relationship(\"Campus\", back_populates=\"career_campuses\")\nclass CreateCareerCampusRequest(BaseModel):\n    career_id: int",
+        "peekOfCode": "class CareerCampus(Base):\n    __tablename__ = \"career_campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    campus_id = Column(Integer, ForeignKey(\"campus.id\"), index=True)\n    # Relaciones (Opcional)\n    career = relationship(\"Career\", back_populates=\"career_campuses\")\n    campus = relationship(\"Campus\", back_populates=\"career_campuses\")\nclass CreateCareerCampusRequest(BaseModel):\n    career_id: int",
         "detail": "src.models.career_campus",
         "documentation": {}
     },
@@ -2605,11 +3018,11 @@
         "documentation": {}
     },
     {
-        "label": "Career_Period",
+        "label": "CareerPeriod",
         "kind": 6,
         "importPath": "src.models.career_period",
         "description": "src.models.career_period",
-        "peekOfCode": "class Career_Period(Base):\n    __tablename__ = \"career_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"career.id\"), index=True)\n    period_id = Column(Integer, ForeignKey(\"period.id\"), index=True)\n    schedule_generated = Column(Boolean, default=False)\n    # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)\n    career = relationship(\"Career\", back_populates=\"career_periods\")\n    period = relationship(\"Period\", back_populates=\"career_periods\")\n    model_config = {",
+        "peekOfCode": "class CareerPeriod(Base):\n    __tablename__ = \"career_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    schedule_generated = Column(Boolean, default=False)\n    # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)\n    career = relationship(\"Career\", back_populates=\"career_periods\")\n    period = relationship(\"Period\", back_populates=\"career_periods\")\n    model_config = {",
         "detail": "src.models.career_period",
         "documentation": {}
     },
@@ -2645,7 +3058,7 @@
         "kind": 6,
         "importPath": "src.models.course",
         "description": "src.models.course",
-        "peekOfCode": "class Course(Base):\n    __tablename__ = \"courses\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(String, index=True)  \n    name = Column(String, index=True)\n    active = Column(Boolean, index=True)\n    at_laboratory = Column(Boolean, index=True)\n    sections = relationship(\"Section\", back_populates=\"course\")\n    # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)\n    __example__ = {",
+        "peekOfCode": "class Course(Base):\n    __tablename__ = \"courses\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    name = Column(String, index=True)\n    active = Column(Boolean, index=True)\n    at_laboratory = Column(Boolean, index=True)\n    sections = relationship(\"Section\", back_populates=\"course\")\n    # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)\n    __example__ = {",
         "detail": "src.models.course",
         "documentation": {}
     },
@@ -2654,7 +3067,7 @@
         "kind": 6,
         "importPath": "src.models.course",
         "description": "src.models.course",
-        "peekOfCode": "class CreateCourseRequest(BaseModel):  # Modelo para validación y entrada\n    career_id : int\n    name: str\n    active: bool\n    at_laboratory: bool\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
+        "peekOfCode": "class CreateCourseRequest(BaseModel):  # Modelo para validación y entrada\n    career_id: int\n    name: str\n    active: bool\n    at_laboratory: bool\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [",
         "detail": "src.models.course",
         "documentation": {}
     },
@@ -2699,7 +3112,7 @@
         "kind": 6,
         "importPath": "src.models.room_block",
         "description": "src.models.room_block",
-        "peekOfCode": "class RoomBlock(Base):\n    __tablename__ = \"room_blocks\"\n    id = Column(Integer, primary_key=True, index=True)  # Identificador único\n    block_id = Column(Integer, ForeignKey(\"block_class.id\"), index=True)  # Relación con la tabla \"bloque_clases\"\n    room_id = Column(Integer, ForeignKey(\"rooms.id\"), index=True)  # Relación con la tabla \"salones\n    available = Column(Boolean, default=True)  # Indica si está disponible\n    # Relaciones con otras tablas\n    block = relationship(\"BlockClass\", back_populates=\"room_blocks\")\n    room = relationship(\"Room\", back_populates=\"room_blocks\")\n    # Configuración para generar ejemplos JSON",
+        "peekOfCode": "class RoomBlock(Base):\n    __tablename__ = \"room_blocks\"\n    id = Column(Integer, primary_key=True, index=True)  # Identificador único\n    block_id = Column(\n        Integer, ForeignKey(\"time_blocks.id\"), index=True\n    )  # Relación con la tabla \"bloque_clases\"\n    room_id = Column(\n        Integer, ForeignKey(\"classrooms.id\"), index=True\n    )  # Relación con la tabla \"salones\n    available = Column(Boolean, default=True)  # Indica si está disponible",
         "detail": "src.models.room_block",
         "documentation": {}
     },
@@ -2717,7 +3130,7 @@
         "kind": 6,
         "importPath": "src.models.section",
         "description": "src.models.section",
-        "peekOfCode": "class Section(Base):\n    __tablename__ = \"sections\"\n    id = Column(Integer, primary_key=True, index=True)\n    course_id = Column(Integer, ForeignKey(\"course.id\"), index=True)\n    modality_id = Column(Integer, ForeignKey(\"modality.id\"), index=True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    name = Column(Integer, index=True)\n    # Relaciones\n    course = relationship(\"Course\", back_populates=\"sections\")\n    modality = relationship(\"Modality\", back_populates=\"sections\")",
+        "peekOfCode": "class Section(Base):\n    __tablename__ = \"sections\"\n    id = Column(Integer, primary_key=True, index=True)\n    course_id = Column(Integer, ForeignKey(\"courses.id\"), index=True)\n    modality_id = Column(Integer, ForeignKey(\"modality.id\"), index=True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    name = Column(Integer, index=True)\n    # Relaciones\n    course = relationship(\"Course\", back_populates=\"sections\")\n    modality = relationship(\"Modality\", back_populates=\"sections\")",
         "detail": "src.models.section",
         "documentation": {}
     },
@@ -2731,11 +3144,11 @@
         "documentation": {}
     },
     {
-        "label": "Teacher_Section",
+        "label": "SectionTeacher",
         "kind": 6,
         "importPath": "src.models.section_teacher",
         "description": "src.models.section_teacher",
-        "peekOfCode": "class Teacher_Section(Base):\n    __tablename__ = \"section_teacher\"\n    id = Column(Integer, primary_key=True, index=True)\n    section_id = Column(Integer, ForeignKey(\"section.id\"), index=True)\n    teacher_id = Column(Integer, ForeignKey(\"teacher.id\"), index=True)\n    assigned_hours = Column(Integer, index=True)\n    # Relaciones\n    section = relationship(\"Section\", back_populates=\"teacher_section\")\n    teacher = relationship(\"Teacher\", back_populates=\"teacher_section\")\n    model_config = {",
+        "peekOfCode": "class SectionTeacher(Base):\n    __tablename__ = \"section_teacher\"\n    id = Column(Integer, primary_key=True, index=True)\n    section_id = Column(Integer, ForeignKey(\"sections.id\"), index=True)\n    teacher_id = Column(Integer, ForeignKey(\"teachers.id\"), index=True)\n    assigned_hours = Column(Integer, index=True)\n    # Relaciones\n    section = relationship(\"Section\", back_populates=\"teacher_section\")\n    teacher = relationship(\"Teacher\", back_populates=\"teacher_section\")\n    model_config = {",
         "detail": "src.models.section_teacher",
         "documentation": {}
     },
@@ -2789,7 +3202,7 @@
         "kind": 6,
         "importPath": "src.models.teacher_time",
         "description": "src.models.teacher_time",
-        "peekOfCode": "class TeacherTime(Base):\n    __tablename__ = \"teacher_time\"\n    id = Column(Integer, primary_key=True, index=True)\n    teacher_id = Column(Integer, ForeignKey(\"teacher.id\"), index=True)\n    time_block_id = Column(Integer, ForeignKey(\"time_block.id\"), index=True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    available = Column(Boolean, default=True)\n    teacher = relationship(\"Teacher\", back_populates=\"teacher_times\")\n    time_block = relationship(\"TimeBlock\", back_populates=\"teacher_times\")\n    academic_period = relationship(\"AcademicPeriod\", back_populates=\"teacher_times\")",
+        "peekOfCode": "class TeacherTime(Base):\n    __tablename__ = \"teacher_time\"\n    id = Column(Integer, primary_key=True, index=True)\n    teacher_id = Column(Integer, ForeignKey(\"teachers.id\"), index=True)\n    time_block_id = Column(Integer, ForeignKey(\"time_blocks.id\"), index=True)\n    academic_period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    available = Column(Boolean, default=True)\n    teacher = relationship(\"Teacher\", back_populates=\"teacher_times\")\n    time_block = relationship(\"TimeBlock\", back_populates=\"teacher_times\")\n    academic_period = relationship(\"AcademicPeriod\", back_populates=\"teacher_times\")",
         "detail": "src.models.teacher_time",
         "documentation": {}
     },
@@ -2821,21 +3234,30 @@
         "documentation": {}
     },
     {
-        "label": "Weeks",
+        "label": "Week",
         "kind": 6,
-        "importPath": "src.models.weeks",
-        "description": "src.models.weeks",
-        "peekOfCode": "class Weeks(Base):\n    __tablename__ = \"weeks\"\n    id = Column(Integer, primary_key = True, index = True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index = True)\n    number = Column(Integer, index = True)\n    academic_period = relationship(\"AcademicPeriod\", back_populates = \"week\")\n    time_block = relationship(\"TimeBlock\", back_populates = \"week\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
-        "detail": "src.models.weeks",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
+        "peekOfCode": "class Week(Base):\n    __tablename__ = \"weeks\"\n    id = Column(Integer, primary_key=True, index=True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    number = Column(Integer, index=True)\n    academic_period = relationship(\"AcademicPeriod\", back_populates=\"week\")\n    time_block = relationship(\"TimeBlock\", back_populates=\"week\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.week",
         "documentation": {}
     },
     {
-        "label": "CreateWeeksRequest",
+        "label": "CreateWeekRequest",
         "kind": 6,
-        "importPath": "src.models.weeks",
-        "description": "src.models.weeks",
-        "peekOfCode": "class CreateWeeksRequest(BaseModel):\n    period_id : Integer\n    number : Integer\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"period_id\": \"null\",",
-        "detail": "src.models.weeks",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
+        "peekOfCode": "class CreateWeekRequest(BaseModel):\n    period_id: Integer\n    number: Integer\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"period_id\": \"null\",",
+        "detail": "src.models.week",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.academic_period",
+        "description": "src.routers.academic_period",
+        "peekOfCode": "router = APIRouter(prefix=\"/academic_period\", tags=[\"Academic Period\"])\n@router.post(\"\")\nasync def create_academic_period(\n    academic_period_request: CreateAcademicPeriodRequest, db: Session = Depends(get_db)\n):\n    academic_period_service = AcademicPeriodService(db)\n    return academic_period_service.create_academic_period(academic_period_request)\n@router.get(\"\")\nasync def get_all_academic_periods(db: Session = Depends(get_db)):\n    academic_period_service = AcademicPeriodService(db)",
+        "detail": "src.routers.academic_period",
         "documentation": {}
     },
     {
@@ -2843,7 +3265,7 @@
         "kind": 5,
         "importPath": "src.routers.campus",
         "description": "src.routers.campus",
-        "peekOfCode": "sede_service = SedeService\nrouter = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():",
+        "peekOfCode": "sede_service = CampusService\nrouter = APIRouter(prefix=\"/sede\", tags=[\"Sede\"])\n@router.post(\"\")\nasync def create_sede(sede_request: CreateCampusRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes\n@router.get(\"/{sede_id}\")\nasync def get_sede_by_id(sede_id: int):",
         "detail": "src.routers.campus",
         "documentation": {}
     },
@@ -2852,7 +3274,7 @@
         "kind": 5,
         "importPath": "src.routers.campus",
         "description": "src.routers.campus",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/sede\",  \n    tags=[\"Sede\"] \n)\n@router.post(\"\")\nasync def create_sede(sede_request: CreateSedeRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes",
+        "peekOfCode": "router = APIRouter(prefix=\"/sede\", tags=[\"Sede\"])\n@router.post(\"\")\nasync def create_sede(sede_request: CreateCampusRequest):\n    return sede_service.create_sede(sede_request)\n@router.get(\"\")\nasync def get_all_sedes():\n    return sede_service.get_all_sedes\n@router.get(\"/{sede_id}\")\nasync def get_sede_by_id(sede_id: int):\n    return sede_service.get_sede_by_id(sede_id)",
         "detail": "src.routers.campus",
         "documentation": {}
     },
@@ -3032,7 +3454,7 @@
         "kind": 5,
         "importPath": "src.routers.section_teacher",
         "description": "src.routers.section_teacher",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher_section\",  # Prefijo más descriptivo\n    tags=[\"Teacher Section\"],  # Tag actualizado\n)\n@router.post(\"\")\nasync def create_teacher_section(\n    teacher_section_request: CreateTeacherRequest, db: Session = Depends(get_db)\n):\n    teacher_section_service = TeacherSectionService(\n        db",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher_section\",  # Prefijo más descriptivo\n    tags=[\"Teacher Section\"],  # Tag actualizado\n)\n@router.post(\"\")\nasync def create_teacher_section(\n    teacher_section_request: CreateTeacherRequest, db: Session = Depends(get_db)\n):\n    teacher_section_service = SectionTeacherService(\n        db",
         "detail": "src.routers.section_teacher",
         "documentation": {}
     },
@@ -3100,11 +3522,29 @@
         "documentation": {}
     },
     {
-        "label": "SedeService",
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.week",
+        "description": "src.routers.week",
+        "peekOfCode": "router = APIRouter(prefix=\"/week\", tags=[\"Week\"])\n@router.post(\"\")\nasync def create_week(week_request: CreateWeekRequest, db: Session = Depends(get_db)):\n    week_service = WeekService(db)\n    return week_service.create_week(week_request)\n@router.get(\"\")\nasync def get_all_weeks(db: Session = Depends(get_db)):\n    week_service = WeekService(db)\n    return week_service.get_all_weeks()\n@router.get(\"/{week_id}\")",
+        "detail": "src.routers.week",
+        "documentation": {}
+    },
+    {
+        "label": "AcademicPeriodService",
+        "kind": 6,
+        "importPath": "src.services.academic_period",
+        "description": "src.services.academic_period",
+        "peekOfCode": "class AcademicPeriodService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(\n            db=db_session, model=AcademicPeriod\n        )\n    def get_all_academic_periods(self):\n        return self.repository.get_all()\n    def get_academic_period_by_id(self, academic_period_id: int):\n        academic_period = self.repository.get(academic_period_id)\n        if not academic_period:",
+        "detail": "src.services.academic_period",
+        "documentation": {}
+    },
+    {
+        "label": "CampusService",
         "kind": 6,
         "importPath": "src.services.campus",
         "description": "src.services.campus",
-        "peekOfCode": "class SedeService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Sede y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)\n    def get_all_sedes(self):\n        \"\"\"Obtiene todas las sedes.\"\"\"\n        return self.repository.get_all()\n    def get_sede_by_id(self, sede_id: int):\n        \"\"\"Obtiene una sede por ID.\"\"\"\n        sede = self.repository.get(sede_id)",
+        "peekOfCode": "class CampusService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo Campus y la sesión actual\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Campus)\n    def get_all_campuses(self):\n        \"\"\"Obtiene todas las Campuss.\"\"\"\n        return self.repository.get_all()\n    def get_campus_by_id(self, Campus_id: int):\n        \"\"\"Obtiene una Campus por ID.\"\"\"\n        Campus = self.repository.get(Campus_id)",
         "detail": "src.services.campus",
         "documentation": {}
     },
@@ -3122,7 +3562,7 @@
         "kind": 6,
         "importPath": "src.services.career_campus",
         "description": "src.services.career_campus",
-        "peekOfCode": "class CareerCampusService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career_Campus)\n    def get_all_career_campuses(self):\n        return self.repository.get_all()\n    def get_career_campus_by_id(self, career_campus_id: int):\n        career_campus = self.repository.get(career_campus_id)\n        if not career_campus:\n            raise HTTPException(\n                status_code=404,",
+        "peekOfCode": "class CareerCampusService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerCampus)\n    def get_all_career_campuses(self):\n        return self.repository.get_all()\n    def get_career_campus_by_id(self, career_campus_id: int):\n        career_campus = self.repository.get(career_campus_id)\n        if not career_campus:\n            raise HTTPException(\n                status_code=404,",
         "detail": "src.services.career_campus",
         "documentation": {}
     },
@@ -3131,7 +3571,7 @@
         "kind": 6,
         "importPath": "src.services.career_period",
         "description": "src.services.career_period",
-        "peekOfCode": "class CareerPeriodService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Career_Period)\n    def get_all_career_periods(self):\n        return self.repository.get_all()\n    def get_career_period_by_id(self, career_period_id: int):\n        career_period = self.repository.get(career_period_id)\n        if not career_period:\n            raise HTTPException(\n                status_code=404,",
+        "peekOfCode": "class CareerPeriodService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerPeriod)\n    def get_all_career_periods(self):\n        return self.repository.get_all()\n    def get_career_period_by_id(self, career_period_id: int):\n        career_period = self.repository.get(career_period_id)\n        if not career_period:\n            raise HTTPException(\n                status_code=404,",
         "detail": "src.services.career_period",
         "documentation": {}
     },
@@ -3181,11 +3621,11 @@
         "documentation": {}
     },
     {
-        "label": "TeacherSectionService",
+        "label": "SectionTeacherService",
         "kind": 6,
         "importPath": "src.services.section_teacher",
         "description": "src.services.section_teacher",
-        "peekOfCode": "class TeacherSectionService:  # Nombre más descriptivo\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(\n            db=db_session, model=CreateSectionTeacherRequest\n        )  # Usa el modelo Teacher_Section\n    def get_all_teacher_sections(self):\n        \"\"\"Obtiene todas las asignaciones de profesor-sección.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_section_by_id(self, teacher_section_id: int):\n        \"\"\"Obtiene una asignación profesor-sección por ID.\"\"\"",
+        "peekOfCode": "class SectionTeacherService:  # Nombre más descriptivo\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(\n            db=db_session, model=CreateSectionTeacherRequest\n        )  # Usa el modelo Teacher_Section\n    def get_all_teacher_sections(self):\n        \"\"\"Obtiene todas las asignaciones de profesor-sección.\"\"\"\n        return self.repository.get_all()\n    def get_teacher_section_by_id(self, teacher_section_id: int):\n        \"\"\"Obtiene una asignación profesor-sección por ID.\"\"\"",
         "detail": "src.services.section_teacher",
         "documentation": {}
     },
@@ -3221,8 +3661,26 @@
         "kind": 6,
         "importPath": "src.services.time_block",
         "description": "src.services.time_block",
-        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.db_session = db_session\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db = db_session, model = Weeks)\n        self.hours_repository = CustomSQLAlchemyRepository(db = db_session, model = Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(db = db_session, model = AcademicPeriod)\n    def get_all_time_blocks(self):\n        \"\"\"Obtiene todos los bloques de tiempo.\"\"\"",
+        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.db_session = db_session\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Weeks)\n        self.hours_repository = CustomSQLAlchemyRepository(db=db_session, model=Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(\n            db=db_session, model=AcademicPeriod\n        )",
         "detail": "src.services.time_block",
+        "documentation": {}
+    },
+    {
+        "label": "Week",
+        "kind": 6,
+        "importPath": "src.services.week",
+        "description": "src.services.week",
+        "peekOfCode": "class Week(Base):\n    __tablename__ = \"weeks\"\n    id = Column(Integer, primary_key=True, index=True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    number = Column(Integer, index=True)\n    academic_period = relationship(\"AcademicPeriod\", back_populates=\"week\")\n    time_block = relationship(\"TimeBlock\", back_populates=\"week\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.services.week",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeekRequest",
+        "kind": 6,
+        "importPath": "src.services.week",
+        "description": "src.services.week",
+        "peekOfCode": "class CreateWeekRequest(BaseModel):\n    period_id: Integer\n    number: Integer\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"period_id\": \"null\",",
+        "detail": "src.services.week",
         "documentation": {}
     },
     {

@@ -8,8 +8,8 @@ class TeacherTime(Base):
     __tablename__ = "teacher_time"
 
     id = Column(Integer, primary_key=True, index=True)
-    teacher_id = Column(Integer, ForeignKey("teacher.id"), index=True)
-    time_block_id = Column(Integer, ForeignKey("time_block.id"), index=True)
+    teacher_id = Column(Integer, ForeignKey("teachers.id"), index=True)
+    time_block_id = Column(Integer, ForeignKey("time_blocks.id"), index=True)
     academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     available = Column(Boolean, default=True)
 
