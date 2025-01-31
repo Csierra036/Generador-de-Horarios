@@ -6,7 +6,7 @@ from src.models.section_teacher import (
 )  # Importa los modelos correctos
 
 
-class TeacherSectionService:  # Nombre más descriptivo
+class SectionTeacherService:  # Nombre más descriptivo
     def __init__(self, db_session: Session):
         self.repository = CustomSQLAlchemyRepository(
             db=db_session, model=CreateSectionTeacherRequest

@@ -5,7 +5,7 @@ from datetime import datetime  # Si necesitas la clase estándar de Python
 from src.database import CustomSQLAlchemyRepository
 from src.models.time_block import TimeBlock, CreateTimeBlockRequest
 from src.models.hours import Hours, CreateHoursRequest
-from src.models.weeks import Weeks, CreateWeeksRequest
+from models.week import Weeks, CreateWeeksRequest
 from src.models.academic_period import AcademicPeriod, CreateAcademicPeriodRequest
 
 
@@ -14,10 +14,11 @@ class TimeBlockService:
         # Se instancia el repositorio con el modelo TimeBlock y la sesión actual
         self.db_session = db_session
         self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)
-        self.week_repository = CustomSQLAlchemyRepository(db = db_session, model = Weeks)
-        self.hours_repository = CustomSQLAlchemyRepository(db = db_session, model = Hours)
-        self.academic_period_repository = CustomSQLAlchemyRepository(db = db_session, model = AcademicPeriod)
-
+        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Weeks)
+        self.hours_repository = CustomSQLAlchemyRepository(db=db_session, model=Hours)
+        self.academic_period_repository = CustomSQLAlchemyRepository(
+            db=db_session, model=AcademicPeriod
+        )
 
     def get_all_time_blocks(self):
         """Obtiene todos los bloques de tiempo."""
@@ -27,13 +28,15 @@ class TimeBlockService:
         """Obtiene un bloque de tiempo por ID."""
         time_block = self.repository.get(time_block_id)
         if not time_block:
-            raise HTTPException(status_code=404, detail=f"TimeBlock with ID {time_block_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"TimeBlock with ID {time_block_id} not found"
+            )
         return time_block
 
     def create_time_block(self, time_block_data: CreateTimeBlockRequest):
         """Crea un nuevo bloque de tiempo."""
         return self.repository.create(time_block_data.model_dump())
-    
+
     def create_hours(self):
         """Crea todas las horas y las inserta si no estan en la BD"""
 
@@ -57,31 +60,36 @@ class TimeBlockService:
                 self.hours_repository.create(hour)
 
     def create_all_time_block(
-            self, 
-            num_time_block: Integer, 
-            start_num_time_block: Integer, 
-            day: Integer, 
-            week_id: Integer
-        ):
+        self,
+        num_time_block: Integer,
+        start_num_time_block: Integer,
+        day: Integer,
+        week_id: Integer,
+    ):
         """
-            Crea todos los bloques de tiempo segun ciertos parametros
+        Crea todos los bloques de tiempo segun ciertos parametros
 
-            @param num_time_block[Integer]: Numero de bloques de tiempo a insertar
-            @param start_num_time_block[Integer]: Numero de bloque de tiempo que comenzara
-            @day[Integer]: El dia que le pertenece al bloque de tiempo
-            @week_id[Integer]: El id de la semana que le corresponde al bloque de tiempo
+        @param num_time_block[Integer]: Numero de bloques de tiempo a insertar
+        @param start_num_time_block[Integer]: Numero de bloque de tiempo que comenzara
+        @day[Integer]: El dia que le pertenece al bloque de tiempo
+        @week_id[Integer]: El id de la semana que le corresponde al bloque de tiempo
         """
 
         if start_num_time_block < 1 or start_num_time_block > len(hours):
-            raise HTTPException(status_code=404, detail=f"start_num_time_block with ID {start_num_time_block} not found")
+            raise HTTPException(
+                status_code=404,
+                detail=f"start_num_time_block with ID {start_num_time_block} not found",
+            )
 
         if day < 1 or day > 7:
             raise HTTPException(status_code=404, detail="day with ID {day} not found")
 
         weeks = self.week_repository.get(week_id)
         if not weeks:
-            raise HTTPException(status_code=404, detail=f"Weeks with ID {week_id} not found")
-        
+            raise HTTPException(
+                status_code=404, detail=f"Weeks with ID {week_id} not found"
+            )
+
         self.create_hours()
         hours = self.hours_repository.get_all()
 
@@ -101,7 +109,9 @@ class TimeBlockService:
 
             existing_block = self.repository.get_all()
             if not any(
-                time_block.semana_id == week_id and time_block.day == day and time_block.hour_id == existing_hour.id
+                time_block.semana_id == week_id
+                and time_block.day == day
+                and time_block.hour_id == existing_hour.id
                 for time_block in existing_block
             ):
                 self.repository.create(
@@ -114,17 +124,22 @@ class TimeBlockService:
                     }
                 )
 
-
-    def update_time_block(self, time_block_id: int, time_block_data: CreateTimeBlockRequest):
+    def update_time_block(
+        self, time_block_id: int, time_block_data: CreateTimeBlockRequest
+    ):
         """Actualiza un bloque de tiempo existente."""
         time_block = self.repository.get(time_block_id)
         if not time_block:
-            raise HTTPException(status_code=404, detail=f"TimeBlock with ID {time_block_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"TimeBlock with ID {time_block_id} not found"
+            )
         return self.repository.update(time_block, time_block_data.model_dump())
 
     def delete_time_block(self, time_block_id: int):
         """Elimina un bloque de tiempo por ID."""
         time_block = self.repository.get(time_block_id)
         if not time_block:
-            raise HTTPException(status_code=404, detail=f"TimeBlock with ID {time_block_id} not found")
+            raise HTTPException(
+                status_code=404, detail=f"TimeBlock with ID {time_block_id} not found"
+            )
         return self.repository.delete(time_block_id)

@@ -1,39 +1,46 @@
 from fastapi import HTTPException
 from src.database import CustomSQLAlchemyRepository
 from sqlalchemy.orm import Session
-from src.models.campus import Sede, CreateSedeRequest
+from src.models.campus import Campus, CreateCampusRequest
 
-class SedeService:
+
+class CampusService:
     def __init__(self, db_session: Session):
-        # Se instancia el repositorio con el modelo Sede y la sesión actual
-        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Sede)
+        # Se instancia el repositorio con el modelo Campus y la sesión actual
+        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Campus)
 
-    def get_all_sedes(self):
-        """Obtiene todas las sedes."""
+    def get_all_campuses(self):
+        """Obtiene todas las Campuss."""
         return self.repository.get_all()
 
-    def get_sede_by_id(self, sede_id: int):
-        """Obtiene una sede por ID."""
-        sede = self.repository.get(sede_id)
-        if not sede:
-            raise HTTPException(status_code=404, detail=f"Sede with ID {sede_id} not found")
-        return sede
+    def get_campus_by_id(self, Campus_id: int):
+        """Obtiene una Campus por ID."""
+        Campus = self.repository.get(Campus_id)
+        if not Campus:
+            raise HTTPException(
+                status_code=404, detail=f"Campus with ID {Campus_id} not found"
+            )
+        return Campus
 
-    def create_sede(self, sede_data: CreateSedeRequest):
-        """Crea una nueva sede."""
+    def create_campus(self, Campus_data: CreateCampusRequest):
+        """Crea una nueva Campus."""
         # Se asegura de convertir los datos de entrada en un diccionario compatible
-        return self.repository.create(sede_data.dict())
+        return self.repository.create(Campus_data.dict())
 
-    def update_sede(self, sede_id: int, sede_data: CreateSedeRequest):
-        """Actualiza una sede existente."""
-        sede = self.repository.get(sede_id)
-        if not sede:
-            raise HTTPException(status_code=404, detail=f"Sede with ID {sede_id} not found")
-        return self.repository.update(sede, sede_data.dict())
+    def update_campus(self, Campus_id: int, Campus_data: CreateCampusRequest):
+        """Actualiza una Campus existente."""
+        Campus = self.repository.get(Campus_id)
+        if not Campus:
+            raise HTTPException(
+                status_code=404, detail=f"Campus with ID {Campus_id} not found"
+            )
+        return self.repository.update(Campus, Campus_data.dict())
 
-    def delete_sede(self, sede_id: int):
-        """Elimina una sede por ID."""
-        sede = self.repository.get(sede_id)
-        if not sede:
-            raise HTTPException(status_code=404, detail=f"Sede with ID {sede_id} not found")
-        return self.repository.delete(sede_id)
+    def delete_campus(self, Campus_id: int):
+        """Elimina una Campus por ID."""
+        Campus = self.repository.get(Campus_id)
+        if not Campus:
+            raise HTTPException(
+                status_code=404, detail=f"Campus with ID {Campus_id} not found"
+            )
+        return self.repository.delete(Campus_id)
