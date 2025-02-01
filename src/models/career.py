@@ -11,6 +11,7 @@ class Career(Base):
 
     career_periods = relationship("Career_Period", back_populates="career")
     career_campuses = relationship("Career_Campus", back_populates="career")
+    career_teachers = relationship("Career", back_populates="career")
 
     model_config = {
         "from_attributes": True,

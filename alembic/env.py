@@ -8,6 +8,7 @@ from src.models.academic_period import AcademicPeriod
 from src.models.campus import Campus
 from src.models.career_campus import CareerCampus
 from src.models.career_period import CareerPeriod
+from src.models.career_teacher import CareerTeacher
 from src.models.career import Career
 from src.models.classroom import Classroom
 from src.models.course import Course

@@ -16,6 +16,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -77,6 +93,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -266,6 +290,30 @@
     },
     {
         "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -969,6 +1017,22 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "importPath": "src.database",
         "description": "src.database",
@@ -1066,6 +1130,14 @@
     },
     {
         "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -1367,6 +1439,38 @@
         "description": "src.models.career_period",
         "isExtraImport": true,
         "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CareerTeacher",
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.career_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerTeacherRequest",
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.career_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CareerTeacher",
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.career_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerTeacherRequest",
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "isExtraImport": true,
+        "detail": "src.models.career_teacher",
         "documentation": {}
     },
     {
@@ -1891,6 +1995,30 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -2242,6 +2370,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2267,6 +2403,22 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2419,6 +2571,14 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2591,6 +2751,14 @@
         "description": "src.services.career_period",
         "isExtraImport": true,
         "detail": "src.services.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CareerTeacherService",
+        "importPath": "src.services.career_teacher",
+        "description": "src.services.career_teacher",
+        "isExtraImport": true,
+        "detail": "src.services.career_teacher",
         "documentation": {}
     },
     {
@@ -2901,6 +3069,24 @@
         "documentation": {}
     },
     {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "description": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('career_teacher',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('career_id', sa.Integer(), nullable=True),\n    sa.Column('teacher_id', sa.Integer(), nullable=True),\n    sa.ForeignKeyConstraint(['career_id'], ['careers.id'], ),\n    sa.ForeignKeyConstraint(['teacher_id'], ['teachers.id'], ),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "description": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_career_teacher_teacher_id'), table_name='career_teacher')\n    op.drop_index(op.f('ix_career_teacher_id'), table_name='career_teacher')\n    op.drop_index(op.f('ix_career_teacher_career_id'), table_name='career_teacher')\n    op.drop_table('career_teacher')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.b355b49bf2fa_add_careerteacher_model",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_offline",
         "kind": 2,
         "importPath": "alembic.env",
@@ -2986,7 +3172,7 @@
         "kind": 6,
         "importPath": "src.models.career",
         "description": "src.models.career",
-        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key=True, index=True)\n    fullname = Column(String, index=True)\n    career_periods = relationship(\"Career_Period\", back_populates=\"career\")\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"career\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\"examples\": [{\"fullname\": \"Ingenieria en Informatica\"}]},",
+        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key=True, index=True)\n    fullname = Column(String, index=True)\n    career_periods = relationship(\"Career_Period\", back_populates=\"career\")\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"career\")\n    career_teachers = relationship(\"Career\", back_populates=\"career\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
         "detail": "src.models.career",
         "documentation": {}
     },
@@ -3033,6 +3219,24 @@
         "description": "src.models.career_period",
         "peekOfCode": "class CreateCareerPeriodRequest(BaseModel):\n    career_id: int\n    period_id: int\n    schedule_generated: bool = False\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\"career_id\": 1, \"period_id\": 2, \"schedule_generated\": \"false\"},",
         "detail": "src.models.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CareerTeacher",
+        "kind": 6,
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "peekOfCode": "class CareerTeacher(Base):\n    __tablename__ = \"career_teacher\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    teacher_id = Column(Integer, ForeignKey(\"teachers.id\"), index=True)\n    career = relationship(\"Career\", back_populates=\"career_teachers\")\n    teacher = relationship(\"Teacher\", back_populates=\"career_teachers\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "detail": "src.models.career_teacher",
+        "documentation": {}
+    },
+    {
+        "label": "CreateCareerTeacherRequest",
+        "kind": 6,
+        "importPath": "src.models.career_teacher",
+        "description": "src.models.career_teacher",
+        "peekOfCode": "class CreateCareerTeacherRequest(BaseModel):\n    career_id: int\n    teacher_id: int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"career_id\": 1,",
+        "detail": "src.models.career_teacher",
         "documentation": {}
     },
     {
@@ -3184,7 +3388,7 @@
         "kind": 6,
         "importPath": "src.models.teacher",
         "description": "src.models.teacher",
-        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, index=True)\n    last_name = Column(String, index=True)\n    # Relaciones\n    teacher_section = relationship(\"Section_Teacher\", back_populates=\"teacher\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"teacher\")\n    model_config = {\n        \"from_attributes\": True,",
+        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, index=True)\n    last_name = Column(String, index=True)\n    # Relaciones\n    teacher_section = relationship(\"Section_Teacher\", back_populates=\"teacher\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"teacher\")\n    career_teachers = relationship(\"Teacher\", back_populates=\"teacher\")\n    model_config = {",
         "detail": "src.models.teacher",
         "documentation": {}
     },
@@ -3312,6 +3516,15 @@
         "description": "src.routers.career_period",
         "peekOfCode": "router = APIRouter(prefix=\"/career_period\", tags=[\"Career Period\"])\n@router.post(\"\")\nasync def create_career_period(\n    career_period_request: CreateCareerPeriodRequest, db: Session = Depends(get_db)\n):\n    career_period_service = CareerPeriodService(db)\n    return career_period_service.create_career_period(career_period_request)\n@router.get(\"\")\nasync def get_all_career_periods(db: Session = Depends(get_db)):\n    career_period_service = CareerPeriodService(db)",
         "detail": "src.routers.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.career_teacher",
+        "description": "src.routers.career_teacher",
+        "peekOfCode": "router = APIRouter(prefix=\"/career_teacher\", tags=[\"Career Teacher\"])\n@router.post(\"\")\nasync def create_career_teacher(\n    career_teacher_request: CreateCareerTeacherRequest, db: Session = Depends(get_db)\n):\n    career_teacher_service = CareerTeacherService(db)\n    return career_teacher_service.create_career_teacher(career_teacher_request)\n@router.get(\"\")\nasync def get_all_career_teachers(db: Session = Depends(get_db)):\n    career_teacher_service = CareerTeacherService(db)",
+        "detail": "src.routers.career_teacher",
         "documentation": {}
     },
     {
@@ -3573,6 +3786,15 @@
         "description": "src.services.career_period",
         "peekOfCode": "class CareerPeriodService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerPeriod)\n    def get_all_career_periods(self):\n        return self.repository.get_all()\n    def get_career_period_by_id(self, career_period_id: int):\n        career_period = self.repository.get(career_period_id)\n        if not career_period:\n            raise HTTPException(\n                status_code=404,",
         "detail": "src.services.career_period",
+        "documentation": {}
+    },
+    {
+        "label": "CareerTeacherService",
+        "kind": 6,
+        "importPath": "src.services.career_teacher",
+        "description": "src.services.career_teacher",
+        "peekOfCode": "class CareerTeacherService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=CareerTeacher)\n    def get_all_career_teachers(self):\n        return self.repository.get_all()\n    def get_career_teacher_by_id(self, career_teacher_id: int):\n        career_teacher = self.repository.get(career_teacher_id)\n        if not career_teacher:\n            raise HTTPException(\n                status_code=404,",
+        "detail": "src.services.career_teacher",
         "documentation": {}
     },
     {

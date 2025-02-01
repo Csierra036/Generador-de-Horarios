@@ -13,6 +13,7 @@ class Teacher(Base):
     # Relaciones
     teacher_section = relationship("Section_Teacher", back_populates="teacher")
     teacher_times = relationship("TeacherTime", back_populates="teacher")
+    career_teachers = relationship("Teacher", back_populates="teacher")
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,
