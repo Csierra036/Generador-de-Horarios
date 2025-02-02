@@ -5,7 +5,7 @@ from datetime import datetime  # Si necesitas la clase estándar de Python
 from src.database import CustomSQLAlchemyRepository
 from src.models.time_block import TimeBlock, CreateTimeBlockRequest
 from src.models.hours import Hours, CreateHoursRequest
-from models.week import Weeks, CreateWeeksRequest
+from src.models.week import Week as Weeks, CreateWeekRequest
 from src.models.academic_period import AcademicPeriod, CreateAcademicPeriodRequest
 
 
