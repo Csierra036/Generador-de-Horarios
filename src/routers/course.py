@@ -5,8 +5,8 @@ from src.services.course import CourseService
 course_service = CourseService
 
 router = APIRouter(
-    prefix="/teacher",
-    tags=['Teacher']
+    prefix="/course",
+    tags=['Course']
 )
 
 @router.post("")

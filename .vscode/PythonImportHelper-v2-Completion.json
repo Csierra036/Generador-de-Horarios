@@ -3874,7 +3874,7 @@
         "kind": 5,
         "importPath": "src.routers.course",
         "description": "src.routers.course",
-        "peekOfCode": "course_service = CourseService\nrouter = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_course(teacher_request: CreateCourseRequest):\n    return course_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_courses():",
+        "peekOfCode": "course_service = CourseService\nrouter = APIRouter(\n    prefix=\"/course\",\n    tags=['Course']\n)\n@router.post(\"\")\nasync def create_course(teacher_request: CreateCourseRequest):\n    return course_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_courses():",
         "detail": "src.routers.course",
         "documentation": {}
     },
@@ -3883,7 +3883,7 @@
         "kind": 5,
         "importPath": "src.routers.course",
         "description": "src.routers.course",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/teacher\",\n    tags=['Teacher']\n)\n@router.post(\"\")\nasync def create_course(teacher_request: CreateCourseRequest):\n    return course_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_courses():\n    return course_service.get_all_teachers",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/course\",\n    tags=['Course']\n)\n@router.post(\"\")\nasync def create_course(teacher_request: CreateCourseRequest):\n    return course_service.create_teacher(teacher_request)\n@router.get(\"\")\nasync def get_all_courses():\n    return course_service.get_all_teachers",
         "detail": "src.routers.course",
         "documentation": {}
     },
