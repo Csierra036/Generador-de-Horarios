@@ -13,7 +13,7 @@ class CareerPeriod(Base):
 
     # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)
     career = relationship("Career", back_populates="career_periods")
-    period = relationship("Period", back_populates="career_periods")
+    period = relationship("AcademicPeriod", back_populates="career_periods")
 
     model_config = {
         "from_attributes": True,

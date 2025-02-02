@@ -11,7 +11,7 @@ class Teacher(Base):
     last_name = Column(String, index=True)
 
     # Relaciones
-    teacher_section = relationship("Section_Teacher", back_populates="teacher")
+    teacher_section = relationship("SectionTeacher", back_populates="teacher")
     teacher_times = relationship("TeacherTime", back_populates="teacher")
     career_teachers = relationship("Teacher", back_populates="teacher")
     model_config = {

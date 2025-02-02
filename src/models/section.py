@@ -16,7 +16,7 @@ class Section(Base):
     course = relationship("Course", back_populates="sections")
     modality = relationship("Modality", back_populates="sections")
     academic_period = relationship("AcademicPeriod", back_populates="sections")
-    teacher_section = relationship("Section_Teacher", back_populates="section")
+    teacher_section = relationship("SectionTeacher", back_populates="section")
 
     model_config = {
         "from_attributes": True,

@@ -10,7 +10,8 @@ class Campus(Base):  # Modelo para la base de datos
     name = Column(String, index=True)  # Ejemplo: "UNEG VILLA ASIA"
     location = Column(String, index=True)  # Ejemplo: "PUERTO ORDAZ"
 
-    career_campuses = relationship("Career_Campus", back_populates="campus")
+    career_campuses = relationship("CareerCampus", back_populates="campus")
+    classrooms = relationship("Classroom", back_populates="campus")
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

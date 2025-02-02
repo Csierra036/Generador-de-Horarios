@@ -14,7 +14,7 @@ class AcademicPeriod(Base):
 
     sections = relationship("Section", back_populates="academic_period")
     weeks = relationship("Weeks", back_populates="academic_period")
-    career_periods = relationship("Career_Period", back_populates="period")
+    career_periods = relationship("CareerPeriod", back_populates="period")
     teacher_times = relationship("TeacherTime", back_populates="academic_period")
     model_config = {
         "from_attributes": True,

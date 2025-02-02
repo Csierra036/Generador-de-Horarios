@@ -22,6 +22,7 @@ from src.models.teacher_time import TeacherTime
 from src.models.teacher import Teacher
 from src.models.time_block import TimeBlock
 from src.models.week import Week
+from src.models.class_time import ClassTime
 
 # Cargar variables de entorno desde .env
 load_dotenv()

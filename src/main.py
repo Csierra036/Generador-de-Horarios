@@ -14,6 +14,7 @@ from src.routers.section_teacher import router as section_teacher_router
 from src.routers.career_period import router as career_period_router
 from src.routers.career_campus import router as career_campus_router
 from src.routers.teacher_time import router as teacher_time_router
+from src.routers.class_time import router as class_time_router
 import psycopg2
 
 
@@ -54,6 +55,7 @@ def start_app() -> FastAPI:
     app.include_router(career_period_router)
     app.include_router(career_campus_router)
     app.include_router(teacher_time_router)
+    app.include_router(class_time_router)
     return app
 
 

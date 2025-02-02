@@ -5,7 +5,7 @@ from datetime import datetime  # Si necesitas la clase estándar de Python
 from src.database import CustomSQLAlchemyRepository
 from src.models.time_block import TimeBlock, CreateTimeBlockRequest
 from src.models.hours import Hours, CreateHoursRequest
-from models.week import Weeks, CreateWeeksRequest
+from src.models.week import Week, CreateWeekRequest
 from src.models.academic_period import AcademicPeriod, CreateAcademicPeriodRequest
 
 
@@ -14,7 +14,7 @@ class TimeBlockService:
         # Se instancia el repositorio con el modelo TimeBlock y la sesión actual
         self.db_session = db_session
         self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)
-        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Weeks)
+        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Week)
         self.hours_repository = CustomSQLAlchemyRepository(db=db_session, model=Hours)
         self.academic_period_repository = CustomSQLAlchemyRepository(
             db=db_session, model=AcademicPeriod

@@ -32,6 +32,38 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -93,6 +125,22 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -354,6 +402,38 @@
     },
     {
         "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1025,6 +1105,22 @@
         "documentation": {}
     },
     {
+        "label": "Base",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "importPath": "src.database",
         "description": "src.database",
@@ -1154,6 +1250,14 @@
     },
     {
         "label": "DatabaseConnection",
+        "importPath": "src.database",
+        "description": "src.database",
+        "isExtraImport": true,
+        "detail": "src.database",
+        "documentation": {}
+    },
+    {
+        "label": "CustomSQLAlchemyRepository",
         "importPath": "src.database",
         "description": "src.database",
         "isExtraImport": true,
@@ -1874,11 +1978,51 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Week",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "src.models.week",
+        "documentation": {}
+    },
+    {
+        "label": "CreateWeekRequest",
+        "importPath": "src.models.week",
+        "description": "src.models.week",
+        "isExtraImport": true,
+        "detail": "src.models.week",
+        "documentation": {}
+    },
+    {
+        "label": "ClassTime",
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "isExtraImport": true,
+        "detail": "src.models.class_time",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassTimeRequest",
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "isExtraImport": true,
+        "detail": "src.models.class_time",
+        "documentation": {}
+    },
+    {
+        "label": "ClassTime",
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "isExtraImport": true,
+        "detail": "src.models.class_time",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassTimeRequest",
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "isExtraImport": true,
+        "detail": "src.models.class_time",
         "documentation": {}
     },
     {
@@ -2003,6 +2147,46 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -2378,6 +2562,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2482,6 +2674,22 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2571,6 +2779,14 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2770,6 +2986,14 @@
         "documentation": {}
     },
     {
+        "label": "ClassTimeService",
+        "importPath": "src.services.class_time",
+        "description": "src.services.class_time",
+        "isExtraImport": true,
+        "detail": "src.services.class_time",
+        "documentation": {}
+    },
+    {
         "label": "CourseService",
         "importPath": "src.services.course",
         "description": "src.services.course",
@@ -2863,22 +3087,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "Weeks",
-        "importPath": "models.week",
-        "description": "models.week",
-        "isExtraImport": true,
-        "detail": "models.week",
-        "documentation": {}
-    },
-    {
-        "label": "CreateWeeksRequest",
-        "importPath": "models.week",
-        "description": "models.week",
-        "isExtraImport": true,
-        "detail": "models.week",
         "documentation": {}
     },
     {
@@ -3042,12 +3250,56 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "src.routers.class_time",
+        "description": "src.routers.class_time",
+        "isExtraImport": true,
+        "detail": "src.routers.class_time",
+        "documentation": {}
+    },
+    {
         "label": "psycopg2",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "psycopg2",
         "description": "psycopg2",
         "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "description": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "description": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.66c2be46210d_add_classtime_model_and_relationships",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
+        "description": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('class_time',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('class_room_id', sa.Integer(), nullable=True),\n    sa.Column('time_block_id', sa.Integer(), nullable=True),\n    sa.ForeignKeyConstraint(['class_room_id'], ['classrooms.id'], ),\n    sa.ForeignKeyConstraint(['time_block_id'], ['time_blocks.id'], ),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
+        "description": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_class_time_time_block_id'), table_name='class_time')\n    op.drop_index(op.f('ix_class_time_id'), table_name='class_time')\n    op.drop_index(op.f('ix_class_time_class_room_id'), table_name='class_time')\n    op.drop_table('class_time')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.6efb885142c4_fix_classtime_model_and_relationships",
         "documentation": {}
     },
     {
@@ -3136,7 +3388,7 @@
         "kind": 6,
         "importPath": "src.models.academic_period",
         "description": "src.models.academic_period",
-        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    year = Column(Integer, index=True)\n    number = Column(Integer, index=True)\n    actual = Column(Boolean, index=True)\n    sections = relationship(\"Section\", back_populates=\"academic_period\")\n    weeks = relationship(\"Weeks\", back_populates=\"academic_period\")\n    career_periods = relationship(\"Career_Period\", back_populates=\"period\")",
+        "peekOfCode": "class AcademicPeriod(Base):\n    __tablename__ = \"academic_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    year = Column(Integer, index=True)\n    number = Column(Integer, index=True)\n    actual = Column(Boolean, index=True)\n    sections = relationship(\"Section\", back_populates=\"academic_period\")\n    weeks = relationship(\"Weeks\", back_populates=\"academic_period\")\n    career_periods = relationship(\"CareerPeriod\", back_populates=\"period\")",
         "detail": "src.models.academic_period",
         "documentation": {}
     },
@@ -3154,7 +3406,7 @@
         "kind": 6,
         "importPath": "src.models.campus",
         "description": "src.models.campus",
-        "peekOfCode": "class Campus(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index=True)  # Ejemplo: \"PUERTO ORDAZ\"\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"campus\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {",
+        "peekOfCode": "class Campus(Base):  # Modelo para la base de datos\n    __tablename__ = \"campus\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)  # Ejemplo: \"UNEG VILLA ASIA\"\n    location = Column(String, index=True)  # Ejemplo: \"PUERTO ORDAZ\"\n    career_campuses = relationship(\"CareerCampus\", back_populates=\"campus\")\n    classrooms = relationship(\"Classroom\", back_populates=\"campus\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
         "detail": "src.models.campus",
         "documentation": {}
     },
@@ -3172,7 +3424,7 @@
         "kind": 6,
         "importPath": "src.models.career",
         "description": "src.models.career",
-        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key=True, index=True)\n    fullname = Column(String, index=True)\n    career_periods = relationship(\"Career_Period\", back_populates=\"career\")\n    career_campuses = relationship(\"Career_Campus\", back_populates=\"career\")\n    career_teachers = relationship(\"Career\", back_populates=\"career\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
+        "peekOfCode": "class Career(Base):\n    __tablename__ = \"careers\"\n    id = Column(Integer, primary_key=True, index=True)\n    fullname = Column(String, index=True)\n    career_periods = relationship(\"CareerPeriod\", back_populates=\"career\")\n    career_campuses = relationship(\"CareerCampus\", back_populates=\"career\")\n    career_teachers = relationship(\"CareerTeacher\", back_populates=\"teacher\")\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,",
         "detail": "src.models.career",
         "documentation": {}
     },
@@ -3208,7 +3460,7 @@
         "kind": 6,
         "importPath": "src.models.career_period",
         "description": "src.models.career_period",
-        "peekOfCode": "class CareerPeriod(Base):\n    __tablename__ = \"career_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    schedule_generated = Column(Boolean, default=False)\n    # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)\n    career = relationship(\"Career\", back_populates=\"career_periods\")\n    period = relationship(\"Period\", back_populates=\"career_periods\")\n    model_config = {",
+        "peekOfCode": "class CareerPeriod(Base):\n    __tablename__ = \"career_period\"\n    id = Column(Integer, primary_key=True, index=True)\n    career_id = Column(Integer, ForeignKey(\"careers.id\"), index=True)\n    period_id = Column(Integer, ForeignKey(\"academic_period.id\"), index=True)\n    schedule_generated = Column(Boolean, default=False)\n    # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)\n    career = relationship(\"Career\", back_populates=\"career_periods\")\n    period = relationship(\"AcademicPeriod\", back_populates=\"career_periods\")\n    model_config = {",
         "detail": "src.models.career_period",
         "documentation": {}
     },
@@ -3244,7 +3496,7 @@
         "kind": 6,
         "importPath": "src.models.classroom",
         "description": "src.models.classroom",
-        "peekOfCode": "class Classroom(Base):\n    __tablename__ = \"classrooms\"\n    id = Column(Integer, primary_key = True, index = True)\n    nombre = Column(String, index = True)\n    capacidad = Column(Integer, index = True)\n    ubicacion = Column(String, index = True)\nclass CreateClassroomRequest(BaseModel):\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str",
+        "peekOfCode": "class Classroom(Base):\n    __tablename__ = \"classrooms\"\n    id = Column(Integer, primary_key=True, index=True)\n    nombre = Column(String, index=True)\n    capacidad = Column(Integer, index=True)\n    ubicacion = Column(String, index=True)\n    campus = relationship(\"Campus\", back_populates=\"classrooms\")\n    class_times = relationship(\"ClassTime\", back_populates=\"class_room\")\nclass CreateClassroomRequest(BaseModel):\n    nombre: str",
         "detail": "src.models.classroom",
         "documentation": {}
     },
@@ -3255,6 +3507,24 @@
         "description": "src.models.classroom",
         "peekOfCode": "class CreateClassroomRequest(BaseModel):\n    nombre: str\n    capacidad: int = 0\n    ubicacion: str\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {",
         "detail": "src.models.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "ClassTime",
+        "kind": 6,
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "peekOfCode": "class ClassTime(Base):\n    __tablename__ = \"class_time\"\n    id = Column(Integer, primary_key=True, index=True)\n    class_room_id = Column(Integer, ForeignKey(\"classrooms.id\"), index=True)\n    time_block_id = Column(Integer, ForeignKey(\"time_blocks.id\"), index=True)\n    available = Column(Boolean, default=True)\n    class_room = relationship(\"ClassRoom\", back_populates=\"class_times\")\n    time_block = relationship(\"TimeBlock\", back_populates=\"class_times\")\n    model_config = {\n        \"from_attributes\": True,",
+        "detail": "src.models.class_time",
+        "documentation": {}
+    },
+    {
+        "label": "CreateClassTimeRequest",
+        "kind": 6,
+        "importPath": "src.models.class_time",
+        "description": "src.models.class_time",
+        "peekOfCode": "class CreateClassTimeRequest(BaseModel):\n    class_room_id: int\n    time_block_id: int\n    model_config = {\n        \"from_attributes\": True,\n        \"arbitrary_types_allowed\": True,\n        \"json_schema_extra\": {\n            \"examples\": [\n                {\n                    \"class_room_id\": 1,",
+        "detail": "src.models.class_time",
         "documentation": {}
     },
     {
@@ -3388,7 +3658,7 @@
         "kind": 6,
         "importPath": "src.models.teacher",
         "description": "src.models.teacher",
-        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, index=True)\n    last_name = Column(String, index=True)\n    # Relaciones\n    teacher_section = relationship(\"Section_Teacher\", back_populates=\"teacher\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"teacher\")\n    career_teachers = relationship(\"Teacher\", back_populates=\"teacher\")\n    model_config = {",
+        "peekOfCode": "class Teacher(Base):\n    __tablename__ = \"teachers\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, index=True)\n    last_name = Column(String, index=True)\n    # Relaciones\n    teacher_section = relationship(\"SectionTeacher\", back_populates=\"teacher\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"teacher\")\n    career_teachers = relationship(\"Teacher\", back_populates=\"teacher\")\n    model_config = {",
         "detail": "src.models.teacher",
         "documentation": {}
     },
@@ -3424,7 +3694,7 @@
         "kind": 6,
         "importPath": "src.models.time_block",
         "description": "src.models.time_block",
-        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key=True, index=True)\n    hour_id = Column(Integer, ForeignKey(\"hours.id\"), index=True)\n    week_id = Column(Integer, ForeignKey(\"weeks.id\"), index=True)\n    day = Column(Integer, index=True)\n    hours = relationship(\"Hours\", back_populates=\"time_block\")\n    weeks = relationship(\"Weeks\", back_populates=\"time_block\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"time_block\")\n    model_config = {",
+        "peekOfCode": "class TimeBlock(Base):\n    __tablename__ = \"time_blocks\"\n    id = Column(Integer, primary_key=True, index=True)\n    hour_id = Column(Integer, ForeignKey(\"hours.id\"), index=True)\n    week_id = Column(Integer, ForeignKey(\"weeks.id\"), index=True)\n    day = Column(Integer, index=True)\n    hours = relationship(\"Hours\", back_populates=\"time_block\")\n    weeks = relationship(\"Weeks\", back_populates=\"time_block\")\n    teacher_times = relationship(\"TeacherTime\", back_populates=\"time_block\")\n    class_times = relationship(\"ClassTime\", back_populates=\"time_block\")",
         "detail": "src.models.time_block",
         "documentation": {}
     },
@@ -3588,6 +3858,15 @@
         "description": "src.routers.classroom",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/Classroom\",\n    tags=['Classrooms']\n)\n# Crear un nuevo salón\n@router.post(\"\", status_code=201)\ndef crear_Classroom(Classroom: CreateClassroomRequest):\n    respuesta = Classroom_service.create_Classroom(Classroom)\n    return respuesta\n# Leer todos los Classroomes",
         "detail": "src.routers.classroom",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routers.class_time",
+        "description": "src.routers.class_time",
+        "peekOfCode": "router = APIRouter(prefix=\"/class_time\", tags=[\"Class Time\"])\n@router.post(\"\")\nasync def create_class_time(\n    class_time_request: CreateClassTimeRequest, db: Session = Depends(get_db)\n):\n    class_time_service = ClassTimeService(db)\n    return class_time_service.create_class_time(class_time_request)\n@router.get(\"\")\nasync def get_all_class_times(db: Session = Depends(get_db)):\n    class_time_service = ClassTimeService(db)",
+        "detail": "src.routers.class_time",
         "documentation": {}
     },
     {
@@ -3807,6 +4086,15 @@
         "documentation": {}
     },
     {
+        "label": "ClassTimeService",
+        "kind": 6,
+        "importPath": "src.services.class_time",
+        "description": "src.services.class_time",
+        "peekOfCode": "class ClassTimeService:\n    def __init__(self, db_session: Session):\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=ClassTime)\n    def get_all_class_times(self):\n        return self.repository.get_all()\n    def get_class_time_by_id(self, class_time_id: int):\n        class_time = self.repository.get(class_time_id)\n        if not class_time:\n            raise HTTPException(\n                status_code=404,",
+        "detail": "src.services.class_time",
+        "documentation": {}
+    },
+    {
         "label": "CourseService",
         "kind": 6,
         "importPath": "src.services.course",
@@ -3883,7 +4171,7 @@
         "kind": 6,
         "importPath": "src.services.time_block",
         "description": "src.services.time_block",
-        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.db_session = db_session\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Weeks)\n        self.hours_repository = CustomSQLAlchemyRepository(db=db_session, model=Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(\n            db=db_session, model=AcademicPeriod\n        )",
+        "peekOfCode": "class TimeBlockService:\n    def __init__(self, db_session: Session):\n        # Se instancia el repositorio con el modelo TimeBlock y la sesión actual\n        self.db_session = db_session\n        self.repository = CustomSQLAlchemyRepository(db=db_session, model=TimeBlock)\n        self.week_repository = CustomSQLAlchemyRepository(db=db_session, model=Week)\n        self.hours_repository = CustomSQLAlchemyRepository(db=db_session, model=Hours)\n        self.academic_period_repository = CustomSQLAlchemyRepository(\n            db=db_session, model=AcademicPeriod\n        )",
         "detail": "src.services.time_block",
         "documentation": {}
     },

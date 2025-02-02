@@ -45,7 +45,13 @@ Busca en el archivo alembic.ini, la línea 64, que es sqlalchemy.url = postgresq
 
 ##Ejecutar migraciones
 
-Luego de haber configurado el archivo .env de la base de datos, ejecutamos
+Luego de haber configurado el archivo .env de la base de datos,  se aplican las migraciones 
+pendientes con:
 ```bash
 alembic upgrade head
 ```
+Nota: Si se desean deshacer todas las migraciones, se aplica 
+```bash
+alembic downgrade head
+```
+
