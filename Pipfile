@@ -21,7 +21,9 @@ uvicorn = "*"
 fastapi = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
-
+six = "==1.16.0"
+faker = "*"
+python-dateutil = "==2.8.2"
 [dev-packages]
 
 [requires]
