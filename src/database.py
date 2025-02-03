@@ -32,7 +32,6 @@ class CustomSQLAlchemyRepository(Generic[ModelType]):
 
     def create(self, obj_in: Dict[str, Any]) -> ModelType:
         """Crea un nuevo registro."""
-        obj_in = self._modify_document_before_insert(obj_in)
         new_obj = self.model(**obj_in)
         self.db.add(new_obj)
         self.db.commit()
@@ -41,7 +40,6 @@ class CustomSQLAlchemyRepository(Generic[ModelType]):
 
     def update(self, db_obj: ModelType, obj_in: Dict[str, Any]) -> ModelType:
         """Actualiza un registro existente."""
-        obj_in = self._modify_update_before_update(obj_in)
         for field, value in obj_in.items():
             setattr(db_obj, field, value)
         self.db.commit()
@@ -55,20 +53,6 @@ class CustomSQLAlchemyRepository(Generic[ModelType]):
             self.db.delete(obj)
             self.db.commit()
         return obj
-
-    def _modify_document_before_insert(
-        self, document: Dict[str, Any]
-    ) -> Dict[str, Any]:
-        """Lógica para modificar el documento antes de la inserción."""
-        document["created_at"] = datetime.utcnow()
-        document["updated_at"] = datetime.utcnow()
-        return document
-
-    def _modify_update_before_update(self, update: Dict[str, Any]) -> Dict[str, Any]:
-        """Lógica para modificar los datos antes de la actualización."""
-        update["updated_at"] = datetime.utcnow()
-        return update
-
 
 class DatabaseConnection:
     def __init__(self, database_url: str = settings.URL_DATABASE):
@@ -111,4 +95,8 @@ db_connection = DatabaseConnection()
 
 
 def get_db():
-    return db_connection.get_session()
+    db = db_connection.SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
