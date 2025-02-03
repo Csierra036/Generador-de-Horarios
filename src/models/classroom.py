@@ -11,8 +11,8 @@ class Classroom(Base):
     capacidad = Column(Integer, index=True)
     ubicacion = Column(String, index=True)
 
-    campus = relationship("Campus", back_populates="classrooms")
-    class_times = relationship("ClassTime", back_populates="class_room")
+    # campus = relationship("Campus", back_populates="classrooms")
+    # class_times = relationship("ClassTime", back_populates="class_room")
 
 
 class CreateClassroomRequest(BaseModel):

@@ -10,7 +10,7 @@ class Hours(Base):
     start = Column(String, index = True)
     end = Column(String, index = True)
 
-    time_block = relationship("TimeBlock", back_populates = "hours")
+    # time_block = relationship("TimeBlock", back_populates = "hours")
 
     model_config = {
         "from_attributes": True,

@@ -12,10 +12,10 @@ class AcademicPeriod(Base):
     number = Column(Integer, index=True)
     actual = Column(Boolean, index=True)
 
-    sections = relationship("Section", back_populates="academic_period")
-    weeks = relationship("Weeks", back_populates="academic_period")
-    career_periods = relationship("CareerPeriod", back_populates="period")
-    teacher_times = relationship("TeacherTime", back_populates="academic_period")
+    # sections = relationship("Section", back_populates="academic_period")
+    # weeks = relationship("Weeks", back_populates="academic_period")
+    # career_periods = relationship("CareerPeriod", back_populates="period")
+    # teacher_times = relationship("TeacherTime", back_populates="academic_period")
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

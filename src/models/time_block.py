@@ -7,14 +7,14 @@ from pydantic import BaseModel
 class TimeBlock(Base):
     __tablename__ = "time_blocks"
     id = Column(Integer, primary_key=True, index=True)
-    hour_id = Column(Integer, ForeignKey("hours.id"), index=True)
-    week_id = Column(Integer, ForeignKey("weeks.id"), index=True)
+    # hour_id = Column(Integer, ForeignKey("hours.id"), index=True)
+    # week_id = Column(Integer, ForeignKey("weeks.id"), index=True)
     day = Column(Integer, index=True)
 
-    hours = relationship("Hours", back_populates="time_block")
-    weeks = relationship("Weeks", back_populates="time_block")
-    teacher_times = relationship("TeacherTime", back_populates="time_block")
-    class_times = relationship("ClassTime", back_populates="time_block")
+    # hours = relationship("Hours", back_populates="time_block")
+    # weeks = relationship("Weeks", back_populates="time_block")
+    # teacher_times = relationship("TeacherTime", back_populates="time_block")
+    # class_times = relationship("ClassTime", back_populates="time_block")
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

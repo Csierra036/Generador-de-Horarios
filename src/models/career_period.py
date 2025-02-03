@@ -7,13 +7,13 @@ from sqlalchemy.orm import relationship
 class CareerPeriod(Base):
     __tablename__ = "career_period"
     id = Column(Integer, primary_key=True, index=True)
-    career_id = Column(Integer, ForeignKey("careers.id"), index=True)
-    period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
+    # career_id = Column(Integer, ForeignKey("careers.id"), index=True)
+    # period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     schedule_generated = Column(Boolean, default=False)
 
     # Relaciones (Opcional, si necesitas acceder a Career y Period desde Career_Period)
-    career = relationship("Career", back_populates="career_periods")
-    period = relationship("AcademicPeriod", back_populates="career_periods")
+    # career = relationship("Career", back_populates="career_periods")
+    # period = relationship("AcademicPeriod", back_populates="career_periods")
 
     model_config = {
         "from_attributes": True,

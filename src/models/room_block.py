@@ -8,17 +8,17 @@ from sqlalchemy.orm import relationship
 class RoomBlock(Base):
     __tablename__ = "room_blocks"
     id = Column(Integer, primary_key=True, index=True)  # Identificador único
-    block_id = Column(
-        Integer, ForeignKey("time_blocks.id"), index=True
-    )  # Relación con la tabla "bloque_clases"
-    room_id = Column(
-        Integer, ForeignKey("classrooms.id"), index=True
-    )  # Relación con la tabla "salones
+    # block_id = Column(
+    #     Integer, ForeignKey("time_blocks.id"), index=True
+    # )  # Relación con la tabla "bloque_clases"
+    # room_id = Column(
+    #     Integer, ForeignKey("classrooms.id"), index=True
+    # )  # Relación con la tabla "salones
     available = Column(Boolean, default=True)  # Indica si está disponible
 
     # Relaciones con otras tablas
-    block = relationship("BlockClass", back_populates="room_blocks")
-    room = relationship("Room", back_populates="room_blocks")
+    # block = relationship("BlockClass", back_populates="room_blocks")
+    # room = relationship("Room", back_populates="room_blocks")
 
     # Configuración para generar ejemplos JSON
     model_config = {

@@ -8,11 +8,11 @@ class CareerTeacher(Base):
     __tablename__ = "career_teacher"
 
     id = Column(Integer, primary_key=True, index=True)
-    career_id = Column(Integer, ForeignKey("careers.id"), index=True)
-    teacher_id = Column(Integer, ForeignKey("teachers.id"), index=True)
+    # career_id = Column(Integer, ForeignKey("careers.id"), index=True)
+    # teacher_id = Column(Integer, ForeignKey("teachers.id"), index=True)
 
-    career = relationship("Career", back_populates="career_teachers")
-    teacher = relationship("Teacher", back_populates="career_teachers")
+    # career = relationship("Career", back_populates="career_teachers")
+    # teacher = relationship("Teacher", back_populates="career_teachers")
 
     model_config = {
         "from_attributes": True,
