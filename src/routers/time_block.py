@@ -18,12 +18,6 @@ async def create_time_block(time_block_request: CreateTimeBlockRequest, db: Sess
 
 
 @router.get("")
-async def create_all_time_block(num_time_block: int, start_num_time_block: int,
-                                day: int, week_id: int , db: Session = Depends(get_db)):
-    return create_all_time_block(num_time_block, start_num_time_block, day, week_id)
-
-
-@router.get("")
 async def get_all_time_blocks(db: Session = Depends(get_db)):
     time_block_service = TimeBlockService(db)
     return time_block_service.get_all_time_blocks()
