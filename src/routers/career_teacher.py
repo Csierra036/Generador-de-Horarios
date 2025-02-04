@@ -5,7 +5,10 @@ from src.models.career_teacher import CreateCareerTeacherRequest
 from src.services.career_teacher import CareerTeacherService
 
 
-router = APIRouter(prefix="/career_teacher", tags=["Career Teacher"])
+router = APIRouter(
+    prefix="/career_teacher",
+    tags=["Career Teacher"]
+)
 
 
 @router.post("")
