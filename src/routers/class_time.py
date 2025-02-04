@@ -5,7 +5,10 @@ from src.models.class_time import CreateClassTimeRequest
 from src.services.class_time import ClassTimeService
 
 
-router = APIRouter(prefix="/class_time", tags=["Class Time"])
+router = APIRouter(
+    prefix="/class_time",
+    tags=["ClassTime"]
+)
 
 
 @router.post("")
