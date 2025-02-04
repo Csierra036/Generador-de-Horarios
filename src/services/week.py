@@ -1,44 +1,41 @@
-from src.database import Base
+from fastapi import HTTPException
 from sqlalchemy import String, Integer, Boolean, ForeignKey, Column
+from src.database import DatabaseConnection, CustomSQLAlchemyRepository
 from sqlalchemy.orm import relationship
 from pydantic import BaseModel
+from sqlalchemy.orm import Session
+from src.models.week import Week, CreateWeekRequest
 
+class WeekService:
+    def __init__(self, db_session: Session):
+        self.repository = CustomSQLAlchemyRepository(db=db_session, model=Week)
 
-class Week(Base):
-    __tablename__ = "weeks"
-    id = Column(Integer, primary_key=True, index=True)
-    period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
-    number = Column(Integer, index=True)
+    def get_all_weeks(self):
+        return self.repository.get_all()
 
-    academic_period = relationship("AcademicPeriod", back_populates="week")
-    time_block = relationship("TimeBlock", back_populates="week")
+    def get_week_by_id(self, week_id: int):
+        teacher = self.repository.get(week_id)
+        if not teacher:
+            raise HTTPException(
+                status_code=404, detail=f"Teacher with ID {week_id} not found"
+            )
+        return teacher
 
-    model_config = {
-        "from_attributes": True,
-        "arbitrary_types_allowed": True,
-        "json_schema_extra": {
-            "examples": [
-                {
-                    "period_id": "null",
-                    "number": "1",
-                },
-            ]
-        },
-    }
+    def create_week(self, week_data: CreateWeekRequest):
+        return self.repository.create(week_data.dict())
 
+    def update_week(self, week_id: int, week_data: CreateWeekRequest):
+        teacher = self.repository.get(week_id)
+        if not teacher:
+            raise HTTPException(
+                status_code=404, detail=f"Week with ID {week_id} not found"
+            )
+        return self.repository.update(teacher, week_data.dict())
 
-class CreateWeekRequest(BaseModel):
-    period_id: Integer
-    number: Integer
-    model_config = {
-        "from_attributes": True,
-        "arbitrary_types_allowed": True,
-        "json_schema_extra": {
-            "examples": [
-                {
-                    "period_id": "null",
-                    "number": "1",
-                },
-            ]
-        },
-    }
+    def delete_week(self, week_id: int):
+        teacher = self.repository.get(week_id)
+        if not teacher:
+            raise HTTPException(
+                status_code=404, detail=f"Week with ID {week_id} not found"
+            )
+        return self.repository.delete(week_id)

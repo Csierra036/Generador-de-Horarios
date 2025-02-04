@@ -36,7 +36,7 @@ class CreateWeekRequest(BaseModel):
         "json_schema_extra": {
             "examples": [
                 {
-                    "period_id": "null",
+                    "period_id": "1",
                     "number": "1",
                 },
             ]
