@@ -1,8 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from src.database import (
-    get_db,
-)
+from src.database import get_db
 from src.models.teacher import CreateTeacherRequest
 from src.services.section_teacher import SectionTeacherService
 
