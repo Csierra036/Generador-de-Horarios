@@ -5,7 +5,10 @@ from src.models.career_period import CreateCareerPeriodRequest
 from src.services.career_period import CareerPeriodService
 
 
-router = APIRouter(prefix="/career_period", tags=["Career Period"])
+router = APIRouter(
+    prefix="/career_period",
+    tags=["Career Period"]
+)
 
 
 @router.post("")

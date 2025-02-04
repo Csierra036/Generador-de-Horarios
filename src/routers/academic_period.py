@@ -5,7 +5,10 @@ from src.models.academic_period import CreateAcademicPeriodRequest
 from src.services.academic_period import AcademicPeriodService
 
 
-router = APIRouter(prefix="/academic_period", tags=["Academic Period"])
+router = APIRouter(
+    prefix="/academic_period",
+    tags=["Academic Period"]
+)
 
 
 @router.post("")

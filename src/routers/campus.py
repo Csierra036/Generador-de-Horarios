@@ -1,32 +1,40 @@
-from fastapi import APIRouter
 from src.models.campus import CreateCampusRequest
 from src.services.campus import CampusService
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+from src.database import get_db
 
-sede_service = CampusService
-
-router = APIRouter(prefix="/sede", tags=["Sede"])
+router = APIRouter(
+    prefix="/campus",
+    tags=["Campus"]
+)
 
 
 @router.post("")
-async def create_sede(sede_request: CreateCampusRequest):
-    return sede_service.create_sede(sede_request)
+async def create_campus(campus_request: CreateCampusRequest, db: Session= Depends(get_db)):
+    campus_service = CampusService(db)
+    return campus_service.create_campus(campus_request)
 
 
 @router.get("")
-async def get_all_sedes():
-    return sede_service.get_all_sedes
+async def get_all_campus(db: Session= Depends(get_db)):
+    campus_service = CampusService(db)
+    return campus_service.get_all_campuses()
 
 
-@router.get("/{sede_id}")
-async def get_sede_by_id(sede_id: int):
-    return sede_service.get_sede_by_id(sede_id)
+@router.get("/{campus_id}")
+async def get_campus_by_id(campus_id: int, db: Session= Depends(get_db)):
+    campus_service = CampusService(db)
+    return campus_service.get_campus_by_id(campus_id)
 
 
-@router.put("/{sede_id}")
-async def update_sede(sede_id: int, sede_request: CreateCampusRequest):
-    return sede_service.update_sede(sede_id, sede_request)
+@router.put("/{campus_id}")
+async def update_campus(campus_id: int, campus_request: CreateCampusRequest, db: Session= Depends(get_db)):
+    campus_service = CampusService(db)
+    return campus_service.update_campus(campus_id, campus_request)
 
 
 @router.delete("/{sede_id}")
-async def delete_sede(sede_id: int):
-    return sede_service.delete_sede(sede_id)
+async def delete_campus(campus_id: int, db: Session= Depends(get_db)):
+    campus_service = CampusService(db)
+    return campus_service.delete_campus(campus_id)
