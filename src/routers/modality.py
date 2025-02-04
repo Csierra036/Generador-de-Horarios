@@ -1,32 +1,35 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from src.models.modality import CreateModalityRequest
 from src.services.modality import ModalityService
+from sqlalchemy.orm import Session
+from src.database import get_db
 
-# Instancia del servicio de modalidades
-modality_service = ModalityService
 
-# Configuración del router para las rutas relacionadas con "modality"
 router = APIRouter(
     prefix="/modality",
     tags=['Modality']
 )
 
-# Endpoint para crear una modalidad
+
 @router.post("")
-async def create_modality(modality_request: CreateModalityRequest):
+async def create_modality(modality_request: CreateModalityRequest, db: Session = Depends(get_db)):
+    modality_service = ModalityService(db)
     return modality_service.create_modality(modality_request)
 
-# Endpoint para obtener todas las modalidades
+
 @router.get("")
-async def get_all_modalities():
+async def get_all_modalities(db: Session = Depends(get_db)):
+    modality_service = ModalityService(db)
     return modality_service.get_all_modalities()
 
-# Endpoint para actualizar una modalidad
+
 @router.put("")
-async def update_modality(modality_id: int, modality_request: CreateModalityRequest):
+async def update_modality(modality_id: int, modality_request: CreateModalityRequest, db: Session = Depends(get_db)):
+    modality_service = ModalityService(db)
     return modality_service.update_modality(modality_id, modality_request)
 
-# Endpoint para eliminar una modalidad
+
 @router.delete("")
-async def delete_modality(modality_id: int):
+async def delete_modality(modality_id: int, db: Session = Depends(get_db)):
+    modality_service = ModalityService(db)
     return modality_service.delete_modality(modality_id)
