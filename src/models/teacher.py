@@ -10,8 +10,6 @@ class Teacher(Base):
     id = Column(Integer, primary_key=True, index=True)
     first_name = Column(String, index=True)
     last_name = Column(String, index=True)
-    created_at = Column(DateTime, default=func.now())  # Se establece al crear
-    updated_at = Column(DateTime, default=func.now(), onupdate=func.now())  # Se actualiza automáticamente
 
     # Relaciones
     # teacher_section = relationship("SectionTeacher", back_populates="teacher")
