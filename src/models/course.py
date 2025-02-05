@@ -9,12 +9,12 @@ from sqlalchemy.orm import relationship
 class Course(Base):
     __tablename__ = "courses"
     id = Column(Integer, primary_key=True, index=True)
-    # career_id = Column(Integer, ForeignKey("careers.id"), index=True)
+    career_id = Column(Integer, ForeignKey("careers.id"), index=True)
     name = Column(String, index=True)
     active = Column(Boolean, index=True)
     at_laboratory = Column(Boolean, index=True)
 
-    # sections = relationship("Section", back_populates="course")
+    sections = relationship("Section", back_populates="course")
     # Configuración de ejemplos (opcional, no es estándar de SQLAlchemy)
     __example__ = {
         "from_attributes": True,

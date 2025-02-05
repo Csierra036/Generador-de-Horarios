@@ -9,9 +9,9 @@ class Career(Base):
     id = Column(Integer, primary_key=True, index=True)
     fullname = Column(String, index=True)
 
-    # career_periods = relationship("CareerPeriod", back_populates="career")
-    # career_campuses = relationship("CareerCampus", back_populates="career")
-    # career_teachers = relationship("CareerTeacher", back_populates="teacher")
+    career_periods = relationship("CareerPeriod", back_populates="career")
+    career_campuses = relationship("CareerCampus", back_populates="career")
+    career_teachers = relationship("CareerTeacher", back_populates="teacher")
 
     model_config = {
         "from_attributes": True,

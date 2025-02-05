@@ -8,11 +8,11 @@ class ClassTime(Base):
     __tablename__ = "class_time"
 
     id = Column(Integer, primary_key=True, index=True)
-    # class_room_id = Column(Integer, ForeignKey("classrooms.id"), index=True)
-    # time_block_id = Column(Integer, ForeignKey("time_blocks.id"), index=True)
+    class_room_id = Column(Integer, ForeignKey("classrooms.id"), index=True)
+    time_block_id = Column(Integer, ForeignKey("time_blocks.id"), index=True)
     available = Column(Boolean, default=True)
-    # class_room = relationship("ClassRoom", back_populates="class_times")
-    # time_block = relationship("TimeBlock", back_populates="class_times")
+    class_room = relationship("ClassRoom", back_populates="class_times")
+    time_block = relationship("TimeBlock", back_populates="class_times")
 
     model_config = {
         "from_attributes": True,

@@ -13,8 +13,8 @@ class SectionTeacher(Base):
 
     # Relaciones
 
-    # section = relationship("Section", back_populates="teacher_section")
-    # teacher = relationship("Teacher", back_populates="teacher_section")
+    section = relationship("Section", back_populates="teacher_section")
+    teacher = relationship("Teacher", back_populates="teacher_section")
 
     model_config = {
         "from_attributes": True,

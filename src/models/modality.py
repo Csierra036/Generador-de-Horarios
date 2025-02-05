@@ -9,7 +9,7 @@ class Modality(Base):
     id = Column(Integer, primary_key=True, index=True)  # Identificador único
     name = Column(String, unique=True, nullable=False, index=True)  # Nombre de la modalidad
 
-    # sections = relationship("Section", back_populates="modality")
+    sections = relationship("Section", back_populates="modality")
     # Configuración adicional para generar esquemas JSON de ejemplo
     model_config = {
         "from_attributes": True,

@@ -12,9 +12,10 @@ class Teacher(Base):
     last_name = Column(String, index=True)
 
     # Relaciones
-    # teacher_section = relationship("SectionTeacher", back_populates="teacher")
-    # teacher_times = relationship("TeacherTime", back_populates="teacher")
-    # career_teachers = relationship( CareerTeacher, back_populates="teacher")
+    teacher_section = relationship("SectionTeacher", back_populates="teacher")
+    teacher_times = relationship("TeacherTime", back_populates="teacher")
+    career_teachers = relationship( "CareerTeacher", back_populates="teacher")
+    
     model_config = {
         "from_attributes": True,
         "arbitrary_types_allowed": True,

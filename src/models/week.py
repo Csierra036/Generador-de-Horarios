@@ -7,11 +7,11 @@ from pydantic import BaseModel
 class Week(Base):
     __tablename__ = "weeks"
     id = Column(Integer, primary_key=True, index=True)
-    # period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
+    period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     number = Column(Integer, index=True)
 
-    # academic_period = relationship("AcademicPeriod", back_populates="week")
-    # time_block = relationship("TimeBlock", back_populates="week")
+    academic_period = relationship("AcademicPeriod", back_populates="week")
+    time_block = relationship("TimeBlock", back_populates="week")
 
     model_config = {
         "from_attributes": True,

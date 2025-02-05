@@ -7,16 +7,16 @@ from sqlalchemy.orm import relationship
 class Section(Base):
     __tablename__ = "sections"
     id = Column(Integer, primary_key=True, index=True)
-    # course_id = Column(Integer, ForeignKey("courses.id"), index=True)
-    # modality_id = Column(Integer, ForeignKey("modality.id"), index=True)
-    # academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
+    course_id = Column(Integer, ForeignKey("courses.id"), index=True)
+    modality_id = Column(Integer, ForeignKey("modality.id"), index=True)
+    academic_period_id = Column(Integer, ForeignKey("academic_period.id"), index=True)
     name = Column(Integer, index=True)
 
     # Relaciones
-    # course = relationship("Course", back_populates="sections")
-    # modality = relationship("Modality", back_populates="sections")
-    # academic_period = relationship("AcademicPeriod", back_populates="sections")
-    # teacher_section = relationship("SectionTeacher", back_populates="section")
+    course = relationship("Course", back_populates="sections")
+    modality = relationship("Modality", back_populates="sections")
+    academic_period = relationship("AcademicPeriod", back_populates="sections")
+    teacher_section = relationship("SectionTeacher", back_populates="section")
 
     model_config = {
         "from_attributes": True,
